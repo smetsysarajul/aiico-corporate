@@ -82,11 +82,13 @@ body {
 .heading {
   color: #003896;
   display: inline-block;
-  margin-bottom: 1rem; }
+  font-weight: 600;
+  margin-bottom: 2rem; }
+  .heading--primary {
+    font-size: 4.5rem;
+    line-height: 6rem; }
   .heading--secondary {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem; }
+    font-size: 2.5rem; }
 
 .paragraph {
   color: #444444;
@@ -110,10 +112,50 @@ body {
     color: #ffffff !important; }
     .btn--primary:hover {
       background-color: #d90000; }
+  .btn--secondary {
+    background-color: transparent;
+    border: 0.2rem solid #003896;
+    color: #003896 !important; }
   .btn--link {
     color: #ff4040 !important;
     font-size: 1.4rem;
     padding: 0; }
+  .btn:not(:last-of-type) {
+    margin-right: 1rem; }
+
+.main-carousel .carousel-item {
+  position: relative; }
+
+.main-carousel .carousel-info {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.main-carousel .carousel-ctas {
+  margin-top: 3rem; }
+  .main-carousel .carousel-ctas .btn {
+    padding-left: 3rem;
+    padding-right: 3rem; }
+
+.main-carousel .carousel-image {
+  display: block;
+  height: 55rem;
+  object-fit: cover;
+  object-position: center;
+  width: 100%; }
+
+.main-carousel .carousel-indicators li {
+  background-color: #ffffff;
+  border-radius: 100%;
+  height: 1rem;
+  opacity: 1;
+  width: 1rem; }
+  .main-carousel .carousel-indicators li.active {
+    background-color: #003896; }
 
 .card {
   background: #ffffff; }
@@ -167,10 +209,11 @@ body {
 .footer__nav-link {
   display: inline-block;
   font-size: 1.3rem;
+  text-decoration: none !important;
   text-transform: capitalize;
   transition: all 300ms ease; }
   .footer__nav-link:hover {
-    text-decoration: none; }
+    color: #003896; }
 
 .footer__extra-info {
   color: #003896;

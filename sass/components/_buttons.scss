@@ -15,9 +15,22 @@
         }
     }
 
+    &--secondary {
+        background-color: transparent;
+        border: 0.2rem solid $color-blue;
+        color: $color-blue !important;
+
+        &:hover {
+        }
+    }
+
     &--link {
         color: $color-red !important;
         font-size: 1.4rem;
         padding: 0;
+    }
+
+    &:not(:last-of-type) {
+        margin-right: 1rem;
     }
 }

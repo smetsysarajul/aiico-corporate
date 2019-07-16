@@ -96,7 +96,7 @@ body {
     margin-bottom: 2rem; }
 
 .text-red {
-  color: #FF4040 !important; }
+  color: #ff4040 !important; }
 
 .btn {
   font-size: 1.2rem;
@@ -106,14 +106,44 @@ body {
   text-transform: uppercase;
   transition: all 300ms ease; }
   .btn--primary {
-    background-color: #FF4040;
+    background-color: #ff4040;
     color: #ffffff !important; }
     .btn--primary:hover {
       background-color: #d90000; }
   .btn--link {
-    color: #FF4040 !important;
+    color: #ff4040 !important;
     font-size: 1.4rem;
     padding: 0; }
+
+.card {
+  background: #ffffff; }
+
+.tabs {
+  margin-top: 6rem; }
+  .tabs .nav {
+    margin-bottom: 3rem; }
+    .tabs .nav-link {
+      color: rgba(42, 42, 42, 0.355327);
+      font-size: 16px;
+      font-weight: 700;
+      padding-bottom: 1rem;
+      position: relative;
+      text-transform: uppercase; }
+      .tabs .nav-link::after {
+        background-color: rgba(42, 42, 42, 0.355327);
+        bottom: 0;
+        content: "";
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%; }
+      .tabs .nav-link:hover::after {
+        background-color: #003896; }
+      .tabs .nav-link.active {
+        color: #003896; }
+        .tabs .nav-link.active::after {
+          background-color: #003896;
+          height: 2px; }
 
 .footer__navbar {
   padding: 5rem 0; }
@@ -244,5 +274,47 @@ body {
     width: 100%; }
 
 .section__about {
-  background-color: #E8EFFF;
+  background-color: #e8efff;
   text-align: center; }
+
+.section__products {
+  text-align: center; }
+  .section__products .card {
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 50px rgba(240, 245, 255, 0.3);
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    text-align: left;
+    transition: all 0.8s ease; }
+    .section__products .card:hover {
+      box-shadow: 0px 2px 35px rgba(169, 192, 235, 0.8); }
+    .section__products .card__content {
+      border-bottom: 1px solid rgba(0, 56, 150, 0.1);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-left: 1px solid rgba(0, 56, 150, 0.1);
+      border-right: 1px solid rgba(0, 56, 150, 0.1);
+      padding: 3rem 2rem; }
+    .section__products .card__image {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      height: 120px;
+      width: 100%; }
+    .section__products .card__title {
+      color: #003896;
+      font-weight: 700; }
+    .section__products .card__text {
+      color: #4a4a4a;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.8;
+      margin-bottom: 0; }
+  .section__products .tabs {
+    margin-bottom: 2rem; }

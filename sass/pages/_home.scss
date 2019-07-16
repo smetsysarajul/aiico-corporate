@@ -1,4 +1,61 @@
 .section__about {
-    background-color: $color-blue-bg;
-    text-align: center;
+  background-color: $color-blue-bg;
+  text-align: center;
+}
+
+.section__products {
+  text-align: center;
+
+  .card {
+    background: $color-white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 50px rgba(240, 245, 255, 0.3);
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    text-align: left;
+    transition: all 0.8s ease;
+
+    &:hover {
+      box-shadow: 0px 2px 35px rgba(169, 192, 235, 0.8);
+    }
+
+    &__content {
+      border-bottom: 1px solid rgba(0, 56, 150, 0.1);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-left: 1px solid rgba(0, 56, 150, 0.1);
+      border-right: 1px solid rgba(0, 56, 150, 0.1);
+      padding: 3rem 2rem;
+    }
+
+    &__image {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      height: 120px;
+      width: 100%;
+    }
+
+    &__title {
+      color: $color-blue;
+      font-weight: 700;
+    }
+
+    &__text {
+      color: $color-grey;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.8;
+      margin-bottom: 0;
+    }
+  }
+
+  .tabs {
+    margin-bottom: 2rem;
+  }
 }

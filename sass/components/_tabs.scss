@@ -1,0 +1,41 @@
+.tabs {
+  margin-top: 6rem;
+
+  .nav {
+    margin-bottom: 3rem;
+
+    &-link {
+      color: $color-light-grey;
+      font-size: 16px;
+      font-weight: 700;
+      padding-bottom: 1rem;
+      position: relative;
+      text-transform: uppercase;
+
+      &::after {
+        background-color: $color-light-grey;
+        bottom: 0;
+        content: "";
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+      }
+
+      &:hover {
+        &::after {
+          background-color: $color-blue;
+        }
+      }
+
+      &.active {
+        color: $color-blue;
+
+        &::after {
+          background-color: $color-blue;
+          height: 2px;
+        }
+      }
+    }
+  }
+}

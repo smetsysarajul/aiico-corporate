@@ -1,0 +1,140 @@
+.footer {
+
+    &__navbar {
+        padding: 5rem 0;
+    }
+
+    &__nav-section {
+    }
+
+    &__nav-title {
+        color: $color-blue;
+        font-size: 1.4rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: 2rem;
+        padding: 0;
+        text-transform: uppercase;
+    }
+
+    &__nav {
+        list-style: none;
+    }
+
+    &__nav-item {
+        padding: 0;
+        
+        &:not(:last-of-type) {
+            margin-bottom: 1.2rem;
+        }
+    }
+
+    &__nav-link {
+        display: inline-block;
+        font-size: 1.3rem;
+        text-transform: capitalize;
+        transition: all 300ms ease;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__extra-info {
+        color: $color-blue;
+        padding: 0 0 5rem;
+
+        .logo-section {
+
+            .logo {
+                width: 15rem;
+            }
+        }
+
+        .address-section {
+
+            .address {
+                font-size: 1.4rem;
+                line-height: 2.2rem;
+            }
+        }
+
+        .contact-section {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-link {
+            font-size: 1.4rem;
+            text-decoration: none;
+
+            &:hover {
+            }
+            
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .social-links {
+            display: flex;
+
+            .link {
+                align-items: center;
+                background-color: $color-blue;
+                border-radius: 100%;
+                color: $color-white;
+                display: flex;
+                height: 1rem;
+                justify-content: center;
+                padding: 1.4rem;
+                text-decoration: none;
+                transition: all 300ms ease;
+                width: 1.4rem;
+                
+                &:not(:last-of-type) {
+                    margin-right: 1.2rem;
+                }
+        
+                &:hover {
+                }
+
+                i {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    
+    &__bottom {
+        background-color: $color-blue;
+        color: $color-white;
+        font-size: 1.2rem;
+        padding: 1.2rem 0;
+    
+        .container {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .copyright {
+        }
+        
+        .extra-links {
+        }
+    
+        .link {
+            display: inline-block;
+            text-decoration: none;
+            transition: all 300ms ease;
+            
+            &:not(:last-of-type) {
+                margin-right: 1.2rem;
+            }
+    
+            &:hover {
+            }
+        }
+    }
+}

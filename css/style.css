@@ -179,10 +179,11 @@ body {
 .footer__nav-link {
   display: inline-block;
   font-size: 1.3rem;
+  text-decoration: none !important;
   text-transform: capitalize;
   transition: all 300ms ease; }
   .footer__nav-link:hover {
-    text-decoration: none; }
+    color: #003896; }
 
 .footer__extra-info {
   color: #003896;

@@ -1,29 +1,33 @@
 body {
-    font-family: $main-font;
+  font-family: $main-font;
 }
 
 .heading {
-    color: $color-blue;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 2rem;
+  color: $color-blue;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 2rem;
 
-    &--primary {
-        font-size: 4.5rem;
-        line-height: 6rem;
-    }
+  &--primary {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
 
-    &--secondary {
-        font-size: 2.5rem;
-    }
+  &--secondary {
+    font-size: 3rem;
+  }
+}
+
+.nav-link {
+  font-weight: 700;
 }
 
 .paragraph {
-    color: $color-dark;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
+  color: $color-dark;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
 
-    &:not(:last-child) {
-        margin-bottom: 2rem;
-    }
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
 }

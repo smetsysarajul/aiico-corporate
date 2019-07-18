@@ -1,0 +1,33 @@
+.list {
+    list-style: none;
+    margin: 3rem 0 5rem;
+
+    &__item {
+        color: $color-dark;
+        padding-left: 45px;
+        position: relative;
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        &::before {
+            align-items: center;
+            background: rgba(0, 56, 150, 0.39);
+            border-radius: 50%;
+            color: $color-blue;
+            content: "\f00c";
+            display: flex;
+            font-family: "Font Awesome 5 Free";
+            font-size: 12px;
+            font-weight: 900;
+            height: 25px;
+            justify-content: center;
+            left: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 25px;
+        }
+    }
+}

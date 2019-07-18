@@ -29,6 +29,10 @@
     color: $color-red !important;
     font-size: 1.4rem;
     padding: 0;
+
+    &.white {
+      color: $color-white !important;
+    }
   }
 
   &:not(:last-of-type) {

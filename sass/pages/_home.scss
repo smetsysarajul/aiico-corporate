@@ -1,150 +1,162 @@
-.section__about {
-  background-color: $color-blue-bg;
-  text-align: center;
-}
+.section {
 
-.section__clients {
-  text-align: center;
-}
+  &__hero {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  
+  &__about {
+    background-color: $color-blue-bg;
+    text-align: center;
+  }
 
-.section__covered {
-  background-color: $color-blue-bg;
-
-  .list {
-    list-style: none;
-    margin-bottom: 1.5rem;
-
-    .item {
-      color: $color-dark;
-      margin: 3rem 0;
-      padding-left: 45px;
-      position: relative;
-
-      &::before {
-        align-items: center;
-        background: rgba(0, 56, 150, 0.39);
-        border-radius: 50%;
+  &__products {
+    text-align: center;
+  
+    .card {
+      background: $color-white;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0px 2px 50px rgba(240, 245, 255, 0.3);
+      margin-bottom: 3rem;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 250px;
+      text-align: left;
+      transition: all 0.8s ease;
+  
+      &:hover {
+        box-shadow: 0px 2px 35px rgba(169, 192, 235, 0.8);
+      }
+  
+      &__content {
+        border-bottom: 1px solid rgba(0, 56, 150, 0.1);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-left: 1px solid rgba(0, 56, 150, 0.1);
+        border-right: 1px solid rgba(0, 56, 150, 0.1);
+        padding: 3rem 2rem;
+      }
+  
+      &__image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 120px;
+        width: 100%;
+      }
+  
+      &__title {
         color: $color-blue;
-        content: "\f00c";
+        font-weight: 700;
+      }
+  
+      &__text {
+        color: $color-grey;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.8;
+        margin-bottom: 0;
+      }
+    }
+  
+    .tabs {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  &__why {
+    background-color: $color-blue-light;
+    padding: 9rem 0 10rem;
+  }
+  
+  &__covered {
+    background-color: $color-blue-bg;
+    padding: 9rem 0 10rem;
+
+    .video {
+
+      &__play-btn {
+        align-items: center;
+        background-color: transparent;
+        border: 5px solid #3a95ff;
+        border-radius: 100%;
         display: flex;
-        font-family: "Font Awesome 5 Free";
-        font-size: 12px;
-        font-weight: 900;
-        height: 25px;
+        height: 60px;
+        justify-content: center;
+        width: 60px;
+      }
+
+      &__play-icon {
+        color: #3a95ff;
+        font-size: 20px;
+      }
+
+      &__image {
+        background: url("../images/video.png") no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        margin-left: 1rem;
+        position: relative;
+      }
+
+      &__overlay {
+        align-items: center;
+        background: rgba(32, 18, 78, 0.65407);
+        display: flex;
+        height: 100%;
         justify-content: center;
         left: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 25px;
+        top: 0;
+        width: 100%;
       }
     }
   }
 
-  .video {
-    &__icon {
-      color: #3a95ff;
-      font-size: 60px;
-
-      i {
-        vertical-align: middle;
-      }
-    }
-
-    &__image {
-      background: url("../images/video-image.png") no-repeat;
-      background-size: cover;
-      box-shadow: 0px 20px 40px rgba(36, 32, 135, 0.338966);
-      height: 250px;
-      margin-left: 1rem;
-      position: relative;
-    }
-
-    &__overlay {
-      align-items: center;
-      background: rgba(32, 18, 78, 0.65407);
-      display: flex;
-      height: 100%;
-      justify-content: center;
-      left: 0;
-      top: 0;
-      width: 100%;
-    }
-  }
-}
-
-.section__numbers {
-  background-color: $color-blue;
-  text-align: center;
-
-  .btn--link {
+  &__numbers {
+    background-color: $color-blue;
     color: $color-white !important;
-  }
-
-  .heading {
-    color: $color-white;
-    margin-bottom: 1rem;
-  }
-
-  .paragraph {
-    color: $color-white;
-    font-size: 12px;
-  }
-}
-
-.section__products {
-  text-align: center;
-
-  .card {
-    background: $color-white;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0px 2px 50px rgba(240, 245, 255, 0.3);
-    margin-bottom: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 250px;
-    text-align: left;
-    transition: all 0.8s ease;
-
-    &:hover {
-      box-shadow: 0px 2px 35px rgba(169, 192, 235, 0.8);
-    }
-
-    &__content {
-      border-bottom: 1px solid rgba(0, 56, 150, 0.1);
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-      border-left: 1px solid rgba(0, 56, 150, 0.1);
-      border-right: 1px solid rgba(0, 56, 150, 0.1);
-      padding: 3rem 2rem;
-    }
-
-    &__image {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      height: 120px;
-      width: 100%;
-    }
-
-    &__title {
-      color: $color-blue;
-      font-weight: 700;
-    }
-
-    &__text {
-      color: $color-grey;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 1.8;
-      margin-bottom: 0;
+    text-align: center;
+  
+    .heading {
+      margin-bottom: 1rem;
     }
   }
+  
+  &__clients {
+  }
 
-  .tabs {
-    margin-bottom: 2rem;
+  &__news {
+    background-color: $color-blue-bg;
+    padding: 8rem 0 10rem;
+
+    .news {
+      background-color: $color-white;
+      padding: 4rem 3rem;
+
+      &__date {
+        color: $color-blue;
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        opacity: 0.8;
+      }
+
+      &__headline {
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        transition: all 300ms ease;
+
+        &:hover {
+          color: $color-blue;
+        }
+      }
+    }
   }
 }

@@ -5,4 +5,41 @@
         max-width: 50rem;
         width: 100%;
     }
+
+    &__intro {
+        margin: 0 auto;
+        max-width: 60rem;
+        text-align: center;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 7rem;
+        }
+    }
+
+    &__heading {
+        color: $color-blue;
+        display: inline-block;
+        font-size: 3rem;
+        font-weight: 700;
+
+        &:not(:last-child) {
+            margin-bottom: 1.6rem;
+        }
+
+        &.white {
+            color: $color-white;
+        }
+    }
+
+    &__sub-heading {
+        color: $color-dark;
+        font-size: 1.7rem;
+        font-weight: 500;
+        line-height: 2.8rem;
+
+        &:not(:last-child) {
+            margin-bottom: 4rem;
+        }
+    }
 }

@@ -129,6 +129,9 @@ body {
 
 .card {
   background: #ffffff; }
+  .card:hover {
+    cursor: pointer;
+    background: aqua; }
 
 .main-carousel .carousel-item {
   position: relative; }

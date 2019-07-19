@@ -159,4 +159,50 @@
       }
     }
   }
+
+  &__tabbed {
+
+    .nav {
+      border: none;
+      flex-direction: column;
+
+      &-item {
+        
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+      }
+      &-link {
+        border: none;
+        border-bottom: 1px solid #eeeeee !important;
+        color: $color-dark;
+        padding: 1rem;
+
+        &.active {
+          background-color: transparent;
+          color: $color-blue;
+        }
+      }
+    }
+
+    .image-wrapper {
+
+      &:not(:last-child) {
+        margin-bottom: 5rem;
+      }
+    }
+
+    .text-wrapper {
+      background-color: $color-blue-light;
+      padding: 3rem 4rem;
+
+      &:not(:last-child) {
+        margin-bottom: 5rem;
+      }
+
+      &:first-of-type {
+        margin-top: 5rem;
+      }
+    }
+  }
 }

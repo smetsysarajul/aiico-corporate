@@ -17,6 +17,13 @@ body {
     font-size: 3rem;
   }
 
+  &--tertiary {
+    color: $color-red;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+  }
+
   &.white {
     color: $color-white;
   }

@@ -1,4 +1,4 @@
-.list {
+.check-list {
     list-style: none;
     margin: 3rem 0 5rem;
 
@@ -72,6 +72,32 @@
             font-weight: 400;
             line-height: 2.8rem;
             margin-top: 1rem;
+        }
+    }
+}
+
+.square-list {
+    list-style-type: none;
+    margin-left: 0;
+
+    &__item {
+        font-size: 1.6rem;
+        line-height: 20px;
+        padding-left: 20px;
+        position: relative;
+
+        &:not(:last-child) {
+            margin-bottom: 1.4rem;
+        }
+
+        &::before {
+            background-color: $color-red;
+            content: '';
+            height: 8px;
+            left: 0;
+            position: absolute;
+            top: 5px;
+            width: 8px;
         }
     }
 }

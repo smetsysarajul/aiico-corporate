@@ -140,6 +140,9 @@ body {
 
 .card {
   background: #ffffff; }
+  .card:hover {
+    cursor: pointer;
+    background: aqua; }
 
 .image-wrapper {
   width: 100%; }

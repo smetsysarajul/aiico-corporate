@@ -384,9 +384,23 @@ body {
     .header__navigation .navbar .dropdown-toggle::after {
       margin-left: 1rem;
       vertical-align: 0.3rem; }
+    .header__navigation .navbar .dropdown-menu {
+      border: none;
+      box-shadow: rgba(136, 153, 166, 0.2) 0px 0px 15px, rgba(136, 153, 166, 0.15) 0px 0px 3px 1px;
+      margin-top: 1rem;
+      padding: 2rem 3rem; }
+      .header__navigation .navbar .dropdown-menu li:not(:last-child) {
+        border-bottom: 1px solid #eeeeee;
+        margin-bottom: 1rem; }
     .header__navigation .navbar .dropdown-item {
+      color: #003896;
       font-size: 1.4rem;
-      padding: 1rem 2rem; }
+      font-weight: 500;
+      padding: 1rem 0; }
+      .header__navigation .navbar .dropdown-item:hover {
+        background-color: transparent; }
+    .header__navigation .navbar .dropdown-toggle.active-dropdown::after {
+      transform: rotate(-90deg); }
 
 .section {
   padding: 8rem 0; }

@@ -166,17 +166,15 @@
       border: none;
       flex-direction: column;
 
-      &-item {
-        
-        &:not(:last-child) {
-          margin-bottom: 2rem;
-        }
-      }
       &-link {
         border: none;
         border-bottom: 1px solid #eeeeee !important;
         color: $color-dark;
         padding: 1rem;
+
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
 
         &.active {
           background-color: transparent;

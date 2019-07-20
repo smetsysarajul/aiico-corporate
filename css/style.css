@@ -596,13 +596,13 @@ body {
 .section__tabbed .nav {
   border: none;
   flex-direction: column; }
-  .section__tabbed .nav-item:not(:last-child) {
-    margin-bottom: 2rem; }
   .section__tabbed .nav-link {
     border: none;
     border-bottom: 1px solid #eeeeee !important;
     color: #444444;
     padding: 1rem; }
+    .section__tabbed .nav-link:not(:last-child) {
+      margin-bottom: 2rem; }
     .section__tabbed .nav-link.active {
       background-color: transparent;
       color: #003896; }

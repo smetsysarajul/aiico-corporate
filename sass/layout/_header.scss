@@ -81,7 +81,7 @@
                 box-shadow: $box-shadow;
                 margin-top: 1rem;
                 padding: 2rem 3rem;
-                // width: 500px;
+                z-index: 1021;
 
                 li {
 
@@ -104,7 +104,30 @@
             }
 
             .dropdown-toggle.active-dropdown::after {
-                transform: rotate(-90deg);
+                transform: rotate(-90deg) !important;
+            }
+
+            .dropdown-submenu {
+                position: relative;
+
+                .dropdown-toggle:hover {
+                    
+                    &::after {
+                        transform: rotate(-90deg) !important;
+                    }
+                }
+            }
+
+            .dropdown-submenu>.dropdown-menu {
+                left: 100%;
+                margin: 0;
+                min-height: 100%;
+                padding: 2rem 3rem;
+                top: 0;
+            }
+
+            .dropdown-submenu:hover>.dropdown-menu {
+                display: block;
             }
         }
     }

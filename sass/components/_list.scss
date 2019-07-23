@@ -3,7 +3,6 @@
     margin: 3rem 0 5rem;
 
     &__item {
-        color: $color-dark;
         font-size: 1.6rem;
         line-height: 25px;
         padding-left: 45px;
@@ -67,7 +66,6 @@
         }
 
         .paragraph {
-            color: $color-dark;
             font-size: 1.6rem;
             font-weight: 400;
             line-height: 2.8rem;
@@ -98,6 +96,21 @@
             position: absolute;
             top: 5px;
             width: 8px;
+        }
+    }
+}
+
+.numbered-list {
+    margin-left: 15px;
+
+    &__item {
+        font-size: 1.6rem;
+        line-height: 20px;
+        padding-left: 10px;
+        position: relative;
+
+        &:not(:last-child) {
+            margin-bottom: 1.4rem;
         }
     }
 }

@@ -237,7 +237,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
-  min-height: 300px; }
+  min-height: 190px; }
   .page-intro .breadcrumb {
     background-color: transparent;
     margin-bottom: 2rem; }
@@ -392,6 +392,30 @@ body {
       .footer__bottom .link:hover {
         color: #ffffff; }
 
+/*
+About Us
+  Company
+    about.html
+    mission.html
+  Leadership
+    corperate-governance.html
+    board.html
+    management.html
+  Careers
+    culture.html
+    vacancies.html
+    entreneurship.html
+  Media
+    news.html
+    image-gallery.html
+    video-gallery.html
+  Investor
+    financial-info.html
+    investor-news.html
+    annual-reports.html
+    shareholders-info.html
+  locations.html
+*/
 .header__top {
   background-color: #003896;
   color: #ffffff;
@@ -461,6 +485,9 @@ body {
       top: 0; }
     .header__navigation .navbar .dropdown-submenu:hover > .dropdown-menu {
       display: block; }
+
+.header .dropdown-toggle.active-dropdown::after {
+  transform: rotate(-90deg); }
 
 .section {
   padding: 8rem 0; }

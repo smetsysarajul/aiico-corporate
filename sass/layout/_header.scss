@@ -1,4 +1,31 @@
+// Pages
+/*
+About Us
+  Company
+    about.html
+    mission.html
+  Leadership
+    corperate-governance.html
+    board.html
+    management.html
+  Careers
+    culture.html
+    vacancies.html
+    entreneurship.html
+  Media
+    news.html
+    image-gallery.html
+    video-gallery.html
+  Investor
+    financial-info.html
+    investor-news.html
+    annual-reports.html
+    shareholders-info.html
+  locations.html
+*/
+
 .header {
+
   &__top {
     background-color: $color-blue;
     color: $color-white;
@@ -42,7 +69,7 @@
     .navbar {
       justify-content: space-between;
       padding: 0;
-
+  
       &-brand {
         padding: 0;
 
@@ -50,16 +77,17 @@
           width: 15rem;
         }
       }
-
+  
       &-collapse {
         flex-grow: 0;
       }
-
+  
       .navbar-nav {
         align-items: center;
       }
-
+  
       .nav-item {
+  
         &:not(:last-child) {
           margin-right: 3rem;
         }
@@ -67,9 +95,6 @@
 
       .nav-link {
         color: $color-blue;
-        &:hover {
-          color: red;
-        }
       }
 
       .dropdown-toggle::after {
@@ -82,9 +107,10 @@
         box-shadow: $box-shadow;
         margin-top: 1rem;
         padding: 2rem 3rem;
-        // width: 500px;
+        z-index: 1021;
 
         li {
+
           &:not(:last-child) {
             border-bottom: 1px solid #eeeeee;
             margin-bottom: 1rem;
@@ -104,8 +130,35 @@
       }
 
       .dropdown-toggle.active-dropdown::after {
-        transform: rotate(-90deg);
+        transform: rotate(-90deg) !important;
+      }
+
+      .dropdown-submenu {
+        position: relative;
+
+        .dropdown-toggle:hover {
+            
+          &::after {
+            transform: rotate(-90deg) !important;
+          }
+        }
+      }
+
+      .dropdown-submenu>.dropdown-menu {
+        left: 100%;
+        margin: 0;
+        min-height: 100%;
+        padding: 2rem 3rem;
+        top: 0;
+      }
+
+      .dropdown-submenu:hover>.dropdown-menu {
+        display: block;
       }
     }
+  }
+
+  .dropdown-toggle.active-dropdown::after {
+    transform: rotate(-90deg);
   }
 }

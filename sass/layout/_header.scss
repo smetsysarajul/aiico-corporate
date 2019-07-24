@@ -95,6 +95,10 @@ About Us
 
       .nav-link {
         color: $color-blue;
+
+        &:hover {
+          color: $color-red;
+        }
       }
 
       .dropdown-toggle::after {
@@ -126,11 +130,8 @@ About Us
 
         &:hover {
           background-color: transparent;
+          color: $color-red;
         }
-      }
-
-      .dropdown-toggle.active-dropdown::after {
-        transform: rotate(-90deg) !important;
       }
 
       .dropdown-submenu {
@@ -156,9 +157,5 @@ About Us
         display: block;
       }
     }
-  }
-
-  .dropdown-toggle.active-dropdown::after {
-    transform: rotate(-90deg);
   }
 }

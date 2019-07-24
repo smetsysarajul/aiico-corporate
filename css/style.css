@@ -89,7 +89,8 @@ body {
     font-size: 4rem;
     line-height: 5rem; }
   .heading--secondary {
-    font-size: 3rem; }
+    font-size: 3rem;
+    line-height: 4rem; }
   .heading--tertiary {
     color: #ff4040;
     font-size: 2rem;
@@ -239,6 +240,8 @@ body {
     position: relative; }
     .numbered-list__item:not(:last-child) {
       margin-bottom: 1.4rem; }
+  .numbered-list:not(:last-child) {
+    margin-bottom: 40px; }
 
 .page-intro {
   background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../images/page-bg.png);
@@ -523,6 +526,9 @@ About Us
     line-height: 2.8rem; }
     .section__sub-heading:not(:last-child) {
       margin-bottom: 4rem; }
+
+.section__about-page:not(:last-of-type) {
+  padding-bottom: 0; }
 
 .section__hero {
   padding-bottom: 0;

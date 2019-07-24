@@ -113,4 +113,8 @@
             margin-bottom: 1.4rem;
         }
     }
+
+    &:not(:last-child) {
+        margin-bottom: 40px;
+    }
 }

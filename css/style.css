@@ -10,6 +10,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  color: #545454;
   font-size: 1.6rem;
   line-height: 1.4; }
 
@@ -88,7 +89,8 @@ body {
     font-size: 4rem;
     line-height: 5rem; }
   .heading--secondary {
-    font-size: 3rem; }
+    font-size: 3rem;
+    line-height: 4rem; }
   .heading--tertiary {
     color: #ff4040;
     font-size: 2rem;
@@ -154,7 +156,6 @@ body {
   list-style: none;
   margin: 3rem 0 5rem; }
   .check-list__item {
-    color: #444444;
     font-size: 1.6rem;
     line-height: 25px;
     padding-left: 45px;
@@ -206,7 +207,6 @@ body {
       top: -2px;
       width: 40px; }
     .big-list__item .paragraph {
-      color: #444444;
       font-size: 1.6rem;
       font-weight: 400;
       line-height: 2.8rem;
@@ -231,13 +231,25 @@ body {
       top: 5px;
       width: 8px; }
 
+.numbered-list {
+  margin-left: 15px; }
+  .numbered-list__item {
+    font-size: 1.6rem;
+    line-height: 20px;
+    padding-left: 10px;
+    position: relative; }
+    .numbered-list__item:not(:last-child) {
+      margin-bottom: 1.4rem; }
+  .numbered-list:not(:last-child) {
+    margin-bottom: 40px; }
+
 .page-intro {
   background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../images/page-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
-  min-height: 190px; }
+  min-height: 200px; }
   .page-intro .breadcrumb {
     background-color: transparent;
     margin-bottom: 2rem; }
@@ -452,6 +464,8 @@ About Us
       margin-right: 3rem; }
     .header__navigation .navbar .nav-link {
       color: #003896; }
+      .header__navigation .navbar .nav-link:hover {
+        color: #ff4040; }
     .header__navigation .navbar .dropdown-toggle::after {
       margin-left: 1rem;
       vertical-align: 0.3rem; }
@@ -470,9 +484,8 @@ About Us
       font-weight: 500;
       padding: 1rem 0; }
       .header__navigation .navbar .dropdown-item:hover {
-        background-color: transparent; }
-    .header__navigation .navbar .dropdown-toggle.active-dropdown::after {
-      transform: rotate(-90deg) !important; }
+        background-color: transparent;
+        color: #ff4040; }
     .header__navigation .navbar .dropdown-submenu {
       position: relative; }
       .header__navigation .navbar .dropdown-submenu .dropdown-toggle:hover::after {
@@ -485,9 +498,6 @@ About Us
       top: 0; }
     .header__navigation .navbar .dropdown-submenu:hover > .dropdown-menu {
       display: block; }
-
-.header .dropdown-toggle.active-dropdown::after {
-  transform: rotate(-90deg); }
 
 .section {
   padding: 8rem 0; }
@@ -511,12 +521,14 @@ About Us
     .section__heading.white {
       color: #ffffff; }
   .section__sub-heading {
-    color: #444444;
     font-size: 1.7rem;
     font-weight: 500;
     line-height: 2.8rem; }
     .section__sub-heading:not(:last-child) {
       margin-bottom: 4rem; }
+
+.section__about-page:not(:last-of-type) {
+  padding-bottom: 0; }
 
 .section__hero {
   padding-bottom: 0;
@@ -639,7 +651,7 @@ About Us
   .section__tabbed .nav-link {
     border: none;
     border-bottom: 1px solid #eeeeee !important;
-    color: #444444;
+    color: #545454;
     padding: 1rem; }
     .section__tabbed .nav-link:not(:last-child) {
       margin-bottom: 2rem; }

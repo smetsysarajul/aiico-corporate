@@ -1,9 +1,29 @@
-@import "abstracts/mixins", "abstracts/variables";
+@import 
+    "abstracts/mixins",
+    "abstracts/variables";
 
-@import "base/animations", "base/base", "base/fonts", "base/typography", "base/utilities";
+@import
+    "base/animations",
+    "base/base",
+    "base/fonts",
+    "base/typography",
+    "base/utilities";
 
-@import "components/buttons", "components/cards", "components/image", "components/list", "components/page-intro", "components/slider", "components/tabs";
+@import
+    "components/buttons",
+    "components/cards",
+    "components/image",
+    "components/list",
+    "components/page-intro",
+    "components/slider",
+    "components/tabs";
 
-@import "layout/footer", "layout/header", "layout/section";
+@import
+    "layout/footer",
+    "layout/header",
+    "layout/section";
 
-@import "pages/about", "pages/error404", "pages/home";
+@import
+    "pages/about",
+    "pages/error404",
+    "pages/home";

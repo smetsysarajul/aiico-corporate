@@ -530,6 +530,9 @@ About Us
 .section__about-page:not(:last-of-type) {
   padding-bottom: 0; }
 
+.error-page {
+  position: relative; }
+
 .section__hero {
   padding-bottom: 0;
   padding-top: 0; }

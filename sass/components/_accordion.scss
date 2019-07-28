@@ -1,0 +1,95 @@
+.vacancies {
+
+    &__item {
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+        &__head {
+            background-color: $color-white;
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem 3rem;
+
+            &.collapsed {
+
+                .vacancies__item__head__title {
+                    color: $color-dark;
+                }
+
+                .vacancies__item__head__icon {
+                    color: $color-dark;
+                    transform: rotate(0deg) !important;
+                }
+            }
+
+            &__title {
+                color: $color-blue-skye;
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin: 0;
+            }
+
+            &__icon {
+                color: $color-blue-skye;
+                transform: rotate(-180deg) !important;
+                transition: transform 300ms ease;
+            }
+        }
+
+        &__body {
+            background-color: $color-white;
+            padding: 2rem 3rem;
+
+            &__cta {
+                margin-bottom: 3rem;
+                text-align: right;
+            }
+
+            &__summary {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .info {
+                margin-bottom: 50px;
+            }
+
+            .label {
+                color: $color-red;
+                font-size: 1.4rem;
+                font-weight: 600;
+                line-height: 1.8rem;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+            }
+
+            .value {}
+
+            .list {
+                margin-left: 15px;
+                margin-top: 20px;
+            
+                &__item {
+                    font-size: 1.6rem;
+                    line-height: 24px;
+                    padding-left: 10px;
+                    position: relative;
+            
+                    &:not(:last-child) {
+                        margin-bottom: 1.4rem;
+                    }
+                }
+            
+                &:not(:last-child) {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}

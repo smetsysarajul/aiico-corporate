@@ -114,6 +114,63 @@ body {
 .text-red {
   color: #ff4040 !important; }
 
+.vacancies__item {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+  .vacancies__item:not(:last-child) {
+    margin-bottom: 1rem; }
+  .vacancies__item__head {
+    background-color: #ffffff;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem; }
+    .vacancies__item__head.collapsed .vacancies__item__head__title {
+      color: #545454; }
+    .vacancies__item__head.collapsed .vacancies__item__head__icon {
+      color: #545454;
+      transform: rotate(0deg) !important; }
+    .vacancies__item__head__title {
+      color: #3a95ff;
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin: 0; }
+    .vacancies__item__head__icon {
+      color: #3a95ff;
+      transform: rotate(-180deg) !important;
+      transition: transform 300ms ease; }
+  .vacancies__item__body {
+    background-color: #ffffff;
+    padding: 2rem 3rem; }
+    .vacancies__item__body__cta {
+      margin-bottom: 3rem;
+      text-align: right; }
+    .vacancies__item__body__summary {
+      align-items: center;
+      display: flex;
+      justify-content: space-between; }
+    .vacancies__item__body .info {
+      margin-bottom: 50px; }
+    .vacancies__item__body .label {
+      color: #ff4040;
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase; }
+    .vacancies__item__body .list {
+      margin-left: 15px;
+      margin-top: 20px; }
+      .vacancies__item__body .list__item {
+        font-size: 1.6rem;
+        line-height: 24px;
+        padding-left: 10px;
+        position: relative; }
+        .vacancies__item__body .list__item:not(:last-child) {
+          margin-bottom: 1.4rem; }
+      .vacancies__item__body .list:not(:last-child) {
+        margin-bottom: 40px; }
+
 .btn {
   font-size: 1.2rem;
   font-weight: 600;
@@ -131,6 +188,11 @@ body {
     background-color: transparent;
     border: 0.2rem solid #003896;
     color: #003896 !important; }
+  .btn--tertiary {
+    background-color: #4A90E2;
+    color: #ffffff !important; }
+    .btn--tertiary:hover {
+      background-color: #003896; }
   .btn--link {
     color: #ff4040 !important;
     font-size: 1.4rem;
@@ -143,8 +205,7 @@ body {
 .card {
   background: #ffffff; }
   .card:hover {
-    cursor: pointer;
-    background: aqua; }
+    cursor: pointer; }
 
 .person {
   margin-bottom: 40px;
@@ -382,6 +443,40 @@ body {
         .tabs .nav-link.active::after {
           background-color: #003896;
           height: 2px; }
+
+.video__play-btn {
+  align-items: center;
+  background-color: transparent;
+  border: 5px solid #3a95ff;
+  border-radius: 100%;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 60px; }
+
+.video__play-icon {
+  color: #3a95ff;
+  font-size: 20px; }
+
+.video__image {
+  background: url("../images/video.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-left: 1rem;
+  position: relative; }
+  .video__image.landscape {
+    height: 300px; }
+
+.video__overlay {
+  align-items: center;
+  background: rgba(32, 18, 78, 0.65407);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 100%; }
 
 .footer {
   padding-top: 8rem; }
@@ -649,34 +744,6 @@ About Us
 .section__covered {
   background-color: #e8efff;
   padding: 9rem 0 10rem; }
-  .section__covered .video__play-btn {
-    align-items: center;
-    background-color: transparent;
-    border: 5px solid #3a95ff;
-    border-radius: 100%;
-    display: flex;
-    height: 60px;
-    justify-content: center;
-    width: 60px; }
-  .section__covered .video__play-icon {
-    color: #3a95ff;
-    font-size: 20px; }
-  .section__covered .video__image {
-    background: url("../images/video.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-    margin-left: 1rem;
-    position: relative; }
-  .section__covered .video__overlay {
-    align-items: center;
-    background: rgba(32, 18, 78, 0.65407);
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    left: 0;
-    top: 0;
-    width: 100%; }
 
 .section__numbers {
   background-color: #003896;
@@ -731,3 +798,6 @@ About Us
     margin-bottom: 5rem; }
   .section__tabbed .text-wrapper:first-of-type {
     margin-top: 5rem; }
+
+.section__vacancy {
+  background-color: #f0f6fd; }

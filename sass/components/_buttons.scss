@@ -25,6 +25,15 @@
     }
   }
 
+  &--tertiary {
+    background-color: #4A90E2;
+    color: $color-white !important;
+
+    &:hover {
+      background-color: $color-blue;
+    }
+  }
+
   &--link {
     color: $color-red !important;
     font-size: 1.4rem;

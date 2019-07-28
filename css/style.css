@@ -757,6 +757,7 @@ About Us
   padding: 8rem 0 10rem; }
   .section__news .news {
     background-color: #ffffff;
+    margin-bottom: 30px;
     padding: 4rem 3rem; }
     .section__news .news__date {
       color: #003896;

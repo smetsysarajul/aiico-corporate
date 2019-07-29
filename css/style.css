@@ -346,6 +346,29 @@ body {
   .numbered-list:not(:last-child) {
     margin-bottom: 40px; }
 
+.pdf-list {
+  list-style-type: none;
+  margin-left: 0; }
+  .pdf-list__item {
+    color: #ff4040;
+    font-size: 1.8rem;
+    line-height: 20px;
+    padding-left: 40px;
+    position: relative; }
+    .pdf-list__item__link:hover {
+      color: #ff4040; }
+    .pdf-list__item:not(:last-child) {
+      margin-bottom: 2.5rem; }
+    .pdf-list__item::before {
+      color: #ff4040;
+      content: "\f1c1";
+      font-family: "Font Awesome 5 Free";
+      font-size: 20px;
+      font-weight: 900;
+      left: 0;
+      position: absolute;
+      top: 0; }
+
 .full-profile {
   align-items: flex-start;
   display: flex;
@@ -870,5 +893,5 @@ Claims
   .section__tabbed .text-wrapper:first-of-type {
     margin-top: 5rem; }
 
-.section__vacancy {
+.section__accordion, .section__vacancy {
   background-color: #f0f6fd; }

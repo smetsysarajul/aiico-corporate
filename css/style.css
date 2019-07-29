@@ -114,61 +114,61 @@ body {
 .text-red {
   color: #ff4040 !important; }
 
-.vacancies__item {
+.accordion__item {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
-  .vacancies__item:not(:last-child) {
+  .accordion__item:not(:last-child) {
     margin-bottom: 1rem; }
-  .vacancies__item__head {
+  .accordion__item__head {
     background-color: #ffffff;
     align-items: center;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     padding: 2rem 3rem; }
-    .vacancies__item__head.collapsed .vacancies__item__head__title {
+    .accordion__item__head.collapsed .accordion__item__head__title {
       color: #545454; }
-    .vacancies__item__head.collapsed .vacancies__item__head__icon {
+    .accordion__item__head.collapsed .accordion__item__head__icon {
       color: #545454;
       transform: rotate(0deg) !important; }
-    .vacancies__item__head__title {
+    .accordion__item__head__title {
       color: #3a95ff;
       font-size: 1.6rem;
       font-weight: 600;
       margin: 0; }
-    .vacancies__item__head__icon {
+    .accordion__item__head__icon {
       color: #3a95ff;
       transform: rotate(-180deg) !important;
       transition: transform 300ms ease; }
-  .vacancies__item__body {
+  .accordion__item__body {
     background-color: #ffffff;
     padding: 2rem 3rem; }
-    .vacancies__item__body__cta {
+    .accordion__item__body__cta {
       margin-bottom: 3rem;
       text-align: right; }
-    .vacancies__item__body__summary {
+    .accordion__item__body__summary {
       align-items: center;
       display: flex;
       justify-content: space-between; }
-    .vacancies__item__body .info {
+    .accordion__item__body .info {
       margin-bottom: 50px; }
-    .vacancies__item__body .label {
+    .accordion__item__body .label {
       color: #ff4040;
       font-size: 1.4rem;
       font-weight: 600;
       line-height: 1.8rem;
       margin-bottom: 1rem;
       text-transform: uppercase; }
-    .vacancies__item__body .list {
+    .accordion__item__body .list {
       margin-left: 15px;
       margin-top: 20px; }
-      .vacancies__item__body .list__item {
+      .accordion__item__body .list__item {
         font-size: 1.6rem;
         line-height: 24px;
         padding-left: 10px;
         position: relative; }
-        .vacancies__item__body .list__item:not(:last-child) {
+        .accordion__item__body .list__item:not(:last-child) {
           margin-bottom: 1.4rem; }
-      .vacancies__item__body .list:not(:last-child) {
+      .accordion__item__body .list:not(:last-child) {
         margin-bottom: 40px; }
 
 .btn {
@@ -345,6 +345,29 @@ body {
       margin-bottom: 1.4rem; }
   .numbered-list:not(:last-child) {
     margin-bottom: 40px; }
+
+.pdf-list {
+  list-style-type: none;
+  margin-left: 0; }
+  .pdf-list__item {
+    color: #ff4040;
+    font-size: 1.8rem;
+    line-height: 20px;
+    padding-left: 40px;
+    position: relative; }
+    .pdf-list__item__link:hover {
+      color: #ff4040; }
+    .pdf-list__item:not(:last-child) {
+      margin-bottom: 2.5rem; }
+    .pdf-list__item::before {
+      color: #ff4040;
+      content: "\f1c1";
+      font-family: "Font Awesome 5 Free";
+      font-size: 20px;
+      font-weight: 900;
+      left: 0;
+      position: absolute;
+      top: 0; }
 
 .full-profile {
   align-items: flex-start;
@@ -870,5 +893,5 @@ Claims
   .section__tabbed .text-wrapper:first-of-type {
     margin-top: 5rem; }
 
-.section__vacancy {
+.section__accordion, .section__vacancy {
   background-color: #f0f6fd; }

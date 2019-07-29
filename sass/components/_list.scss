@@ -118,3 +118,38 @@
         margin-bottom: 40px;
     }
 }
+
+.pdf-list {
+    list-style-type: none;
+    margin-left: 0;
+
+    &__item {
+        color: $color-red;
+        font-size: 1.8rem;
+        line-height: 20px;
+        padding-left: 40px;
+        position: relative;
+
+        &__link {
+            
+            &:hover {
+                color: $color-red;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+
+        &::before {
+            color: $color-red;
+            content: "\f1c1";
+            font-family: "Font Awesome 5 Free";
+            font-size: 20px;
+            font-weight: 900;
+            left: 0;
+            position: absolute;
+            top: 0;
+        }
+    }
+}

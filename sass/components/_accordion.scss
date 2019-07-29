@@ -1,4 +1,4 @@
-.vacancies {
+.accordion {
 
     &__item {
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
@@ -17,11 +17,11 @@
 
             &.collapsed {
 
-                .vacancies__item__head__title {
+                .accordion__item__head__title {
                     color: $color-dark;
                 }
 
-                .vacancies__item__head__icon {
+                .accordion__item__head__icon {
                     color: $color-dark;
                     transform: rotate(0deg) !important;
                 }

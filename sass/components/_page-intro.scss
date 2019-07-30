@@ -1,0 +1,29 @@
+.page-intro {
+  background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)),
+    url(../images/page-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  min-height: 200px;
+
+  .breadcrumb {
+    background-color: transparent;
+    margin-bottom: 2rem;
+
+    &-item {
+      color: $color-white;
+
+      &.active {
+        color: $color-blue-skye;
+      }
+    }
+  }
+
+  .page-title {
+    color: $color-white;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+}

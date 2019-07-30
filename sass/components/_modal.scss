@@ -1,0 +1,25 @@
+.full-profile {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+
+    &__picture {
+        flex: 0 0 200px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+
+    &__info {
+        // max-width: 200px;
+    }
+
+    .close-modal {
+        font-size: 30px;
+        padding: 10px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}

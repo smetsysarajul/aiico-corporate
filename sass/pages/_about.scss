@@ -1,0 +1,8 @@
+.section__about-page {
+    // border: 1px solid red;
+    
+    &:not(:last-of-type) {
+        padding-bottom: 0;
+    }
+}
+

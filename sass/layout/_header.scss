@@ -113,7 +113,8 @@ Claims
           width: 100%;
         }
 
-        &:hover {
+        &:hover,
+        &.active {
           color: $color-red;
 
           &::before {

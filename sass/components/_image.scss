@@ -1,8 +1,33 @@
 .image-wrapper {
-    width: 100%;
+  width: 100%;
 
-    .image {
-        height: auto;
-        width: 100%;
+  .image {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.image {
+  &__card {
+    background-color: $color-white;
+    display: block;
+    width: 100%;
+    transition: all 0.8s ease;
+
+    &:hover {
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+      text-decoration: none;
     }
+  }
+
+  &__desc {
+    padding: 3rem 2rem;
+  }
+
+  &__item {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
 }

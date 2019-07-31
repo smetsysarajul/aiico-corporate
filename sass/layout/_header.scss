@@ -80,6 +80,16 @@ Claims
       }
 
       .nav-item {
+        &.open {
+          .nav-link {
+            color: #ff4040;
+
+            &::before {
+              display: block;
+            }
+          }
+        }
+
         &:not(:last-child) {
           margin-right: 3rem;
         }
@@ -87,9 +97,28 @@ Claims
 
       .nav-link {
         color: $color-blue;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        position: relative;
+
+        &::before {
+          background: $color-red;
+          bottom: 0;
+          content: "";
+          display: none;
+          height: 3px;
+          left: 0;
+          margin: 0;
+          position: absolute;
+          width: 100%;
+        }
 
         &:hover {
           color: $color-red;
+
+          &::before {
+            display: block;
+          }
         }
       }
 
@@ -155,7 +184,6 @@ Claims
       .dropdown-menu {
         border: none;
         box-shadow: $box-shadow;
-        margin-top: 1rem;
         padding: 0;
         z-index: 1021;
 

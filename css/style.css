@@ -522,9 +522,11 @@ body {
   background: url("../images/video.png") no-repeat;
   background-position: center;
   background-size: cover;
-  height: 500px;
-  margin-left: 1rem;
-  position: relative; }
+  height: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%; }
   .video__image.landscape {
     height: 300px; }
 

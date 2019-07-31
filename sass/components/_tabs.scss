@@ -1,4 +1,4 @@
-.tabs {
+.product-tabs {
   margin-top: 6rem;
 
   .nav {
@@ -36,6 +36,37 @@
           height: 2px;
         }
       }
+    }
+  }
+}
+
+.general-tab {
+  // border: 1px solid red;
+
+  .nav {
+    border: none;
+
+    &-item {
+      // border: 1px solid blue;
+    }
+
+    &-link {
+      background-color: transparent !important;
+      border: none;
+      font-weight: 500;
+      padding: 2rem 1rem;
+      text-transform: uppercase;
+
+      &.active {
+        border-bottom: 3px solid $color-blue;
+      }
+    }
+  }
+
+  .tab-content {
+
+    .tab-pane {
+      padding: 5rem 0;
     }
   }
 }

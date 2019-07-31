@@ -333,10 +333,13 @@ body {
   padding: 3rem 2rem; }
 
 .image__item {
+  cursor: pointer;
   height: 350px;
   object-fit: cover;
   object-position: center;
   width: 100%; }
+  .image__item--big {
+    height: 600px; }
 
 .check-list {
   list-style: none;

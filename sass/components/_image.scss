@@ -25,9 +25,14 @@
   }
 
   &__item {
+    cursor: pointer;
     height: 350px;
     object-fit: cover;
     object-position: center;
     width: 100%;
+
+    &--big {
+      height: 600px;
+    }
   }
 }

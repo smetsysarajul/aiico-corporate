@@ -1,51 +1,58 @@
 .main-carousel {
+  .carousel-inner {
+  }
 
-    .carousel-inner {
+  .carousel-item {
+    position: relative;
+  }
+
+  .carousel-info {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .carousel-ctas {
+    margin-top: 3rem;
+
+    .btn {
+      padding-left: 3rem;
+      padding-right: 3rem;
     }
+  }
 
-    .carousel-item {
-        position: relative;
+  .carousel-image {
+    display: block;
+    height: 55rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+  .carousel-indicators {
+    li {
+      background-color: $color-white;
+      border-radius: 100%;
+      height: 1rem;
+      opacity: 1;
+      width: 1rem;
+
+      &.active {
+        background-color: $color-blue;
+      }
     }
+  }
+}
 
-    .carousel-info {
-        align-items: center;
-        bottom: 0;
-        display: flex;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
+.number-item {
+  text-align: left;
+  padding: 0 2rem;
+}
 
-    .carousel-ctas {
-        margin-top: 3rem;
-
-        .btn {
-            padding-left: 3rem;
-            padding-right: 3rem;
-        }
-    }
-
-    .carousel-image {
-        display: block;
-        height: 55rem;
-        object-fit: cover;
-        object-position: center;
-        width: 100%;
-    }
-
-    .carousel-indicators {
-
-        li {
-            background-color: $color-white;
-            border-radius: 100%;
-            height: 1rem;
-            opacity: 1;
-            width: 1rem;
-
-            &.active {
-                background-color: $color-blue;
-            }
-        }
-    }
+.client-image {
+  padding: 0 2rem;
 }

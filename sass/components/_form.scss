@@ -1,0 +1,91 @@
+.general-form {
+    
+    .form-name {
+        color: $color-blue;
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 3rem;
+        margin-bottom: 5rem;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .form-group {
+        margin-bottom: 5rem;
+    }
+
+    .form-label {
+        margin-bottom: 1.5rem;
+
+        .star {
+            color: #D0021B;
+            margin-right: 1rem;
+        }
+    }
+
+    .text-box {
+        border: 1px solid #eeeeee;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        padding: 2.5rem 2rem;
+    }
+
+    .text-area {
+        border: 1px solid #eeeeee;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        padding: 2rem;
+    }
+
+    .file-input {
+        display: none;
+    }
+
+    .custom-file-browser {
+
+        .file-browser-btn {
+            background-color: #eb5757;
+            border: 1px solid #eb5757;
+            border-radius: 0;
+            color: #ffffff;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            padding: 1rem 2rem;
+
+            &__icon {
+                margin-right: 1rem;
+            }
+        }
+
+        .file-info {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            margin-left: 1rem;
+        }
+    }
+
+    .form-check {
+        margin-bottom: 1.5rem;
+
+        .check-box {
+        }
+
+        .check-box-label {
+            margin-left: 1.5rem;
+        }
+    }
+
+    .form-section-heading {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin: 2rem 0;
+    }
+
+    .btn-section {
+        text-align: center;
+    }
+
+    .submit-btn {
+        padding: 1.5rem 10rem;
+    }
+}

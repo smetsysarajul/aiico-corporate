@@ -1,4 +1,6 @@
+<?php $page ="services"; ?>
 <?php include 'php-component/header.php' ?>
+<link rel="stylesheet" href="css/service.css">
     <main>
       <section class="page-intro">
         <div class="container">
@@ -20,13 +22,13 @@
         <div class="container">
           <div class="row align-items-start justify-content-between sticky-top">
             <nav id="navbar-example3" class="col-md-3 navbar">
-              <nav class="nav">
-                <a class="nav-link" href="#item-1">The Product</a>
-                <a class="nav-link" href="#item-2">The Benefit</a>
-                <a class="nav-link" href="#item-3">Premium</a>
-                <a class="nav-link" href="#item-4">Who Purchases the cover</a>
-                <a class="btn btn-primary" href="#"> GET QUOTE</a>
-              </nav>
+              <ul class="nav">
+                <li><a class="nav-link" href="#item-1">The Product</a></li>
+                <li><a class="nav-link" href="#item-2">The Benefit</a></li>
+                <li><a class="nav-link" href="#item-3">Premium</a></li>
+                <li><a class="nav-link" href="#item-4">Who Purchases the cover</a></li>
+                <li><a class="btn btn-primary" href="#"> GET QUOTE</a></li>
+              </ul>
             </nav>
             <div class="col-md-8"  data-target="#navbar-example3" >
               <!-- <div class="col-md-8" style="height: 800px; overflow-y:scroll" data-spy="scroll" data-target="#navbar-example3" data-offset="0"> -->
@@ -85,6 +87,4 @@
         </div>
       </section>
     </main>
-  <script src="../js/scroll.js"></script>
-  <script src="../js/services.js"></script>
 <?php include 'php-component/footer.php' ?>

@@ -1,0 +1,7 @@
+.fixed-nav{
+	position: fixed;
+	top: 15px;
+}
+#navbar-example3 li.active{
+	background-color: blue;
+}

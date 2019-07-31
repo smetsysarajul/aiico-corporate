@@ -1,35 +1,10 @@
-@import 
-    "abstracts/mixins",
-    "abstracts/variables";
+@import "abstracts/mixins", "abstracts/variables";
 
-@import
-    "base/animations",
-    "base/base",
-    "base/fonts",
-    "base/typography",
-    "base/utilities";
+@import "base/animations", "base/base", "base/fonts", "base/typography", "base/utilities";
 
-@import
-    "components/accordion",
-    "components/buttons",
-    "components/cards",
-    "components/image",
-    "components/list",
-    "components/modal",
-    "components/page-intro",
-    "components/slider",
-    "components/tables",
-    "components/tabs",
-    "components/video";
+@import "components/accordion", "components/buttons", "components/cards", "components/image", "components/list",
+  "components/modal", "components/page-intro", "components/slider", "components/tables", "components/tabs", "components/video";
 
-@import
-    "layout/footer",
-    "layout/header",
-    "layout/section";
+@import "layout/footer", "layout/header", "layout/section";
 
-@import
-    "pages/about",
-    "pages/all",
-    "pages/error404",
-    "pages/news",
-    "pages/home";
+@import "pages/about", "pages/all", "pages/error404", "pages/news", "pages/home";

@@ -698,9 +698,9 @@ Claims
         margin: 0;
         position: absolute;
         width: 100%; }
-      .header__navigation .navbar .nav-link:hover {
+      .header__navigation .navbar .nav-link:hover, .header__navigation .navbar .nav-link.active {
         color: #ff4040; }
-        .header__navigation .navbar .nav-link:hover::before {
+        .header__navigation .navbar .nav-link:hover::before, .header__navigation .navbar .nav-link.active::before {
           display: block; }
     .header__navigation .navbar .dropdown-item {
       color: #003896;

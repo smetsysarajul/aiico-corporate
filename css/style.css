@@ -249,6 +249,71 @@ body {
     .person__profile-btn:hover {
       color: #a60000; }
 
+.general-form .form-name {
+  color: #003896;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  text-transform: capitalize; }
+
+.general-form .form-group {
+  margin-bottom: 5rem; }
+
+.general-form .form-label {
+  margin-bottom: 1.5rem; }
+  .general-form .form-label .star {
+    color: #D0021B;
+    margin-right: 1rem; }
+
+.general-form .text-box {
+  border: 1px solid #eeeeee;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 2.5rem 2rem; }
+
+.general-form .text-area {
+  border: 1px solid #eeeeee;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 2rem; }
+
+.general-form .file-input {
+  display: none; }
+
+.general-form .custom-file-browser .file-browser-btn {
+  background-color: #eb5757;
+  border: 1px solid #eb5757;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 1rem 2rem; }
+  .general-form .custom-file-browser .file-browser-btn__icon {
+    margin-right: 1rem; }
+
+.general-form .custom-file-browser .file-info {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-left: 1rem; }
+
+.general-form .form-check {
+  margin-bottom: 1.5rem; }
+  .general-form .form-check .check-box-label {
+    margin-left: 1.5rem; }
+
+.general-form .form-section-heading {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 2rem 0; }
+
+.general-form .btn-section {
+  text-align: center; }
+
+.general-form .submit-btn {
+  padding: 1.5rem 10rem; }
+
 .image-wrapper {
   width: 100%; }
   .image-wrapper .image {
@@ -484,18 +549,18 @@ body {
 .claims-table td {
   padding: 2rem; }
 
-.tabs {
+.product-tabs {
   margin-top: 6rem; }
-  .tabs .nav {
+  .product-tabs .nav {
     margin-bottom: 3rem; }
-    .tabs .nav-link {
+    .product-tabs .nav-link {
       color: rgba(42, 42, 42, 0.355327);
       font-size: 16px;
       font-weight: 700;
       padding-bottom: 1rem;
       position: relative;
       text-transform: uppercase; }
-      .tabs .nav-link::after {
+      .product-tabs .nav-link::after {
         background-color: rgba(42, 42, 42, 0.355327);
         bottom: 0;
         content: "";
@@ -503,13 +568,27 @@ body {
         left: 0;
         position: absolute;
         width: 100%; }
-      .tabs .nav-link:hover::after {
+      .product-tabs .nav-link:hover::after {
         background-color: #003896; }
-      .tabs .nav-link.active {
+      .product-tabs .nav-link.active {
         color: #003896; }
-        .tabs .nav-link.active::after {
+        .product-tabs .nav-link.active::after {
           background-color: #003896;
           height: 2px; }
+
+.general-tab .nav {
+  border: none; }
+  .general-tab .nav-link {
+    background-color: transparent !important;
+    border: none;
+    font-weight: 500;
+    padding: 2rem 1rem;
+    text-transform: uppercase; }
+    .general-tab .nav-link.active {
+      border-bottom: 3px solid #003896; }
+
+.general-tab .tab-content .tab-pane {
+  padding: 5rem 0; }
 
 .video__play-btn {
   align-items: center;
@@ -815,6 +894,9 @@ Claims
     .section__contact-info .contact-box .value .link {
       color: #003896;
       text-decoration: none; }
+
+.section__claims-form {
+  background-color: #f0f6fd; }
 
 .error-page {
   position: relative; }

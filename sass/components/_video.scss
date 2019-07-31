@@ -1,4 +1,6 @@
 .video {
+  object-fit: cover;
+
   &__image {
     background: url("../images/video.png") no-repeat;
     background-position: center;
@@ -11,6 +13,12 @@
 
     &.landscape {
       height: 300px;
+    }
+  }
+
+  &__modal {
+    .modal-content {
+      background-color: transparent;
     }
   }
 

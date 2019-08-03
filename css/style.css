@@ -1178,11 +1178,15 @@ Claims
   padding: 9rem 0 10rem; }
 
 .section__numbers {
-  background-color: #003896;
-  color: #ffffff !important;
-  text-align: center; }
+  background: url(../../images/numbersBg.jpg);
+  color: #ffffff; }
+  .section__numbers h3 {
+    color: #B0D9FF; }
   .section__numbers .heading {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    color: #B0D9FF; }
+    .section__numbers .heading span.large {
+      font-size: 54px; }
 
 .section__tabbed .nav {
   border: none;

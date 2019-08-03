@@ -4,10 +4,11 @@
     padding-top: 0;
   }
 
-  &__about1, &__about2 {
+  &__about1,
+  &__about2 {
     padding: 4em;
 
-    .icon{
+    .icon {
       display: block;
       margin-bottom: 2em;
       width: 55px;
@@ -111,12 +112,21 @@
   }
 
   &__numbers {
-    background-color: $color-blue;
-    color: $color-white !important;
-    text-align: center;
+    background: url(../../images/numbersBg.jpg);
+    color: $color-white;
+    // text-align: center;
+
+    h3{
+      color: $color-blue-skye-light;
+    }
 
     .heading {
       margin-bottom: 1rem;
+      color: $color-blue-skye-light;
+
+      span.large {
+        font-size: 54px;
+      }
     }
   }
 

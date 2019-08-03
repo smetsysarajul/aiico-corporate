@@ -191,6 +191,16 @@ body {
     background-color: transparent;
     border: 0.2rem solid #003896;
     color: #003896 !important; }
+    .btn--secondary:hover {
+      background-color: #003896;
+      color: #ffffff !important; }
+  .btn--secondary-white {
+    background-color: transparent;
+    border: 0.2rem solid #ffffff;
+    color: #ffffff !important; }
+    .btn--secondary-white:hover {
+      background-color: #ffffff;
+      color: #3a95ff !important; }
   .btn--tertiary {
     background-color: #4A90E2;
     color: #ffffff !important; }
@@ -596,11 +606,11 @@ body {
     margin-bottom: 3rem; }
     .product-tabs .nav-link {
       color: rgba(42, 42, 42, 0.355327);
-      font-size: 16px;
-      font-weight: 700;
-      padding-bottom: 1rem;
+      font-size: 14px;
       position: relative;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      width: 260px;
+      height: 56px; }
       .product-tabs .nav-link::after {
         background-color: rgba(42, 42, 42, 0.355327);
         bottom: 0;
@@ -612,7 +622,10 @@ body {
       .product-tabs .nav-link:hover::after {
         background-color: #003896; }
       .product-tabs .nav-link.active {
-        color: #003896; }
+        color: #003896;
+        background-color: #f0f6fd;
+        margin-bottom: 2em;
+        border-radius: 5px; }
         .product-tabs .nav-link.active::after {
           background-color: #003896;
           height: 2px; }
@@ -1091,9 +1104,18 @@ Claims
   padding-bottom: 0;
   padding-top: 0; }
 
-.section__about {
-  background-color: #e8efff;
-  text-align: center; }
+.section__about1, .section__about2 {
+  padding: 4em; }
+  .section__about1 .icon, .section__about2 .icon {
+    display: block;
+    margin-bottom: 2em;
+    width: 55px; }
+
+.section__about1 {
+  background-color: #e8efff; }
+
+.section__about2 {
+  background-color: #4288FF; }
 
 .section__products {
   text-align: center; }
@@ -1156,11 +1178,15 @@ Claims
   padding: 9rem 0 10rem; }
 
 .section__numbers {
-  background-color: #003896;
-  color: #ffffff !important;
-  text-align: center; }
+  background: url(../../images/numbersBg.jpg);
+  color: #ffffff; }
+  .section__numbers h3 {
+    color: #B0D9FF; }
   .section__numbers .heading {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    color: #B0D9FF; }
+    .section__numbers .heading span.large {
+      font-size: 54px; }
 
 .section__tabbed .nav {
   border: none;

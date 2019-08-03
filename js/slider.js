@@ -4,7 +4,7 @@ $(".numbers__carousel").slick({
   autoplay: true,
   infinite: true,
   slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 800,

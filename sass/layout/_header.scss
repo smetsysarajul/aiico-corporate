@@ -25,6 +25,10 @@ Claims
     font-size: 1.4rem;
     padding: 1.2rem 0;
 
+    @include respond(small) {
+      display: none;
+    }
+
     .container {
       align-items: center;
       display: flex;
@@ -75,6 +79,20 @@ Claims
         flex-grow: 0;
       }
 
+      &-icon {
+        color: #a0a0a0;
+        display: none;
+        font-size: 32px;
+
+        &.active {
+          display: inline-block;
+        }
+
+        i {
+          vertical-align: middle;
+        }
+      }
+
       .navbar-nav {
         align-items: center;
       }
@@ -92,6 +110,19 @@ Claims
 
         &:not(:last-child) {
           margin-right: 3rem;
+        }
+
+        &.claim-btn {
+          margin-right: 1rem;
+          .btn {
+            color: $color-red;
+            font-weight: 700;
+            margin-right: 0;
+
+            &:hover {
+              color: darken($color-red, 20%);
+            }
+          }
         }
       }
 
@@ -146,6 +177,14 @@ Claims
               right: 0;
               top: 50%;
               transform: translateY(-50%);
+            }
+          }
+
+          &:hover {
+            & > .dropdown-link {
+              &::after {
+                color: $color-red;
+              }
             }
           }
 
@@ -226,28 +265,6 @@ Claims
         margin-left: 1rem;
         vertical-align: 0.3rem;
       }
-
-      // .dropdown-submenu {
-      //   position: relative;
-
-      //   .dropdown-toggle:hover {
-      //     &::after {
-      //       transform: rotate(-90deg) !important;
-      //     }
-      //   }
-      // }
-
-      // .dropdown-submenu > .dropdown-menu {
-      //   left: 100%;
-      //   margin: 0;
-      //   min-height: 100%;
-      //   padding: 2rem 3rem;
-      //   top: 0;
-      // }
-
-      // .dropdown-submenu:hover > .dropdown-menu {
-      //   display: block;
-      // }
     }
   }
 }

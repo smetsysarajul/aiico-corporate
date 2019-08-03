@@ -1,10 +1,9 @@
 .section {
-
   &__hero {
     padding-bottom: 0;
     padding-top: 0;
   }
-  
+
   &__about {
     background-color: $color-blue-bg;
     text-align: center;
@@ -12,7 +11,7 @@
 
   &__products {
     text-align: center;
-  
+
     .card {
       background: $color-white;
       border-radius: 5px;
@@ -24,20 +23,19 @@
       max-width: 250px;
       text-align: left;
       transition: all 0.8s ease;
-  
+
       &:hover {
         box-shadow: 0px 2px 35px rgba(169, 192, 235, 0.8);
       }
-  
+
       &__content {
-        border-bottom: 1px solid rgba(0, 56, 150, 0.1);
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
-        border-left: 1px solid rgba(0, 56, 150, 0.1);
-        border-right: 1px solid rgba(0, 56, 150, 0.1);
+        box-shadow: 0 2px 4px rgba(38, 50, 56, 0.05);
+
         padding: 3rem 2rem;
       }
-  
+
       &__image {
         background-position: center;
         background-repeat: no-repeat;
@@ -47,12 +45,12 @@
         height: 120px;
         width: 100%;
       }
-  
+
       &__title {
         color: $color-blue;
         font-weight: 700;
       }
-  
+
       &__text {
         color: $color-grey;
         font-size: 1.2rem;
@@ -61,17 +59,39 @@
         margin-bottom: 0;
       }
     }
-  
+
     .tabs {
       margin-bottom: 2rem;
     }
   }
-  
+
   &__why {
-    background-color: $color-blue-light;
-    padding: 9rem 0 10rem;
+    padding: 0;
+
+    .why {
+      &__col {
+        background-color: rgba($color: #ffe6e6, $alpha: 0.3);
+
+        &:nth-of-type(1) {
+          background-color: rgba(255, 64, 64, 0.14);
+        }
+      }
+
+      &__content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 12rem 5rem;
+      }
+
+      &__row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
   }
-  
+
   &__covered {
     background-color: $color-blue-bg;
     padding: 9rem 0 10rem;
@@ -81,17 +101,16 @@
     background-color: $color-blue;
     color: $color-white !important;
     text-align: center;
-  
+
     .heading {
       margin-bottom: 1rem;
     }
   }
-  
+
   &__clients {
   }
 
   &__tabbed {
-
     .nav {
       border: none;
       flex-direction: column;
@@ -114,7 +133,6 @@
     }
 
     .image-wrapper {
-
       &:not(:last-child) {
         margin-bottom: 5rem;
       }

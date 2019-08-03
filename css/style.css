@@ -191,6 +191,16 @@ body {
     background-color: transparent;
     border: 0.2rem solid #003896;
     color: #003896 !important; }
+    .btn--secondary:hover {
+      background-color: #003896;
+      color: #ffffff !important; }
+  .btn--secondary-white {
+    background-color: transparent;
+    border: 0.2rem solid #ffffff;
+    color: #ffffff !important; }
+    .btn--secondary-white:hover {
+      background-color: #ffffff;
+      color: #3a95ff !important; }
   .btn--tertiary {
     background-color: #4A90E2;
     color: #ffffff !important; }
@@ -1091,9 +1101,18 @@ Claims
   padding-bottom: 0;
   padding-top: 0; }
 
+.section__about, .section__about2 {
+  padding: 4em; }
+  .section__about .icon, .section__about2 .icon {
+    display: block;
+    margin-bottom: 2em;
+    width: 55px; }
+
 .section__about {
-  background-color: #e8efff;
-  text-align: center; }
+  background-color: #e8efff; }
+
+.section__about2 {
+  background-color: #4288FF; }
 
 .section__products {
   text-align: center; }

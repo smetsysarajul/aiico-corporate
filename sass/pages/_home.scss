@@ -4,9 +4,22 @@
     padding-top: 0;
   }
 
+  &__about, &__about2 {
+    padding: 4em;
+
+    .icon{
+      display: block;
+      margin-bottom: 2em;
+      width: 55px;
+    }
+  }
+
   &__about {
     background-color: $color-blue-bg;
-    text-align: center;
+  }
+
+  &__about2 {
+    background-color: $color-blue-skye-deep;
   }
 
   &__products {

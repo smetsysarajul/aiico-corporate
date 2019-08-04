@@ -89,6 +89,17 @@
         margin: 2rem 0;
     }
 
+    .form-link {
+        color: $color-red;
+        display: block;
+        margin-bottom: 5rem;
+        text-decoration: none;
+
+        .star {
+            margin-right: 1rem;
+        }
+    }
+
     .btn-section {
         text-align: center;
     }

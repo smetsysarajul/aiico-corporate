@@ -41,4 +41,8 @@
       margin-bottom: 4rem;
     }
   }
+
+  &.bg-blue-light {
+    background-color: $color-blue-light !important;
+  }
 }

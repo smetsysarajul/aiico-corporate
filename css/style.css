@@ -1234,6 +1234,23 @@ Support
   background-color: #f0f6fd !important;
 }
 
+.new-bg-light {
+  background-color: #f0f6fd; }
+
+.claims-tab {
+  background-color: #f0f6fd;
+  color: #3a95ff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  transition: 0.3s all;
+  text-transform: uppercase; }
+  .claims-tab:hover {
+    cursor: pointer; }
+  .claims-tab.active, .claims-tab:hover {
+    background-color: #003896;
+    color: #ffffff; }
+
 .section__about-col {
   align-items: center;
   display: flex;
@@ -1319,6 +1336,7 @@ Support
 }
 
 .video--bg {
+<<<<<<< HEAD
   position: relative;
 }
 .video--bg .video__btn {
@@ -1332,6 +1350,18 @@ Support
 .video--bg .video__btn:hover {
   opacity: 1;
 }
+=======
+  position: relative; }
+  .video--bg .video__btn {
+    position: absolute;
+    top: 43%;
+    width: 14%;
+    left: 43%;
+    opacity: 0.7;
+    transition: 0.3s all; }
+    .video--bg .video__btn:hover {
+      opacity: 1; }
+>>>>>>> dami
 
 @media screen and (max-width: 768px) {
   .stat-figure {

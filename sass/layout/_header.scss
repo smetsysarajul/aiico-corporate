@@ -197,7 +197,7 @@ Claims
 
         &:hover {
           background-color: rgba(216, 216, 216, 0.14);
-          color: $color-red;
+          color: $color-red !important;
 
           &::after {
             color: $color-red;

@@ -881,7 +881,7 @@ Claims
         display: block; }
       .header__navigation .navbar .dropdown-item:hover {
         background-color: rgba(216, 216, 216, 0.14);
-        color: #ff4040; }
+        color: #ff4040 !important; }
         .header__navigation .navbar .dropdown-item:hover::after {
           color: #ff4040; }
     .header__navigation .navbar .dropdown-link {
@@ -952,8 +952,12 @@ Claims
     .section__sub-heading:not(:last-child) {
       margin-bottom: 4rem; }
 
-.section__about-page:not(:last-of-type) {
-  padding-bottom: 0; }
+.section__about-page {
+  padding: 5rem 0; }
+  .section__about-page.bg-blue {
+    background: #e8efff; }
+  .section__about-page.bg-red {
+    background: #f8d1d1; }
 
 .section__contact-info {
   padding-bottom: 0; }

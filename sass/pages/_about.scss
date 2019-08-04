@@ -1,8 +1,16 @@
 .section__about-page {
-    // border: 1px solid red;
-    
-    &:not(:last-of-type) {
-        padding-bottom: 0;
-    }
-}
+  // border: 1px solid red;
+  padding: 5rem 0;
 
+  // &:not(:last-of-type) {
+  //     padding-bottom: 0;
+  // }
+
+  &.bg-blue {
+    background: #e8efff;
+  }
+
+  &.bg-red {
+    background: #f8d1d1;
+  }
+}

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".nav-item, .dropdown-item").hover(
+  $(".nav-item, .dropdown-toggle").hover(
     function() {
       $(">.dropdown-menu", this)
         .stop(true, true)

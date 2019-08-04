@@ -1,8 +1,39 @@
-.section__about-page {
-    // border: 1px solid red;
-    
-    &:not(:last-of-type) {
-        padding-bottom: 0;
-    }
-}
+.section__about {
+  &-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+  }
 
+  &-icon {
+    height: 50px;
+    margin-bottom: 2rem;
+    position: relative;
+    width: 50px;
+
+    &--bg {
+      background-color: rgba($color: #e03d3d, $alpha: 0.3);
+      border-radius: 50%;
+      height: 60px;
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      width: 60px;
+    }
+  }
+
+  &-page {
+    padding: 5rem 0;
+
+    &.bg-blue {
+      background: #e8efff;
+    }
+
+    &.bg-red {
+      background: #f8d1d1;
+    }
+  }
+}

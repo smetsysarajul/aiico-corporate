@@ -1,5 +1,4 @@
 .page-intro {
-  background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../images/page-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,10 +7,11 @@
 
   .breadcrumb {
     background-color: transparent;
+    font-size: 14px;
     margin-bottom: 2rem;
 
     &-item {
-      color: $color-white;
+      color: $color-grey;
 
       &.active {
         color: $color-blue-skye;
@@ -25,9 +25,23 @@
   }
 
   .page-title {
-    color: $color-white;
-    font-size: 4rem;
+    color: $color-blue;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 5rem;
+  }
+
+  .service-title {
+    width: 30em;
+  }
+
+  .service-image {
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 768px){
+  .service-image{
+    margin-top: -50px;
   }
 }

@@ -292,6 +292,13 @@ body {
   line-height: 2rem;
   padding: 2rem; }
 
+.general-form .select-box {
+  border: 1px solid #eeeeee;
+  font-size: 1.6rem;
+  height: 52px;
+  line-height: 2rem;
+  text-indent: 1rem; }
+
 .general-form .file-input {
   display: none; }
 

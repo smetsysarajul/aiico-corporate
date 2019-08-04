@@ -31,6 +31,13 @@
     line-height: 5rem;
   }
 
+  .page-title1 {
+    color: $color-blue;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+
   .service-title {
     width: 30em;
   }
@@ -40,8 +47,8 @@
   }
 }
 
-@media (min-width: 768px){
-  .service-image{
+@media (min-width: 768px) {
+  .service-image {
     margin-top: -50px;
   }
 }

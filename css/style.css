@@ -85,6 +85,9 @@ body {
   display: inline-block;
   font-weight: 700;
   margin-bottom: 2rem; }
+  .heading--extra {
+    font-size: 6rem;
+    line-height: 7rem; }
   .heading--primary {
     font-size: 4rem;
     line-height: 5rem; }
@@ -516,7 +519,6 @@ body {
     top: 0; }
 
 .page-intro {
-  background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../images/page-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -524,18 +526,27 @@ body {
   min-height: 250px; }
   .page-intro .breadcrumb {
     background-color: transparent;
+    font-size: 14px;
     margin-bottom: 2rem; }
     .page-intro .breadcrumb-item {
-      color: #ffffff; }
+      color: #4a4a4a; }
       .page-intro .breadcrumb-item.active {
         color: #3a95ff; }
   .page-intro--locations {
     background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../images/location.png); }
   .page-intro .page-title {
-    color: #ffffff;
-    font-size: 4rem;
+    color: #003896;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 5rem; }
+  .page-intro .service-title {
+    width: 30em; }
+  .page-intro .service-image {
+    padding-right: 0 !important; }
+
+@media (min-width: 768px) {
+  .service-image {
+    margin-top: -50px; } }
 
 .main-carousel .carousel-item {
   position: relative; }
@@ -603,14 +614,20 @@ body {
 .product-tabs {
   margin-top: 6rem; }
   .product-tabs .nav {
-    margin-bottom: 3rem; }
+    border-bottom: 10px solid rgba(255, 255, 255, 0.5); }
+    .product-tabs .nav-link-home {
+      width: 260px; }
+    .product-tabs .nav-link-service {
+      text-transform: capitalize !important; }
+    .product-tabs .nav-link-button {
+      background-color: #3a95ff;
+      color: #ffffff !important; }
     .product-tabs .nav-link {
       color: rgba(42, 42, 42, 0.355327);
       font-size: 14px;
+      height: 56px;
       position: relative;
-      text-transform: uppercase;
-      width: 260px;
-      height: 56px; }
+      text-transform: uppercase; }
       .product-tabs .nav-link::after {
         background-color: rgba(42, 42, 42, 0.355327);
         bottom: 0;
@@ -619,12 +636,13 @@ body {
         left: 0;
         position: absolute;
         width: 100%; }
-      .product-tabs .nav-link:hover::after {
-        background-color: #003896; }
+      .product-tabs .nav-link:hover {
+        color: #ff4040; }
+        .product-tabs .nav-link:hover::after {
+          background-color: #003896; }
       .product-tabs .nav-link.active {
         color: #003896;
         background-color: #f0f6fd;
-        margin-bottom: 2em;
         border-radius: 5px; }
         .product-tabs .nav-link.active::after {
           background-color: #003896;
@@ -989,6 +1007,30 @@ Claims
 .section__videos,
 .section__albums {
   background-color: #f0f6fd; }
+
+.stat-figure {
+  float: left;
+  padding-right: 20px;
+  font-size: 4em;
+  color: #ff4040;
+  width: 40%;
+  overflow-x: hidden; }
+
+.video--bg {
+  position: relative; }
+  .video--bg .video__btn {
+    position: absolute;
+    top: 43%;
+    width: 14%;
+    left: 43%;
+    opacity: 0.7;
+    transition: 0.3s all; }
+    .video--bg .video__btn:hover {
+      opacity: 1.0; }
+
+@media screen and (max-width: 768px) {
+  .stat-figure {
+    width: 100%; } }
 
 .error-page {
   position: relative; }

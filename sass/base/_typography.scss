@@ -8,6 +8,11 @@ body {
   font-weight: 700;
   margin-bottom: 2rem;
 
+  &--extra {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
   &--primary {
     font-size: 4rem;
     line-height: 5rem;

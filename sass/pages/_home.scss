@@ -112,11 +112,11 @@
   }
 
   &__numbers {
-    background: url(../../images/numbersBg.jpg);
+    background: url("../images/numbersBg.jpg");
     color: $color-white;
     // text-align: center;
 
-    h3{
+    h3 {
       color: $color-blue-skye-light;
     }
 

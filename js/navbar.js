@@ -31,3 +31,18 @@ $(document).ready(function() {
     }
   );
 });
+
+window.onscroll = function() {
+  stickNav();
+};
+
+var navbar = $(".header__navigation");
+var sticky = navbar.offset().top;
+
+function stickNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.addClass("fixed-top");
+  } else {
+    navbar.removeClass("fixed-top");
+  }
+}

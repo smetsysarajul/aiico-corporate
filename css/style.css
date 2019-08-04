@@ -292,6 +292,13 @@ body {
   line-height: 2rem;
   padding: 2rem; }
 
+.general-form .select-box {
+  border: 1px solid #eeeeee;
+  font-size: 1.6rem;
+  height: 52px;
+  line-height: 2rem;
+  text-indent: 1rem; }
+
 .general-form .file-input {
   display: none; }
 
@@ -802,6 +809,7 @@ Claims
       margin-right: 1.2rem; }
 
 .header__navigation {
+  background: #ffffff;
   padding: 2rem 0; }
   .header__navigation .navbar {
     justify-content: space-between;
@@ -951,6 +959,28 @@ Claims
     line-height: 2.8rem; }
     .section__sub-heading:not(:last-child) {
       margin-bottom: 4rem; }
+
+.section__about-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 100%; }
+
+.section__about-icon {
+  height: 50px;
+  margin-bottom: 2rem;
+  position: relative;
+  width: 50px; }
+  .section__about-icon--bg {
+    background-color: rgba(224, 61, 61, 0.3);
+    border-radius: 50%;
+    height: 60px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 60px; }
 
 .section__about-page {
   padding: 5rem 0; }
@@ -1182,7 +1212,7 @@ Claims
   padding: 9rem 0 10rem; }
 
 .section__numbers {
-  background: url(../../images/numbersBg.jpg);
+  background: url("../images/numbersBg.jpg");
   color: #ffffff; }
   .section__numbers h3 {
     color: #B0D9FF; }

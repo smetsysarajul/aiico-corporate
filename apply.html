@@ -22,7 +22,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>AIICO empowers students with work tools</title>
+    <title>Apply | AIICO Insurance Plc.</title>
   </head>
   <body>
     <header class="header">
@@ -487,39 +487,134 @@
       </header>
 
     <main>
-      <section class="section">
+      <section class="section section__vacancy">
         <div class="container">
+            <div class="section__intro">
+                <h3 class="section__heading">Apply Here</h3>
+            </div>
             <div class="row justify-content-center">
                 <div class="col-md-10">
-                    <div class="news-details">
-                        <h3 class="news-details__headline">AIICO empowers students with work tools</h3>
-
-                        <span class="news-details__date">
-                            Posted in 
-                            <a href="news.html" class="link">News</a> 
-                            on <span class="date">February 20, 2019</span>
-                        </span>
-
-                        <figure class="news-details__cover-wrapper">
-                            <img class="news-details__cover" src="./images/press/aiico-student.jpg">
-                        </figure>
-
-                        <p class="paragraph">As part of efforts to ignite passion for science and technology innovation in Nigerian youths, AIICO Insurance Plc. has donated thousands of mathematical sets and calculators to pupils and students in over thirty Primary and Secondary schools across 6 states of the Federation.</p>
-                        <p class="paragraph">This is in line with the organization’s commitment to promote literacy and to aid the adoption of STEM in Nigerian schools. STEM is a curriculum based on the idea of educating students in four specific disciplines – Science, Technology, Engineering and Mathematics and this campaign is being championed across various climes, including Nigeria. AIICO identifies with this initiative and supports government’s drive to entrench STEM in our schools by encouraging young ones to pursue STEM subjects.</p>
-
-                        <div class="news-details__cta">
-                            <span class="label">Share on:</span>
-                            <a href="#" target="_blank" class="link">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" target="_blank" class="link">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" target="_blank" class="link">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
+                    <form id="applicationForm" class="general-form">
+                        <div class="form-group">
+                            <label class="form-label" for="jobPosition">
+                                <span class="star">*</span>Job Position
+                            </label>
+                            <select class="form-control select-box" id="jobPosition">
+                                <option>Select Job Position</option>
+                                <option>Software Developer</option>
+                                <option>Graphics Designer</option>
+                                <option>Branch Manager</option>
+                                <option>Product Manager</option>
+                                <option>Software Tester</option>
+                            </select>
                         </div>
-                    </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="firstName">
+                                        <span class="star">*</span>First Name
+                                    </label>
+                                    <input type="text" class="form-control text-box" id="firstName">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="lastName">
+                                    <span class="star">*</span>Last Name
+                                    </label>
+                                    <input type="text" class="form-control text-box" id="lastName">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="emailAddress">
+                                        <span class="star">*</span>Email Address
+                                    </label>
+                                    <input type="text" class="form-control text-box" id="emailAddress">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="telephoneNumber">
+                                        <span class="star">*</span>Telephone Number
+                                    </label>
+                                    <input type="text" class="form-control text-box" id="telephoneNumber">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="contactAddress">
+                                <span class="star">*</span>Contact Address
+                            </label>
+                            <textarea class="form-control text-area" id="contactAddress" rows="3"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="qualification">
+                                        <span class="star">*</span>Qualification
+                                    </label>
+                                    <select class="form-control select-box" id="jobPosition">
+                                        <option>Select Qualification</option>
+                                        <option>Higher National Diploma</option>
+                                        <option>Ordinary National Diploma</option>
+                                        <option>Bachelor's Degree</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="previousWorkPlace">
+                                    <span class="star">*</span>Previous Place of work
+                                    </label>
+                                    <input type="text" class="form-control text-box" id="previousWorkPlace">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="yearsOfExperience">
+                                        <span class="star">*</span>Years of Experience
+                                    </label>
+                                    <select class="form-control select-box" id="yearsOfExperience">
+                                        <option>1 - 2 years</option>
+                                        <option>3 - 5 years</option>
+                                        <option>6 - 9 years</option>
+                                        <option>10 years & above</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-label" for="expectedSalary">
+                                        <span class="star">*</span>Expected Salary (per annum)
+                                    </label>
+                                    <input type="text" class="form-control text-box" id="expectedSalary">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="resumeFile">
+                                <span class="star">*</span>Upload Resume (Not more than 2MB)
+                            </label>
+                            <input type="file" class="form-control-file file-input" id="resumeFile">
+                            <div class="custom-file-browser">
+                                <button class="file-browser-btn">
+                                    <i class="fas fa-cloud-upload-alt file-browser-btn__icon"></i>
+                                    Choose file
+                                </button>
+                                <span class="file-info">No file chosen</span>
+                            </div>
+                        </div>
+                        <div class="btn-section">
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                Submit Application
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

@@ -51,3 +51,35 @@
 .section__albums {
   background-color: $color-blue-light;
 }
+
+.stat-figure{
+  float: left;
+  padding-right: 20px;
+  font-size: 4em;
+  color: $color-red;
+  width: 40%;
+  overflow-x: hidden;
+}
+
+.video--bg {
+  position: relative;
+  
+  .video__btn {
+    position: absolute;
+    top: 43%;
+    width: 14%;
+    left: 43%;
+    opacity: 0.7;
+    transition: 0.3s all;
+
+    &:hover{
+      opacity: 1.0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .stat-figure {
+    width: 100%;
+  }
+}

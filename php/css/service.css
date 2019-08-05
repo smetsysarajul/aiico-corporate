@@ -2,6 +2,6 @@
 	position: fixed;
 	top: 15px;
 }
-#navbar-example3 li.active{
-	background-color: blue;
+#navbar-example3 li.active > a{
+	color: #ff4040;
 }

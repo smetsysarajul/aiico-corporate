@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <?php include "resource_header.php"?>
-    <title>AIICO Insurance Plc.</title>
+    <title><?php echo @$pageTitle ?></title>
   </head>
 
   <body>

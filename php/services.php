@@ -23,11 +23,11 @@
           <div class="row align-items-start justify-content-between sticky-top">
             <nav id="navbar-example3" class="col-md-3 navbar">
               <ul class="nav">
-                <li><a class="nav-link" href="#item-1">The Product</a></li>
-                <li><a class="nav-link" href="#item-2">The Benefit</a></li>
-                <li><a class="nav-link" href="#item-3">Premium</a></li>
-                <li><a class="nav-link" href="#item-4">Who Purchases the cover</a></li>
-                <li><a class="btn btn-primary" href="#"> GET QUOTE</a></li>
+                <li class="mb-4"><a class="nav-link" href="#item-1">The Product</a></li>
+                <li class="mb-4"><a class="nav-link" href="#item-2">The Benefit</a></li>
+                <li class="mb-4"><a class="nav-link" href="#item-3">Premium</a></li>
+                <li class="mb-4"><a class="nav-link" href="#item-4">Who Purchases the cover</a></li>
+                <li class="mb-4"><a class="btn btn-primary w-100" href="#"> GET QUOTE</a></li>
               </ul>
             </nav>
             <div class="col-md-8"  data-target="#navbar-example3" >

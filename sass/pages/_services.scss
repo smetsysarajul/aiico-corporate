@@ -1,0 +1,91 @@
+.services {
+  .cta {
+    &__item {
+      color: #000000;
+      font-size: 24px;
+      margin-bottom: 2.5rem;
+      padding-left: 2rem;
+      position: relative;
+      width: max-content;
+
+      &::after {
+        background: #c52626;
+        bottom: 1rem;
+        content: "";
+        height: 1px;
+        left: 3rem;
+        position: absolute;
+        width: 50%;
+      }
+
+      &::before {
+        background: #c52626;
+        content: "";
+        height: 60%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 1rem;
+      }
+    }
+
+    &__list {
+      list-style: none;
+    }
+  }
+
+  &__image {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+
+    &-icon {
+      align-items: center;
+      background: $color-white;
+      border-radius: 50%;
+      display: flex;
+      height: 60px;
+      justify-content: center;
+      width: 60px;
+
+      &::after {
+        color: $color-red;
+        content: "\e904";
+        font-family: "icomoon";
+        font-size: 30px;
+      }
+    }
+  }
+
+  &__overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .stat-figure {
+    color: #e30110;
+    font-weight: 700;
+    float: left;
+    padding-right: 20px;
+    font-size: 4em;
+    width: 40%;
+    overflow-x: hidden;
+  }
+
+  .why {
+    &__col {
+      padding-right: 2rem;
+    }
+
+    &__content {
+      position: relative;
+    }
+  }
+}

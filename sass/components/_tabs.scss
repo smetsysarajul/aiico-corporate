@@ -3,7 +3,7 @@
 
   .nav {
     // margin-bottom: 3rem;
-    border-bottom: 10px solid rgba(255,255,255,.5);
+    border-bottom: 10px solid rgba(255, 255, 255, 0.5);
 
     &-link-home {
       width: 260px;
@@ -64,10 +64,6 @@
   .nav {
     border: none;
 
-    &-item {
-      // border: 1px solid blue;
-    }
-
     &-link {
       background-color: transparent !important;
       border: none;
@@ -84,6 +80,116 @@
   .tab-content {
     .tab-pane {
       padding: 5rem 0;
+    }
+  }
+}
+
+.services-tab {
+  .nav {
+    border-bottom: 1px solid rgba(0, 56, 150, 0.54);
+    margin-bottom: 10rem;
+
+    &.fixed-top {
+      .nav-link {
+        padding: 0.5rem;
+      }
+    }
+
+    &-item {
+      margin-top: 5px;
+      position: relative;
+
+      &:not(:last-child) {
+        &::after {
+          background-color: rgba($color: $color-blue, $alpha: 0.3);
+          content: "";
+          height: calc(100% - 5px);
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 2px;
+        }
+        .nav-link {
+          margin-right: 5px;
+        }
+      }
+
+      &:last-child {
+        .nav-link {
+          color: $color-white;
+          background-color: #4a90e2;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    &-link {
+      align-items: center;
+      color: #b3b3b3;
+      display: flex;
+      height: calc(100% - 5px);
+      justify-content: center;
+      margin-bottom: 5px;
+      margin-left: 3px;
+      padding: 1.5rem 1rem;
+      position: relative;
+      transition: all 0.3s ease-in;
+
+      &.active {
+        background-color: rgba(66, 136, 255, 0.12);
+      }
+
+      &.active,
+      &:hover {
+        color: $color-blue;
+
+        &:after {
+          background-color: $color-blue;
+          bottom: -7px;
+          content: "";
+          height: 4px;
+          left: 0;
+          position: absolute;
+          width: 100%;
+        }
+
+        &::before {
+          color: $color-blue;
+        }
+      }
+
+      &::before {
+        color: #b3b3b3;
+        display: inline-block;
+        font-family: "icomoon";
+        font-size: 30px;
+        margin-right: 1rem;
+        vertical-align: middle;
+      }
+
+      &.benefit {
+        &::before {
+          content: "\e900";
+        }
+      }
+
+      &.others {
+        &::before {
+          content: "\e903";
+        }
+      }
+
+      &.premium {
+        &::before {
+          content: "\e901";
+        }
+      }
+
+      &.product {
+        &::before {
+          content: "\e902";
+        }
+      }
     }
   }
 }

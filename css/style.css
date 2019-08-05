@@ -42,40 +42,47 @@ main {
   outline: none; }
 
 @font-face {
-  font-family: 'Soleil';
+  font-family: "Soleil";
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/Soleil-Light.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'Soleil';
+  font-family: "Soleil";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/Soleil-Regular.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'Soleil';
+  font-family: "Soleil";
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/Soleil-Medium.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'Soleil';
+  font-family: "Soleil";
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/Soleil-Semibold.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'Soleil';
+  font-family: "Soleil";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/Soleil-Bold.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'Soleil';
+  font-family: "Soleil";
   font-style: normal;
   font-weight: 900;
   src: url("../fonts/Soleil-Extrabold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?g8k48z");
+  src: url("../fonts/icomoon.eot?g8k48z#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?g8k48z") format("truetype"), url("../fonts/icomoon.woff?g8k48z") format("woff"), url("../fonts/icomoon.svg?g8k48z#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 body {
   font-family: "Soleil", sans-serif; }
@@ -94,6 +101,20 @@ body {
   .heading--secondary {
     font-size: 3rem;
     line-height: 4rem; }
+  .heading--services {
+    color: black;
+    font-size: 4rem;
+    line-height: 5rem;
+    padding-left: 3rem;
+    position: relative; }
+    .heading--services::after {
+      background: #c52626;
+      content: "";
+      height: 2rem;
+      left: 0;
+      position: absolute;
+      top: 1rem;
+      width: 1rem; }
   .heading--tertiary {
     color: #ff4040;
     font-size: 2rem;
@@ -119,6 +140,9 @@ body {
 
 .text-red {
   color: #ff4040 !important; }
+
+.filler {
+  flex-grow: 1; }
 
 .accordion__item {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
@@ -677,6 +701,69 @@ body {
 .general-tab .tab-content .tab-pane {
   padding: 5rem 0; }
 
+.services-tab .nav {
+  border-bottom: 1px solid rgba(0, 56, 150, 0.54);
+  margin-bottom: 10rem; }
+  .services-tab .nav.fixed-top .nav-link {
+    padding: 0.5rem; }
+  .services-tab .nav-item {
+    margin-top: 5px;
+    position: relative; }
+    .services-tab .nav-item:not(:last-child)::after {
+      background-color: rgba(0, 56, 150, 0.3);
+      content: "";
+      height: calc(100% - 5px);
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 2px; }
+    .services-tab .nav-item:not(:last-child) .nav-link {
+      margin-right: 5px; }
+    .services-tab .nav-item:last-child .nav-link {
+      color: #ffffff;
+      background-color: #4a90e2;
+      text-transform: uppercase; }
+  .services-tab .nav-link {
+    align-items: center;
+    color: #b3b3b3;
+    display: flex;
+    height: calc(100% - 5px);
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    padding: 1.5rem 1rem;
+    position: relative;
+    transition: all 0.3s ease-in; }
+    .services-tab .nav-link.active {
+      background-color: rgba(66, 136, 255, 0.12); }
+    .services-tab .nav-link.active, .services-tab .nav-link:hover {
+      color: #003896; }
+      .services-tab .nav-link.active:after, .services-tab .nav-link:hover:after {
+        background-color: #003896;
+        bottom: -7px;
+        content: "";
+        height: 4px;
+        left: 0;
+        position: absolute;
+        width: 100%; }
+      .services-tab .nav-link.active::before, .services-tab .nav-link:hover::before {
+        color: #003896; }
+    .services-tab .nav-link::before {
+      color: #b3b3b3;
+      display: inline-block;
+      font-family: "icomoon";
+      font-size: 30px;
+      margin-right: 1rem;
+      vertical-align: middle; }
+    .services-tab .nav-link.benefit::before {
+      content: "\e900"; }
+    .services-tab .nav-link.others::before {
+      content: "\e903"; }
+    .services-tab .nav-link.premium::before {
+      content: "\e901"; }
+    .services-tab .nav-link.product::before {
+      content: "\e902"; }
+
 .video {
   object-fit: cover; }
   .video__image {
@@ -1040,13 +1127,8 @@ Support
 .section__albums {
   background-color: #f0f6fd; }
 
-.stat-figure {
-  float: left;
-  padding-right: 20px;
-  font-size: 4em;
-  color: #ff4040;
-  width: 40%;
-  overflow-x: hidden; }
+.section__services-cta {
+  background: rgba(255, 232, 238, 0.55); }
 
 .video--bg {
   position: relative; }
@@ -1058,7 +1140,7 @@ Support
     opacity: 0.7;
     transition: 0.3s all; }
     .video--bg .video__btn:hover {
-      opacity: 1.0; }
+      opacity: 1; }
 
 @media screen and (max-width: 768px) {
   .stat-figure {
@@ -1289,3 +1371,74 @@ Support
 
 .section__accordion, .section__vacancy {
   background-color: #f0f6fd; }
+
+.services .cta__item {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 2.5rem;
+  padding-left: 2rem;
+  position: relative;
+  width: max-content; }
+  .services .cta__item::after {
+    background: #c52626;
+    bottom: 1rem;
+    content: "";
+    height: 1px;
+    left: 3rem;
+    position: absolute;
+    width: 50%; }
+  .services .cta__item::before {
+    background: #c52626;
+    content: "";
+    height: 60%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1rem; }
+
+.services .cta__list {
+  list-style: none; }
+
+.services__image {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%; }
+  .services__image-icon {
+    align-items: center;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    width: 60px; }
+    .services__image-icon::after {
+      color: #ff4040;
+      content: "\e904";
+      font-family: "icomoon";
+      font-size: 30px; }
+
+.services__overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+.services .stat-figure {
+  color: #e30110;
+  font-weight: 700;
+  float: left;
+  padding-right: 20px;
+  font-size: 4em;
+  width: 40%;
+  overflow-x: hidden; }
+
+.services .why__col {
+  padding-right: 2rem; }
+
+.services .why__content {
+  position: relative; }

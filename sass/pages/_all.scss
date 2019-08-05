@@ -1,5 +1,4 @@
 .section__contact-info {
-
   .contact-box {
     .label {
       font-size: 1.8rem;
@@ -52,18 +51,13 @@
   background-color: $color-blue-light;
 }
 
-.stat-figure{
-  float: left;
-  padding-right: 20px;
-  font-size: 4em;
-  color: $color-red;
-  width: 40%;
-  overflow-x: hidden;
+.section__services-cta {
+  background: rgba(255, 232, 238, 0.55);
 }
 
 .video--bg {
   position: relative;
-  
+
   .video__btn {
     position: absolute;
     top: 43%;
@@ -72,13 +66,13 @@
     opacity: 0.7;
     transition: 0.3s all;
 
-    &:hover{
-      opacity: 1.0;
+    &:hover {
+      opacity: 1;
     }
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .stat-figure {
     width: 100%;
   }

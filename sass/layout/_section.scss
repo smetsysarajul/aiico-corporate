@@ -41,4 +41,32 @@
       margin-bottom: 4rem;
     }
   }
+
+  &.bg-blue-light {
+    background-color: $color-blue-light !important;
+  }
+}
+
+.new-bg-light {
+  background-color: $color-blue-light;
+}
+
+.claims-tab {
+  background-color: $color-blue-light;
+  color: $color-blue-skye;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  transition: 0.3s all;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.active,
+  &:hover {
+    background-color: $color-blue;
+    color: $color-white;
+  }
 }

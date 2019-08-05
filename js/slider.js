@@ -1,10 +1,10 @@
 $(".numbers__carousel").slick({
   dots: false,
-  arrows: true,
-  autoplay: false,
+  arrows: false,
+  autoplay: true,
   infinite: true,
   slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 800,

@@ -23,6 +23,24 @@ body {
     line-height: 4rem;
   }
 
+  &--services {
+    color: black;
+    font-size: 4rem;
+    line-height: 5rem;
+    padding-left: 3rem;
+    position: relative;
+
+    &::after {
+      background: #c52626;
+      content: "";
+      height: 2rem;
+      left: 0;
+      position: absolute;
+      top: 1rem;
+      width: 1rem;
+    }
+  }
+
   &--tertiary {
     color: $color-red;
     font-size: 2rem;

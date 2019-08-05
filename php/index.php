@@ -1,4 +1,11 @@
+<?php 
+$page ='home';
+$pageTitle = "AIICO Insurance Plc.";
+ ?>
+
 <?php include 'php-component/header.php' ?>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <main>
       <section class="section section__hero">
         <div id="mainSlider" class="carousel slide main-carousel" data-ride="carousel">
@@ -120,7 +127,7 @@
             </p>
           </div>
 
-          <div class="tabs">
+          <div class="tabs product-tabs">
             <ul class="nav nav-fill" id="myTab" role="tablist">
               <li class="nav-item">
                 <a
@@ -153,64 +160,64 @@
                 <div class="row">
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/insurance.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/insurance.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Auto Insurance Plans</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/accident.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/accident.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Personal Accident</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/travel.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/travel.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Travel Insurance</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/life.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/life.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Life Insurance Plan</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/endowment.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/endowment.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Endowment Plans</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/savings.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/savings.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Savings Plans</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/annuity.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/annuity.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Annuity Plans</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
@@ -220,37 +227,37 @@
                 <div class="row">
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/insurance.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/insurance.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Auto Insurance Plans</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/accident.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/accident.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Personal Accident</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/travel.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/travel.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Travel Insurance</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('images/products/annuity.png')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/annuity.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Annuity Plans</p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored...</p>
                       </div>
                     </div>
                   </div>
@@ -318,7 +325,7 @@
               </ul>
             </div>
             <div class="col-md-7">
-              <div class="video__image shadow-lg">
+              <div class="video__image landscape shadow-lg">
                 <div class="video__overlay shadow-lg ">
                   <button class="video__play-btn">
                     <i class="fas fa-play video__play-icon"></i>
@@ -391,45 +398,6 @@
               </div>
             </div>
           </div>
-
-          <!-- <div class="row">
-            <div class="col-md-2 text-left mb-2 px-4">
-              <h3 class="heading heading--secondary white">N21B</h3>
-              <p class="paragraph small">
-                Gross Premium Income of N21.4 Billion in 2017 at a CAGR of 6.3% over the last 5 years.
-              </p>
-            </div>
-            <div class="col-md-2 text-left mb-2 px-4">
-              <h3 class="heading heading--secondary white">N23B</h3>
-              <p class="paragraph small">
-                Gross Premium Income of N21.4 Billion in 2017 at a CAGR of 6.3% over the last 5 years.
-              </p>
-            </div>
-            <div class="col-md-2 text-left mb-2 px-4">
-              <h3 class="heading heading--secondary white">N92.4B</h3>
-              <p class="paragraph small">
-                Gross Premium Income of N21.4 Billion in 2017 at a CAGR of 6.3% over the last 5 years.
-              </p>
-            </div>
-            <div class="col-md-2 text-left mb-2 px-4">
-              <h3 class="heading heading--secondary white">N12B</h3>
-              <p class="paragraph small">
-                Gross Premium Income of N21.4 Billion in 2017 at a CAGR of 6.3% over the last 5 years.
-              </p>
-            </div>
-            <div class="col-md-2 text-left mb-2 px-4">
-              <h3 class="heading heading--secondary white">N92.4B</h3>
-              <p class="paragraph small">
-                Gross Premium Income of N21.4 Billion in 2017 at a CAGR of 6.3% over the last 5 years.
-              </p>
-            </div>
-            <div class="col-md-2 text-left mb-2 px-4">
-              <h3 class="heading heading--secondary white">N12B</h3>
-              <p class="paragraph small">
-                Gross Premium Income of N21.4 Billion in 2017 at a CAGR of 6.3% over the last 5 years.
-              </p>
-            </div>
-          </div> -->
         </div>
 
         <a href="#" class="btn btn--link white mt-4">View financial reports &raquo;</a>
@@ -476,15 +444,6 @@
               </div>
             </div>
           </div>
-
-          <!-- <div class="row align-items-center">
-            <div class="col-md-6 ">
-              <img src="../images/clients/client.png" alt="client" class="img-fluid" />
-            </div>
-            <div class="col-md-6 ">
-              <img src="../images/clients/client.png" alt="client" class="img-fluid" />
-            </div>
-          </div> -->
         </div>
       </section>
 
@@ -494,42 +453,72 @@
             <h3 class="section__heading">From our news desk</h3>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4 mb-5">
               <div class="news">
                 <figure class="news__cover-wrapper ">
                   <img class="news__cover" src="../images/press/aiico-student.jpg" />
                 </figure>
-                <span class="news__date">February 20, 2019</span>
-                <a href="single-news.php" class="news__headline">AIICO empowers students with work tools</a>
-                <p class="paragraph news__excerpt">
-                  As part of efforts to ignite passion for science and technology innovation in Nigerian youths, AIICO
-                  Insurance Plc. has donated thousands of mathematical sets and calculators to pupils and students in
-                  over thirty Primary and Secondary schools across 6 states of the Federation.
-                </p>
-                <a href="single-news.php" class="news__cta">
-                  Read more &raquo;
-                </a>
+                <div class="news__body">
+                  <span class="news__date">February 20, 2019</span>
+                  <a href="single-news.php" class="news__headline">AIICO empowers students with work tools</a>
+                  <p class="paragraph news__excerpt">
+                    As part of efforts to ignite passion for science and technology innovation in Nigerian youths, AIICO
+                    Insurance Plc. has donated thousands of mathematical sets and calculators to pupils and students in
+                    over thirty Primary and Secondary schools across 6 states of the Federation..
+                  </p>
+                  <a href="single-news.php" class="news__cta">
+                    Read more &raquo;
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="col-md-6">
+
+            <div class="col-md-4 mb-5">
               <div class="news">
                 <figure class="news__cover-wrapper ">
                   <img class="news__cover" src="../images/press/payment-channels.jpg" />
                 </figure>
-                <span class="news__date">September 10, 2018</span>
-                <a href="single-news.php" class="news__headline">
-                  AIICO's payment channel
-                </a>
-                <p class="paragraph news__excerpt">
-                  For confirmation of payments (cash & cheques) made directly to AIICO's bank accounts, cashiers confirm
-                  the payment and updates customer's policy(ies), receipt is sent via email to the customer/agent.
-                </p>
-                <a href="single-news.php" class="news__cta">
-                  Read more &raquo;
-                </a>
+                <div class="news__body">
+                  <span class="news__date">September 5, 2018</span>
+                  <a href="single-news.php" class="news__headline">
+                    AIICO's payment channel
+                  </a>
+                  <p class="paragraph news__excerpt">
+                    For confirmation of payments (cash & cheques) made directly to AIICO's bank accounts, cashiers
+                    confirm the payment and updates customer's policy(ies), receipt is sent via email to the
+                    customer/agent..
+                  </p>
+                  <a href="single-news.php" class="news__cta">
+                    Read more &raquo;
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+              <div class="news">
+                <figure class="news__cover-wrapper ">
+                  <img class="news__cover" src="../images/press/aiico-wema-partnership.jpg" />
+                </figure>
+                <div class="news__body">
+                  <span class="news__date">September 10, 2018</span>
+                  <a href="single-news.php" class="news__headline">
+                      AIICO in strategic partnership with WEMA bank
+                  </a>
+                  <p class="paragraph news__excerpt">
+                      AIICO Insurance Plc., a leading Insurance Company in Nigeria has concluded arrangements with Wema
+                      Bank to increase access to retail insurance products leveraging on the bank’s robust and efficient
+                      retail distribution network..
+                  </p>
+                  <a href="single-news.php" class="news__cta">
+                    Read more &raquo;
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-    </main><?php include 'php-component/footer.php' ?>
+    </main>
+
+<?php include 'php-component/footer.php' ?>

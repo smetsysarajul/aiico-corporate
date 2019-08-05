@@ -18,3 +18,7 @@
       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
       <script src="../js/services.js"></script>
     <?php endif ?>
+    <?php if ($page=='home'): ?>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script src="../js/slider.js"></script>
+    <?php endif ?>

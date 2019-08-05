@@ -20,8 +20,8 @@
 
     &-link {
       color: $color-light-grey;
-      font-size: 14px;
-      height: 56px;
+      font-size: 0.9em;
+      height: 8rem;
       position: relative;
       text-transform: uppercase;
 
@@ -37,16 +37,14 @@
 
       &:hover {
         color: $color-red;
-
         &::after {
-          background-color: $color-blue;
+          background-color: $color-pink;
         }
       }
 
       &.active {
         color: $color-blue;
         background-color: $color-blue-light;
-        // margin-bottom: 2em;
         border-radius: 5px;
 
         &::after {

@@ -1,10 +1,10 @@
 <?php 
   $page='album';
-  $pageTitle ='Albums | AIICO Insurance Plc.';
+  $pageTitle ='Xmas party in 2019 | AIICO Insurance Plc.';
  ?>
 <?php include 'php-component/header.php' ?>
 
-    <main>
+   <main>
       <section class="page-intro page-intro--locations">
         <div class="container">
           <div class="row">
@@ -14,56 +14,101 @@
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item"><a href="#">About us</a></li>
                   <li class="breadcrumb-item"><a href="#">Media</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Albums</li>
+                  <li class="breadcrumb-item"><a href="image-gallery.html">Image Gallery</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Xmas party in 2019</li>
                 </ol>
               </nav>
-              <h3 class="page-title">Albums</h3>
+              <h3 class="page-title">Xmas party in 2019</h3>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section section__albums">
+      <section class="section">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 mb-5">
-              <a href="./album-single.html" class="image__card">
-                <img src="../images/album.png" alt="album" class="image__item" />
-                <div class="image__desc">
-                  <p class="paragraph mb-0">Xmas party in 2019</p>
-                </div>
-              </a>
+            <div class="col-12">
+              <h3 class="heading heading--secondary">Xmas party in 2019</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-5">
+              <img
+                src="./images/album.png"
+                alt="album"
+                class="image__item"
+                data-toggle="modal"
+                data-target="#pictureModal"
+              />
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <img
+                src="./images/album.png"
+                alt="album"
+                class="image__item"
+                data-toggle="modal"
+                data-target="#pictureModal"
+              />
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <img
+                src="./images/album.png"
+                alt="album"
+                class="image__item"
+                data-toggle="modal"
+                data-target="#pictureModal"
+              />
             </div>
 
-            <div class="col-md-6 mb-5">
-              <a href="../album-single.html" class="image__card">
-                <img src="../images/album.png" alt="album" class="image__item" />
-                <div class="image__desc">
-                  <p class="paragraph mb-0">Xmas party in 2019</p>
-                </div>
-              </a>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <img
+                src="./images/album.png"
+                alt="album"
+                class="image__item"
+                data-toggle="modal"
+                data-target="#pictureModal"
+              />
             </div>
-
-            <div class="col-md-6 mb-5">
-              <a href="../album-single.html" class="image__card">
-                <img src="../images/album.png" alt="album" class="image__item" />
-                <div class="image__desc">
-                  <p class="paragraph mb-0">Xmas party in 2019</p>
-                </div>
-              </a>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <img
+                src="./images/album.png"
+                alt="album"
+                class="image__item"
+                data-toggle="modal"
+                data-target="#pictureModal"
+              />
             </div>
-            
-            <div class="col-md-6 mb-5">
-              <a href="../album-single.php" class="image__card">
-                <img src="../images/album.png" alt="album" class="image__item" />
-                <div class="image__desc">
-                  <p class="paragraph mb-0">Xmas party in 2019</p>
-                </div>
-              </a>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <img
+                src="./images/album.png"
+                alt="album"
+                class="image__item"
+                data-toggle="modal"
+                data-target="#pictureModal"
+              />
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Modal -->
+      <div
+        class="modal fade video__modal"
+        id="pictureModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="pictureModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="./images/album.png" alt="album" class="image__item image__item--big" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
 <?php include 'php-component/footer.php' ?>

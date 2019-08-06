@@ -4,7 +4,7 @@
  ?>
 <?php include 'php-component/header.php' ?>
 
-   <main>
+    <main>
       <section class="page-intro page-intro--locations">
         <div class="container">
           <div class="row">
@@ -14,7 +14,7 @@
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item"><a href="#">About us</a></li>
                   <li class="breadcrumb-item"><a href="#">Media</a></li>
-                  <li class="breadcrumb-item"><a href="image-gallery.html">Image Gallery</a></li>
+                  <li class="breadcrumb-item"><a href="image-gallery.php">Image Gallery</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Xmas party in 2019</li>
                 </ol>
               </nav>
@@ -35,7 +35,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="./images/album.png"
+                src="../images/album.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -44,7 +44,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="./images/album.png"
+                src="../images/album.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -53,7 +53,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="./images/album.png"
+                src="../images/album.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -63,7 +63,7 @@
 
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="./images/album.png"
+                src="../images/album.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -72,7 +72,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="./images/album.png"
+                src="../images/album.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -81,7 +81,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="./images/album.png"
+                src="../images/album.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -104,7 +104,7 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-body p-0">
-              <img src="./images/album.png" alt="album" class="image__item image__item--big" />
+              <img src="../images/album.png" alt="album" class="image__item image__item--big" />
             </div>
           </div>
         </div>

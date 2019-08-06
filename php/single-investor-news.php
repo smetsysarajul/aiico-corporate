@@ -1,3 +1,7 @@
+<?php 
+  $page ="single-investors"; 
+  $pageTitle='Shareholder’s Information | AIICO Insurance Plc.';
+?>
 <?php include 'php-component/header.php' ?>
 
     <main>

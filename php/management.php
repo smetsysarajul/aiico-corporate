@@ -1,3 +1,7 @@
+<?php 
+    $page='management';
+    $pageTitle ="Executive Management | AIICO Insurance Plc."
+ ?>
 <?php include 'php-component/header.php' ?>
 
     <main>

@@ -1,3 +1,7 @@
+<?php 
+  $page ="vacancies"; 
+  $pageTitle='Vacancies | AIICO Insurance Plc.';
+?>
 <?php include 'php-component/header.php' ?>
 
     <main>

@@ -1,3 +1,7 @@
+<?php 
+  $page ="single-news"; 
+  $pageTitle='AIICO empowers students with work tools';
+?>
 <?php include 'php-component/header.php' ?>
 
     <main>

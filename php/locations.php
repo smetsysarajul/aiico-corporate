@@ -1,3 +1,7 @@
+<?php 
+    $page='location';
+    $pageTitle ="Business Locations | AIICO Insurance Plc."
+ ?>
 <?php include 'php-component/header.php' ?>
 
     <main>

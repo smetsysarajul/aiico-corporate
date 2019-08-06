@@ -1,3 +1,7 @@
+<?php 
+  $page ="videos"; 
+  $pageTitle='Videos | AIICO Insurance Plc.';
+?>
 <?php include 'php-component/header.php' ?>
 
     <main>

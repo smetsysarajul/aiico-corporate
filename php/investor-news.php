@@ -1,3 +1,7 @@
+<?php 
+    $page='investor-news';
+    $pageTitle ="Investors News | AIICO Insurance Plc."
+ ?>
 <?php include 'php-component/header.php' ?>
 
     <main>

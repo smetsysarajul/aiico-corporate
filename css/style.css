@@ -214,6 +214,18 @@ body {
     .btn--primary:hover {
       background-color: #d90000;
       box-shadow: 0 4px 5px 0 rgba(114, 25, 25, 0.2), 0 6px 20px 0 rgba(192, 12, 12, 0.19); }
+    .btn--primary-blue {
+      background-color: #003896;
+      color: #ffffff !important; }
+      .btn--primary-blue:hover {
+        background-color: #001230;
+        color: #ffffff !important; }
+    .btn--primary-green {
+      background-color: #219653;
+      color: #ffffff !important; }
+      .btn--primary-green:hover {
+        background-color: #0f4225;
+        color: #ffffff !important; }
   .btn--secondary {
     background-color: transparent;
     border: 0.2rem solid #003896;
@@ -229,7 +241,7 @@ body {
       background-color: #ffffff;
       color: #3a95ff !important; }
   .btn--tertiary {
-    background-color: #4A90E2;
+    background-color: #4a90e2;
     color: #ffffff !important; }
     .btn--tertiary:hover {
       background-color: #003896; }
@@ -304,7 +316,7 @@ body {
 .general-form .form-label {
   margin-bottom: 1.5rem; }
   .general-form .form-label .star {
-    color: #D0021B;
+    color: #d0021b;
     margin-right: 1rem; }
 
 .general-form .text-box {
@@ -368,6 +380,25 @@ body {
 
 .general-form .submit-btn {
   padding: 1.5rem 10rem; }
+
+.claims-form .form-desc {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem; }
+
+.claims-form .form-label {
+  margin-bottom: 0; }
+
+.claims-form .form-name {
+  color: #1890ff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-align: left; }
+
+.claims-form .text-box,
+.claims-form .text-area {
+  border: 1px solid #2266b6; }
 
 .image-wrapper {
   width: 100%; }
@@ -1240,6 +1271,18 @@ Support
 @media screen and (max-width: 768px) {
   .stat-figure {
     width: 100%; } }
+
+.claims-form {
+  display: none;
+  padding: 3rem; }
+  .claims-form.show {
+    display: block; }
+  .claims-form .heading--secondary {
+    font-weight: 100; }
+  .claims-form-inner {
+    background-color: #e1e9f0;
+    margin-top: 6rem;
+    padding: 6rem; }
 
 .error-page {
   position: relative; }

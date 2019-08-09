@@ -14,6 +14,26 @@
       background-color: darken($color-red, 20%);
       box-shadow: 0 4px 5px 0 rgba(114, 25, 25, 0.2), 0 6px 20px 0 rgba(192, 12, 12, 0.19);
     }
+
+    &-blue {
+      background-color: $color-blue;
+      color: $color-white !important;
+
+      &:hover {
+        background-color: darken($color-blue, 20%);
+        color: $color-white !important;
+      }
+    }
+
+    &-green {
+      background-color: #219653;
+      color: $color-white !important;
+
+      &:hover {
+        background-color: darken(#219653, 20%);
+        color: $color-white !important;
+      }
+    }
   }
 
   &--secondary {
@@ -41,7 +61,7 @@
   }
 
   &--tertiary {
-    background-color: #4A90E2;
+    background-color: #4a90e2;
     color: $color-white !important;
 
     &:hover {

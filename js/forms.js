@@ -3,6 +3,10 @@ $(document).ready(function() {
     $("#auto-insurance-form, #life-insurance-form, #travel-insurance-form").hide();
   }
 
+  function resetInvestorsView() {
+    $("#shareholders-view, #financial-view, #investors-view").hide();
+  }
+
   function hideOtherAutoSteps() {
     $("#auto-section-two, #auto-section-three, #auto-section-four").hide();
   }
@@ -61,5 +65,23 @@ $(document).ready(function() {
   $("#auto-step-4").click(function() {
     resetAllAuto();
     $("#auto-section-four").show();
+  });
+
+  // Handle Financial
+  $("#financial-tab").click(function() {
+    resetInvestorsView();
+    $("#financial-view").show();
+  });
+
+  // Handle Investor
+  $("#investors-tab").click(function() {
+    resetInvestorsView();
+    $("#investors-view").show();
+  });
+
+  // Handle Shareholders
+  $("#shareholders-tab").click(function() {
+    resetInvestorsView();
+    $("#shareholders-view").show();
   });
 });

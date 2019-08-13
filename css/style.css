@@ -594,6 +594,10 @@ body {
   background-size: cover;
   padding-top: 50px;
   min-height: 250px; }
+  .page-intro--alt .breadcrumb-item {
+    color: #ffffff !important; }
+  .page-intro--alt .page-title {
+    color: #ffffff !important; }
   .page-intro .breadcrumb {
     background-color: transparent;
     font-size: 14px;
@@ -601,7 +605,7 @@ body {
     .page-intro .breadcrumb-item {
       color: #4a4a4a; }
       .page-intro .breadcrumb-item.active {
-        color: #3a95ff; }
+        color: #3a95ff !important; }
   .page-intro--locations {
     background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../images/location.png); }
   .page-intro .page-title {

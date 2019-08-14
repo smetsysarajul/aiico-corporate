@@ -53,26 +53,12 @@
         </div>
       </div>
 
-      <div class="header__navigation">
+      <div class="header__navigation hidden-tablet hidden-phone">
         <div class="container">
           <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="/">
               <img src="./images/logo.svg" class="logo" />
             </a>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-icon active" id="openNavBarIcon">
-                <i class="fas fa-bars"></i>
-              </span>
-            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
@@ -502,6 +488,482 @@
             </div>
           </nav>
         </div>
+      </div>
+
+      <div class="mobile__navigation hidden-desktop">
+        <nav class="navbar-mobile ">
+          <div class="container">
+            <div class="mb-3 mt-3">
+              <button class="navbar-toggler" type="button">
+                <span class="navbar-icon active" id="openNavBarIcon">
+                  <i class="fas fa-bars"></i>
+                </span>
+              </button>
+            </div>
+
+            <div class="navbar-mobile__header">
+              <a class="navbar-brand" href="/">
+                <img src="./images/logo.svg" class="logo" />
+              </a>
+              <a class="btn btn--primary ml-auto" href="#"> E-Business</a>
+            </div>
+          </div>
+
+          <div class="navbar-mobile__body">
+            <div class="container">
+              <div class="navbar-mobile__header">
+                <a class="navbar-brand" href="/">
+                  <img src="./images/logo.svg" class="logo" />
+                </a>
+                <button class="navbar-toggler" type="button">
+                  <span class="navbar-icon active" id="closeNavBarIcon">
+                    <i class="fas fa-times"></i>
+                  </span>
+                </button>
+              </div>
+
+              <div class="navbar-nav-block">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                      Individual
+                    </a>
+                    <div class="mobile-submenu">
+                      <div class="nav-header">
+                        <div class="nav-title">Individual</div>
+                      </div>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html">
+                            Annuity Plan
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html">
+                            Auto Insurance Plan
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="services.html">
+                            Endowment Plan
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Endowment Plan</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Cash Accumulation
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Credit Life Policy
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Education Legacy Assurance
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Flexible Endowment Plan
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Life Celebration Plan
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  New Income Investment
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            Life Plan
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Life Plan</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                  Credit Life Policy
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                  Mortgage Protection Plan
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="javascript:void(0)">
+                            Personal Accident Plan
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            Savings Plan
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Savings Plan</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                  Children’s Education Plan
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                  Term Assurance
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="javascript:void(0)">
+                            Travel Insurance Plan
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                      Business
+                    </a>
+
+                    <div class="mobile-submenu">
+                      <div class="nav-header">
+                        <div class="nav-title">Business</div>
+                      </div>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            Marine Industry
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Marine Industry</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Marine Insurance (cargo)
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Marine Hull & Machinery
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            Manufacturing Industry
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Manufacturing Industry</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Machinery Loss of Profit (MLOP)
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Marine Hull & Machinery
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html">
+                            Oil and Gas
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html">
+                            Agric. Insurance
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            General Business Plan
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">General Business Plan</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Group Life Insurance
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Group Education Plan
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Fire & Special Peril
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Cash Accumulation Plan
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Bond Insurance
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Goods-in-Transit
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Machinery Breakdown
+                                </a>
+                              </li>
+
+                              <li class="nav-item">
+                                <a class="nav-link" href="services.html">
+                                  Erection All Risk
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link mobile-dropdown active" href="javascript:void(0)">
+                      About us
+                    </a>
+                    <div class="mobile-submenu">
+                      <div class="nav-header">
+                        <div class="nav-title">About us</div>
+                      </div>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            Our Company
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Our Company</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="about.html">
+                                  About AIICO
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="mission.html">
+                                  Mission and Vision
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            Leadership
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Leadership</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="corperate-governance.html">
+                                  Corperate Governance
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="board.html">
+                                  Board of Directors
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="management.html">
+                                  Executive Management
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                            Careers
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Careers</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="culture.html">
+                                  Our Culture
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="vacancies.html">
+                                  Vacancies
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="entreneurship.html">
+                                  Entreneurship
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link mobile-dropdown active" href="javascript:void(0)">
+                            Media
+                          </a>
+                          <div class="mobile-submenu mobile-submenu--child">
+                            <div class="nav-header">
+                              <div class="nav-title">Media</div>
+                            </div>
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="news.html">
+                                  News and Events
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="image-gallery.html">
+                                  Image Gallery
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="videos.html">
+                                  Video Gallery
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="investor-relations.html">
+                            Investor Relations
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="locations.html">
+                            Business Locations
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                      Support
+                    </a>
+
+                    <div class="mobile-submenu">
+                      <div class="nav-header">
+                        <div class="nav-title">Support</div>
+                      </div>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="whistle-blower.html">
+                            Whistle Blower
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="form-download.html">
+                            Form Download
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="feedback-form.html">
+                            Customer Feedback form
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="update-info.html">
+                            Update your info
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="claims-center.html">
+                            Report a claim
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="claims-payment.html">
+                            Claims Payment
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact-us.html">
+                            Contact Us
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item claim-btn">
+                    <a class="btn btn--primary w-100" href="claims-center.html"> REPORT A CLAIM</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
 

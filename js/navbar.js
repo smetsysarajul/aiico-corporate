@@ -58,6 +58,7 @@ $(document).ready(function() {
     var mobileOffset = $(".navbar-nav-block").offset().top;
     var navHeight = $(window).height() - mobileOffset;
     $(".mobile__navigation .navbar-nav-block").css("height", navHeight + "px");
+    $(".mobile__navigation .mobile-submenu").css("height", navHeight + "px");
   });
 
   $("#closeNavBarIcon").on("click", function() {

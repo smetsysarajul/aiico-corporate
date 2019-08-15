@@ -9,3 +9,33 @@
 .filler {
   flex-grow: 1;
 }
+
+.clearfix {
+  clear: both;
+}
+
+.hidden {
+  &-desktop {
+    display: none;
+
+    @include respond(medium) {
+      display: block;
+    }
+  }
+
+  &-phone {
+    display: flex;
+
+    @include respond(small) {
+      display: none;
+    }
+  }
+
+  &-tablet {
+    display: flex;
+
+    @include respond(medium) {
+      display: none;
+    }
+  }
+}

@@ -1,110 +1,135 @@
 .general-form {
-    
-    .form-name {
-        color: $color-blue;
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 3rem;
-        margin-bottom: 5rem;
-        text-align: center;
-        text-transform: capitalize;
+  .form-name {
+    color: $color-blue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .form-group {
+    margin-bottom: 5rem;
+  }
+
+  .form-label {
+    margin-bottom: 1.5rem;
+
+    .star {
+      color: #d0021b;
+      margin-right: 1rem;
+    }
+  }
+
+  .text-box {
+    border: 1px solid #eeeeee;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 2.5rem 2rem;
+  }
+
+  .text-area {
+    border: 1px solid #eeeeee;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 2rem;
+  }
+
+  .select-box {
+    border: 1px solid #eeeeee;
+    font-size: 1.6rem;
+    height: 52px;
+    line-height: 2rem;
+    text-indent: 1rem;
+  }
+
+  .file-input {
+    display: none;
+  }
+
+  .custom-file-browser {
+    .file-browser-btn {
+      background-color: #eb5757;
+      border: 1px solid #eb5757;
+      border-radius: 0;
+      color: #ffffff;
+      font-size: 1.6rem;
+      line-height: 2rem;
+      padding: 1rem 2rem;
+
+      &__icon {
+        margin-right: 1rem;
+      }
     }
 
-    .form-group {
-        margin-bottom: 5rem;
+    .file-info {
+      font-size: 1.6rem;
+      line-height: 2rem;
+      margin-left: 1rem;
+    }
+  }
+
+  .form-check {
+    margin-bottom: 1.5rem;
+
+    .check-box {
     }
 
-    .form-label {
-        margin-bottom: 1.5rem;
+    .check-box-label {
+      margin-left: 1.5rem;
+    }
+  }
 
-        .star {
-            color: #D0021B;
-            margin-right: 1rem;
-        }
+  .form-section-heading {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+  }
+
+  .form-link {
+    color: $color-red;
+    display: block;
+    margin-bottom: 5rem;
+    text-decoration: none;
+
+    .star {
+      margin-right: 1rem;
+    }
+  }
+
+  .btn-section {
+    text-align: center;
+  }
+
+  .submit-btn {
+    padding: 1.5rem 10rem;
+  }
+}
+
+.claims-form {
+  .form {
+    &-desc {
+      border-bottom: 1px solid #c4c4c4;
+      margin-bottom: 3rem;
+      padding-bottom: 1rem;
     }
 
-    .text-box {
-        border: 1px solid #eeeeee;
-        font-size: 1.6rem;
-        line-height: 2rem;
-        padding: 2.5rem 2rem;
+    &-label {
+      margin-bottom: 0;
     }
 
-    .text-area {
-        border: 1px solid #eeeeee;
-        font-size: 1.6rem;
-        line-height: 2rem;
-        padding: 2rem;
+    &-name {
+      color: #1890ff;
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      text-align: left;
     }
+  }
 
-    .select-box {
-        border: 1px solid #eeeeee;
-        font-size: 1.6rem;
-        height: 52px;
-        line-height: 2rem;
-        text-indent: 1rem;
-    }
-
-    .file-input {
-        display: none;
-    }
-
-    .custom-file-browser {
-
-        .file-browser-btn {
-            background-color: #eb5757;
-            border: 1px solid #eb5757;
-            border-radius: 0;
-            color: #ffffff;
-            font-size: 1.6rem;
-            line-height: 2rem;
-            padding: 1rem 2rem;
-
-            &__icon {
-                margin-right: 1rem;
-            }
-        }
-
-        .file-info {
-            font-size: 1.6rem;
-            line-height: 2rem;
-            margin-left: 1rem;
-        }
-    }
-
-    .form-check {
-        margin-bottom: 1.5rem;
-
-        .check-box {
-        }
-
-        .check-box-label {
-            margin-left: 1.5rem;
-        }
-    }
-
-    .form-section-heading {
-        font-size: 1.6rem;
-        line-height: 2rem;
-        margin: 2rem 0;
-    }
-
-    .form-link {
-        color: $color-red;
-        display: block;
-        margin-bottom: 5rem;
-        text-decoration: none;
-
-        .star {
-            margin-right: 1rem;
-        }
-    }
-
-    .btn-section {
-        text-align: center;
-    }
-
-    .submit-btn {
-        padding: 1.5rem 10rem;
-    }
+  .text-box,
+  .text-area {
+    border: 1px solid #2266b6;
+  }
 }

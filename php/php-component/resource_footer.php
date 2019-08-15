@@ -11,6 +11,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/4f7ef06e39.js"></script>
     <script src="../js/navbar.js"></script>
     <script src="../js/truncate.js"></script>
     <?php if ($page=='services'): ?>

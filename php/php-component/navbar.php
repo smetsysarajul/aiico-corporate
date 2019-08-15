@@ -116,24 +116,12 @@
           );
        ?>
 
-      <div class="header__navigation">
+      <div class="header__navigation hidden-tablet hidden-phone">
         <div class="container">
           <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="/">
               <img src="../images/logo.svg" class="logo" />
             </a>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
@@ -229,4 +217,92 @@
             </div>
           </nav>
         </div>
+      </div>
+      <div class="mobile__navigation hidden-desktop">
+        <nav class="navbar-mobile ">
+          <div class="container">
+            <div class="mb-3 mt-3">
+              <button class="navbar-toggler" type="button">
+                <span class="navbar-icon active" id="openNavBarIcon">
+                  <i class="fas fa-bars"></i>
+                </span>
+              </button>
+            </div>
+
+            <div class="navbar-mobile__header">
+              <a class="navbar-brand" href="/">
+                <img src="../images/logo.svg" class="logo" />
+              </a>
+              <a class="btn btn--primary ml-auto" href="#"> E-Business</a>
+            </div>
+          </div>
+
+          <div class="navbar-mobile__body">
+            <div class="container">
+              <div class="navbar-mobile__header">
+                <a class="navbar-brand" href="/">
+                  <img src="../images/logo.svg" class="logo" />
+                </a>
+                <button class="navbar-toggler" type="button">
+                  <span class="navbar-icon active" id="closeNavBarIcon">
+                    <i class="fas fa-times"></i>
+                  </span>
+                </button>
+              </div>
+  
+              <div class="navbar-nav-block">
+                <ul class="navbar-nav">
+                  <!-- start the loop here -->
+                  <?php foreach ($navStructure as $linkName => $children): ?>
+                    <li class="nav-item">
+                    <a class="nav-link mobile-dropdown" href="<?= $children['double']?'javascript:void(0)':'#' ?>">
+                      <?php echo $linkName ?>
+                    </a>
+                    <div class="mobile-submenu">
+                      <div class="nav-header">
+                        <div class="nav-title"><?php echo $linkName ?></div>
+                      </div>
+                      <ul class="navbar-nav">
+                        <?php foreach ($children['children'] as $childName => $grandChildren): ?>
+                          <?php if (is_array($grandChildren)): ?>
+                            <li class="nav-item">
+                              <a class="nav-link mobile-dropdown" href="javascript:void(0)">
+                                <?php echo $childName ?>
+                              </a>
+                              <div class="mobile-submenu mobile-submenu--child">
+                                <div class="nav-header">
+                                  <div class="nav-title"><?php echo $childName ?></div>
+                                </div>
+                                <ul class="navbar-nav">
+                                  <?php foreach ($grandChildren as $label => $link): ?>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="<?php echo $link ?>">
+                                        <?php echo $label ?>
+                                      </a>
+                                    </li>
+                                  <?php endforeach ?>                                  
+                                </ul>
+                              </div>
+                            </li>
+                          <?php else: ?>
+                            <li class="nav-item">
+                          <a class="nav-link" href="<?php echo $grandChildren ?>">
+                            <?php echo $childName ?>
+                          </a>
+                        </li>
+                          <?php endif ?>
+                        <?php endforeach ?>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <?php endforeach ?>
+                  <li class="nav-item claim-btn">
+                    <a class="btn btn--primary w-100" href="claims-center.html"> REPORT A CLAIM</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>

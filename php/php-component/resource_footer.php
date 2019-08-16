@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/4f7ef06e39.js"></script>
     <script src="../js/navbar.js"></script>
     <script src="../js/truncate.js"></script>
+    <script src="../js/main.js"></script>
     <?php if ($page=='services'): ?>
       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/gumshoe@4.0/dist/gumshoe.polyfills.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>

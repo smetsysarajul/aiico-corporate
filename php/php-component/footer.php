@@ -1,124 +1,88 @@
+<?php 
+$footerTemplate =array
+(
+  'Services'=>array(
+    'Corporate Plans'=>'service.php',
+    'Personal/Individual'=>'service.php',
+    'Auto Insurance'=>'service.php',
+    'Life Plan'=>'service.php',
+    'Home'=>'service.php',
+  ),
+  'About aiico'=>array(
+    'Overview'=>'index.php',
+    'About Us'=>'about.php',
+    'Leadership'=>'board.php',
+    'Media'=>'album.php',
+    'Press Release'=>'news.php',
+  ),
+  'Investor Relation'=>array(
+    'Financial Reports'=>'corporate-governance.php',
+    'Why Invest?'=>'investor-relations.php',
+    'Annual Reports'=>'service.php',
+    'Investor News'=>'news.php',
+  ),
+  'Career'=>array(
+    'Apply Now'=>'vacancies.php?',
+    'Our Culture'=>'culture.php',
+    'Leadership'=>'board.php',
+    'Enterpreneurship'=>'enterpreneuship.php',
+    'Vacancy'=>'vacancies.php',
+  ),
+  'Quick links'=>array(
+    'Refer A Friend'=>'#',
+    'Whistle Blower'=>'whistle-blower.php',
+    'Claims Payment'=>'claims-payment.php',
+    'Business Location'=>'location.php',
+    'Financial Reports'=>'service.php',
+  ),
+  'help service'=>array(
+    'Contact Us'=>'contact-us.php?',
+    'Update Your Information'=>'update-info.php',
+    'Complaints Management'=>'#',
+    'Form Download'=>'form-download.php',
+    'Customer Feedback'=>'feedback.php',
+  )
+);
+
+ ?>
+
 <footer class="footer">
   <div class="footer__navbar">
     <div class="container">
-      <div class="row">
-        <div class="col-md-2 footer__nav-section">
-          <h5 class="footer__nav-title">Services</h5>
-          <ul class="footer__nav">
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link bold">Corporate Plans</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Personal / Individual</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Auto Insurance</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Life Plan</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Home Insurance</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-2 footer__nav-section">
-          <h5 class="footer__nav-title">About AIICO</h5>
-          <ul class="footer__nav">
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Overview</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">About us</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Leadership</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Media</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Press release</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-2 footer__nav-section">
-          <h5 class="footer__nav-title">Investor Relation</h5>
-          <ul class="footer__nav">
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">financial reports</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">why invest?</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">annual reports</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">investor news</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-2 footer__nav-section">
-          <h5 class="footer__nav-title">Career</h5>
-          <ul class="footer__nav">
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">apply now</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">our culture</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">leadership</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">enterpreneuship</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">vacancy</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-2 footer__nav-section">
-          <h5 class="footer__nav-title">Quick Links</h5>
-          <ul class="footer__nav">
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">refer a friend</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">whistle blower</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">claims payment</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">business locations</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">financial reports</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-2 footer__nav-section">
-          <h5 class="footer__nav-title">Help Service</h5>
-          <ul class="footer__nav">
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">contact us</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">update your information</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">complaints management</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">form download</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">customer feedback form</a>
-            </li>
-          </ul>
-        </div>
+      <div class="row  accordion" id="footerNavbarAccordion">
+        <?php foreach ($footerTemplate as $name => $children): ?>
+          <?php 
+            $displayName =str_replace(' ', '_', $name.'Collapse');
+            $displayHeading =str_replace(' ', '_', $name.'Heading');
+           ?>
+          <div class="col-md-2 footer__nav-section">
+            <div
+              class="footer__nav-section__head"
+              data-toggle=""
+              data-target="#<?php echo $displayName ?>"
+              aria-expanded="false"
+              aria-controls="<?php echo $displayName ?>"
+              id="<?php echo $displayHeading ?>"
+            >
+              <h4 class="footer__nav-section__head__title"><?php echo $name ?></h4>
+              <i class="fas fa-chevron-down footer__nav-section__head__icon"></i>
+            </div>
+            <div
+              class="footer__nav-section__collapse-wrapper"
+              id="<?php echo $displayName ?>"
+              aria-labelledby="<?php echo $displayHeading ?>"
+              data-parent="#footerNavbarAccordion"
+            >
+              <ul class="footer__nav">
+                <?php foreach ($children as $label => $link): ?>
+                  <li class="footer__nav-item">
+                    <a href="<?php echo $link ?>" class="footer__nav-link"><?php echo $label ?></a>
+                  </li>
+                <?php endforeach ?>
+              </ul>
+            </div>
+          </div>
+        <?php endforeach ?>
       </div>
     </div>
   </div>

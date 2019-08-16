@@ -1,6 +1,12 @@
 <?php 
+include 'service_data.php';
+$pageKey = @$_GET['p'];
+$pageContent = $serviceData[$pageKey];
+if (!$pageContent) {
+  # show the 404 page here
+}
   $page ="services"; 
-  $pageTitle='Services | AIICO Insurance Plc.'
+  $pageTitle=@$pageContent['page_title'];
 ?>
 <?php include 'php-component/header.php' ?>
 <link rel="stylesheet" href="css/service.css">
@@ -13,15 +19,15 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Individual Plans</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Auto Insurance Plan</li>
+                <li class="breadcrumb-item"><a href="<?php echo @$pageContent['parent']['link'] ?>"><?php echo @$pageContent['parent']['title'] ?></a></li>
+                <li class="breadcrumb-item active" aria-current="page"><?php echo $pageContent['page_name'] ?></li>
               </ol>
             </nav>
-            <h3 class="page-title1 pl-1">Auto-Insurance Plan</h3>
+            <h3 class="page-title1 pl-1"><?php echo $pageContent['top_page']['title'] ?></h3>
           </div>
         </div>
         <div class="col-md-6 text-left text-md-right service-image">
-          <img src="../images/auto-insurance.jpg" width="95%" alt="" />
+          <img src="../images/<?php echo $pageContent['top_page']['image'] ?>" width="95%" alt="" />
         </div>
       </div>
     </div>
@@ -93,183 +99,20 @@
         <div class="container">
           <div class="tab-content tabs__inner" id="myTabContent">
             <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
-              <div class="row">
-                <div class="col-md-6 d-flex align-items-center my-4">
-                  <div class="stat-figure">12k+</div>
-                  <div class="stat-desc text-uppercase">regular income till death guaranteed</div>
-                </div>
-                <div class="col-md-6 d-flex align-items-center my-4">
-                  <div class="stat-figure">&#36;30B</div>
-                  <div class="stat-desc text-uppercase px-3">regular income till death guaranteed</div>
-                </div>
-                <div class="col-md-6 d-flex align-items-center my-4">
-                  <div class="stat-figure">12k+</div>
-                  <div class="stat-desc text-uppercase">regular income till death guaranteed</div>
-                </div>
-                <div class="col-md-6 d-flex align-items-center my-4">
-                  <div class="stat-figure">&#36;30B</div>
-                  <div class="stat-desc text-uppercase px-3">regular income till death guaranteed</div>
-                </div>
-              </div>
-
-              <div class="row why__row py-5">
-                <div class="col-md-6 why__col">
-                  <div class="why__content">
-                    <h3 class="heading heading--secondary text-dark">Nothing to worry about</h3>
-
-                    <p class="paragraph">
-                      OneFi is on a mission to democratise access to finance by leveraging data and technology. Our
-                      lending process is fully online via the Carbon Mobile App.
-                    </p>
-
-                    <ul class="big-list mb-3">
-                      <li class="big-list__item">
-                        <span class="text-dark">Top five non-life insurance companies</span>
-                        <p class="paragraph text-secondary">
-                          We offer a wide range of products and services which are tailored towards our customers'
-                          needs.We offer a wide range of products and services which are tailored.
-                        </p>
-                      </li>
-                      <li class="big-list__item">
-                        <span class="text-dark">Only brand you need to trust</span>
-                        <p class="paragraph text-secondary">
-                          We offer a wide range of products and services which are tailored towards our customers'
-                          needs.We offer a wide range of products and services which are tailored.
-                        </p>
-                      </li>
-                      <li class="big-list__item">
-                        <span class="text-dark">Only brand you need to trust</span>
-                        <p class="paragraph text-secondary">
-                          We offer a wide range of products and services which are tailored towards our customers'
-                          needs.We offer a wide range of products and services which are tailored.
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="filler"></div>
-
-                <div class="col-md-5 why__col p-0">
-                  <div class="why__content h-100">
-                    <img class="services__image" src="../images/services/service.png" />
-                    <div class="services__overlay">
-                      <div class="services__image-icon"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <?php echo $pageContent['product'] ?>
             </div>
 
             <div class="tab-pane fade" id="benefit" role="tabpanel" aria-labelledby="benefit-tab">
-              <div class="row why__row align-items-center py-5">
-                <div class="col-md-5 why__col p-0">
-                  <div class="why__content">
-                    <figure>
-                      <img width="100%" src="../images/product-img.jpg" />
-                    </figure>
-                  </div>
-                </div>
-
-                <div class="col-md-7 why__col">
-                  <div class="why__content px-5">
-                    <h3 class="heading heading--secondary text-dark">What you stand to gain...</h3>
-
-                    <ul class="big-list mb-3">
-                      <li class="big-list__item">
-                        <span class="text-dark">Maturity</span>
-                        <p class="paragraph text-secondary">
-                          Total amount accumulated in the policy holder’s investment account.
-                        </p>
-                      </li>
-                      <li class="big-list__item">
-                        <span class="text-dark">Interest</span>
-                        <p class="paragraph text-secondary">
-                          Interested credited to the policyholder is an average savings rate of 3% per annum and per
-                          annum to a maximum of 5% per annum for policies that are on the books for more than a
-                          year.
-                        </p>
-                      </li>
-                      <li class="big-list__item">
-                        <span class="text-dark">Death Benefits</span>
-                        <p class="paragraph text-secondary">
-                          Guarantee chosen sum assured plus Total amount in an investment account
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <?php echo $pageContent['benefit'] ?>
             </div>
 
             <div class="tab-pane fade" id="premium" role="tabpanel" aria-labelledby="premium-tab">
-              <div class="row why__row align-items-center py-5">
-                <div class="col-md-5 why__col p-0">
-                  <div class="why__content">
-                    <figure>
-                      <img width="100%" src="../images/product-img.jpg" />
-                    </figure>
-                  </div>
-                </div>
-
-                <div class="col-md-7 why__col">
-                  <div class="why__content px-5">
-                    <h3 class="heading heading--services">Would you like to purchase this plan?</h3>
-
-                    <p class="paragraph">
-                      Interested credited to the policyholder is an average savings rate of 3% per annum and per
-                      annum to a maximum of 5% per annum for policies that are on the books for more than a
-                      year.Interested credited to the policyholder is an average savings rate of 3% per annum and
-                      per annum to a maximum of 5% per annum for policies that are on the books for more than a
-                      year.Interested credited to the policyholder is an average savings rate of 3% per annum and
-                      per annum to a maximum of 5% per annum for policies that are on the books for more than a
-                      year.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <?php echo $pageContent['premium'] ?>
             </div>
 
             <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
-              <div class="row why__row align-items-center py-5">
-                <div class="col-md-5 why__col p-0">
-                  <div class="why__content">
-                    <figure>
-                      <img width="100%" src="../images/product-img.jpg" />
-                    </figure>
-                  </div>
-                </div>
-
-                <div class="col-md-7 why__col">
-                  <div class="why__content px-5">
-                    <h3 class="heading heading--secondary text-dark">What you stand to gain...</h3>
-
-                    <ul class="big-list mb-3">
-                      <li class="big-list__item">
-                        <span class="text-dark">Maturity</span>
-                        <p class="paragraph text-secondary">
-                          Total amount accumulated in the policy holder’s investment account.
-                        </p>
-                      </li>
-                      <li class="big-list__item">
-                        <span class="text-dark">Interest</span>
-                        <p class="paragraph text-secondary">
-                          Interested credited to the policyholder is an average savings rate of 3% per annum and per
-                          annum to a maximum of 5% per annum for policies that are on the books for more than a
-                          year.
-                        </p>
-                      </li>
-                      <li class="big-list__item">
-                        <span class="text-dark">Death Benefits</span>
-                        <p class="paragraph text-secondary">
-                          Guarantee chosen sum assured plus Total amount in an investment account
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <?php echo $pageContent['other'] ?>
+             </div>
           </div>
         </div>
       </div>

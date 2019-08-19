@@ -141,6 +141,9 @@ body {
 .text-red {
   color: #ff4040 !important; }
 
+.text-blue {
+  color: #003896 !important; }
+
 .filler {
   flex-grow: 1; }
 
@@ -403,9 +406,12 @@ body {
   padding: 1.5rem 10rem; }
 
 .claims-form .form-desc {
-  border-bottom: 1px solid #c4c4c4;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   padding-bottom: 1rem; }
+
+.claims-form .form-divider {
+  border-top: 1px solid #c4c4c4;
+  margin-bottom: 3rem; }
 
 .claims-form .form-label {
   margin-bottom: 0; }

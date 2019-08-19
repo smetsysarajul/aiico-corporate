@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  window.scrollTo(0, 0);
+
   function resetView() {
     $("#auto-insurance-form, #life-insurance-form, #travel-insurance-form").hide();
   }
@@ -17,12 +19,16 @@ $(document).ready(function() {
 
   hideOtherAutoSteps();
 
+  var claimsPosition = $(".claims-tab").offset().top;
+
   // Handle claims tab click
   $(".claims-tab").click(function() {
     $(this).addClass("active");
     $(".claims-tab")
       .not(this)
       .removeClass("active");
+
+    window.scrollTo(0, claimsPosition - 200);
   });
 
   // Handle Auto Insurance

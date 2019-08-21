@@ -72,6 +72,18 @@
   }
 }
 
+.investor-relations {
+  background: #f0f6fd;
+
+  .section__news {
+    background-color: transparent;
+  }
+
+  &-view {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .stat-figure {
     width: 100%;

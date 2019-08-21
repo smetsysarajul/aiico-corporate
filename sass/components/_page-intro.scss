@@ -5,6 +5,18 @@
   padding-top: 50px;
   min-height: 250px;
 
+  &--alt {
+    .breadcrumb {
+      &-item {
+        color: $color-white !important;
+      }
+    }
+
+    .page-title {
+      color: $color-white !important;
+    }
+  }
+
   .breadcrumb {
     background-color: transparent;
     font-size: 14px;
@@ -14,7 +26,7 @@
       color: $color-grey;
 
       &.active {
-        color: $color-blue-skye;
+        color: $color-blue-skye !important;
       }
     }
   }

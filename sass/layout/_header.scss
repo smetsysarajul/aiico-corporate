@@ -14,7 +14,7 @@ Support
     font-size: 1.4rem;
     padding: 1.2rem 0;
 
-    @include respond(small) {
+    @include respond(medium) {
       display: none;
     }
 
@@ -145,7 +145,6 @@ Support
       }
 
       .dropdown-item {
-        color: $color-blue;
         cursor: pointer;
         font-size: 1.4rem;
         font-weight: 500;
@@ -173,7 +172,7 @@ Support
           &:hover {
             & > .dropdown-link {
               &::after {
-                color: $color-red;
+                color: $color-red !important;
               }
             }
           }
@@ -187,16 +186,16 @@ Support
 
         &:hover {
           background-color: rgba(216, 216, 216, 0.14);
-          color: $color-red !important;
 
-          &::after {
-            color: $color-red;
+          & > .dropdown-link {
+            color: $color-red !important;
           }
         }
       }
 
       .dropdown-link {
         border-bottom: 1px solid #eeeeee;
+        color: $color-blue;
         display: block;
         padding: 1.5rem 1rem;
         padding-left: 0;
@@ -232,6 +231,8 @@ Support
 
           &--child {
             background: transparent;
+            height: auto;
+            min-height: 100%;
             position: absolute;
             right: 0;
             top: 0;
@@ -255,6 +256,137 @@ Support
         margin-left: 1rem;
         vertical-align: 0.3rem;
       }
+    }
+  }
+}
+
+.mobile__navigation {
+  .navbar-mobile {
+    &__body {
+      background: $color-white;
+      display: none;
+      height: 100%;
+      left: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding-top: 5rem;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+
+      .navbar-nav {
+        margin-top: 5rem;
+
+        &-block {
+          position: relative;
+        }
+
+        .nav {
+          &-header {
+            background: $color-blue;
+            padding: 1.5rem;
+          }
+
+          &-item {
+            border-bottom: 1px solid rgba($color: $color-blue, $alpha: 0.2);
+            padding: 1rem 0;
+
+            &.claim-btn {
+              border-bottom: none;
+              margin-top: 2rem;
+            }
+
+            &.open {
+              .mobile-submenu {
+                left: 0;
+                visibility: visible;
+              }
+
+              > .mobile-submenu--child {
+                left: 0 !important;
+                z-index: 120 !important;
+                visibility: visible !important;
+              }
+            }
+          }
+
+          &-link {
+            color: $color-blue;
+            font-size: 14px;
+            padding: 1rem 0;
+            position: relative;
+            text-transform: uppercase;
+
+            &.active {
+              color: $color-red;
+            }
+
+            &.mobile-dropdown {
+              &::after {
+                content: "\f105";
+                font-family: "Font Awesome 5 Free";
+                font-size: 20px;
+                font-weight: 900;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+            }
+          }
+
+          &-title {
+            color: $color-white;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: normal;
+            padding-left: 3rem;
+            position: relative;
+            text-transform: uppercase;
+
+            &::before {
+              content: "\f104";
+              font-family: "Font Awesome 5 Free";
+              font-size: 20px;
+              font-weight: 900;
+              left: 0;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+            }
+          }
+        }
+      }
+
+      .mobile-submenu {
+        background: $color-white;
+        height: 100%;
+        left: 100%;
+        min-height: 600px;
+        position: absolute;
+        top: 0;
+        transition: all 0.5s ease;
+        visibility: collapse;
+        width: 100%;
+        z-index: 100;
+
+        &--child {
+          left: 100% !important;
+          visibility: collapse !important;
+        }
+      }
+    }
+
+    &__header {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .navbar-icon {
+      color: #a0a0a0;
+      font-size: 20px;
     }
   }
 }

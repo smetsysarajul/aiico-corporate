@@ -339,7 +339,7 @@ body {
   text-transform: capitalize; }
 
 .general-form .form-group {
-  margin-bottom: 5rem; }
+  margin-bottom: 2.5rem; }
 
 .general-form .form-label {
   margin-bottom: 1.5rem; }
@@ -429,7 +429,7 @@ body {
 
 .claims-form .text-box,
 .claims-form .text-area {
-  border: 1px solid #2266b6; }
+  border: 1px solid #194f8b; }
 
 .image-wrapper {
   width: 100%; }
@@ -1309,7 +1309,7 @@ Support
   .section__heading {
     color: #003896;
     display: inline-block;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 700; }
     .section__heading:not(:last-child) {
       margin-bottom: 1.6rem; }
@@ -1389,7 +1389,7 @@ Support
     text-decoration: none; }
 
 .section__claims-form {
-  background-color: #f0f6fd; }
+  background-color: #c3ddff; }
 
 .section__location-faq {
   background: #fafcff;
@@ -1441,7 +1441,7 @@ Support
   .claims-form .heading--secondary {
     font-weight: 100; }
   .claims-form-inner {
-    background-color: #e1e9f0;
+    background-color: #d1e9ff;
     margin-top: 6rem;
     padding: 6rem; }
 

@@ -101,6 +101,10 @@ body {
   .heading--secondary {
     font-size: 3rem;
     line-height: 4rem; }
+  .heading--secondary2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #963f3f; }
   .heading--services {
     color: black;
     font-size: 4rem;
@@ -456,7 +460,7 @@ body {
 
 .check-list {
   list-style: none;
-  margin: 3rem 0 5rem; }
+  margin: 1rem 0 5rem; }
   .check-list__item {
     font-size: 1.6rem;
     line-height: 25px;
@@ -483,7 +487,7 @@ body {
 
 .big-list {
   list-style: none;
-  margin: 4rem 0 0; }
+  margin: 1.5rem 0 0; }
   .big-list__item {
     font-size: 2rem;
     font-weight: 600;
@@ -526,7 +530,7 @@ body {
       margin-bottom: 1.4rem; }
     .square-list__item::before {
       background-color: #ff4040;
-      content: '';
+      content: "";
       height: 8px;
       left: 0;
       position: absolute;
@@ -634,7 +638,7 @@ body {
       .page-intro .breadcrumb-item.active {
         color: #3a95ff !important; }
   .page-intro--locations {
-    background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../images/location.png); }
+    background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../shake.png); }
   .page-intro .page-title {
     color: #003896;
     font-size: 5rem;
@@ -1305,7 +1309,7 @@ Support
   .section__heading {
     color: #003896;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700; }
     .section__heading:not(:last-child) {
       margin-bottom: 1.6rem; }
@@ -1365,9 +1369,9 @@ Support
 .section__about-page {
   padding: 5rem 0; }
   .section__about-page.bg-blue {
-    background: #e8efff; }
+    background: #e8efffd0; }
   .section__about-page.bg-red {
-    background: #f8d1d1; }
+    background: #ffc7c77e; }
 
 .section__contact-info .contact-box .label {
   font-size: 1.8rem;

@@ -12,9 +12,26 @@ $(document).ready(function() {
   function hideOtherAutoSteps() {
     $("#auto-section-two, #auto-section-three, #auto-section-four").hide();
   }
+  function hideOtherTravelSteps() {
+    $("#travel-section-two, #travel-section-three, #travel-section-four").hide();
+  }
+  function hideOtherLifeSteps() {
+    $("#life-section-two, #life-section-three, #life-section-four").hide();
+  }
+
   function resetAllAuto() {
     $("#auto-section-one").hide();
     hideOtherAutoSteps();
+  }
+
+  function resetAllTravel() {
+    $("#travel-section-one").hide();
+    hideOtherTravelSteps();
+  }
+
+  function resetAllLife() {
+    $("#travel-section-one").hide();
+    hideOtherLifeSteps();
   }
 
   hideOtherAutoSteps();
@@ -72,6 +89,45 @@ $(document).ready(function() {
     resetAllAuto();
     $("#auto-section-four").show();
   });
+
+  // Handle Travel Steps
+  $("#travel-step-1, #travelback-step-1").click(function() {
+    resetAllTravel();
+    $("#travel-section-one").show();
+  });
+  $("#travel-step-2, #travelback-step-2").click(function() {
+    resetAlltravel();
+    $("#travel-section-two").show();
+  });
+
+  $("#travel-step-3, #travelback-step-3").click(function() {
+    resetAllTravel();
+    $("#travel-section-three").show();
+  });
+  $("#travel-step-4").click(function() {
+    resetAllTravel();
+    $("#travel-section-four").show();
+  });
+
+  // Handle Travel Steps
+  $("#life-step-1, #lifeback-step-1").click(function() {
+    resetAllTravel();
+    $("#life-section-one").show();
+  });
+  $("#life-step-2, #lifeback-step-2").click(function() {
+    resetAlltravel();
+    $("#life-section-two").show();
+  });
+
+  $("#life-step-3, #lifeback-step-3").click(function() {
+    resetAllTravel();
+    $("#life-section-three").show();
+  });
+  $("#life-step-4").click(function() {
+    resetAllTravel();
+    $("#life-section-four").show();
+  });
+  
 
   // Handle Financial
   $("#financial-tab").click(function() {

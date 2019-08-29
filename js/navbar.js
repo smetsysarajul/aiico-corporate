@@ -121,7 +121,9 @@ function stickServicesNav() {
     servicesNav.find(".nav").addClass("fixed-top");
     servicesNav.find(".nav").css("top", navbar.outerHeight(true) + "px");
     servicesNav.find(".nav").css("z-index", 1010);
+    servicesNav.find(".tabs__inner").css("margin-top", $("#servicesTab").outerHeight(true) + "px");
   } else {
     servicesNav.find(".nav").removeClass("fixed-top");
+    servicesNav.find(".tabs__inner").css("margin-top", "0px");
   }
 }

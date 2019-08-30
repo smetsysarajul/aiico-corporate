@@ -16,11 +16,19 @@ body {
   &--primary {
     font-size: 4rem;
     line-height: 5rem;
+
+    @include respond(medium) {
+      font-size: 3rem;
+    }
   }
 
   &--secondary {
     font-size: 3rem;
     line-height: 4rem;
+
+    @include respond(medium) {
+      font-size: 2rem;
+    }
   }
 
   &--secondary2 {

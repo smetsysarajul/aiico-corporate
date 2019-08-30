@@ -98,9 +98,15 @@ body {
   .heading--primary {
     font-size: 4rem;
     line-height: 5rem; }
+    @media only screen and (max-width: 48em) {
+      .heading--primary {
+        font-size: 3rem; } }
   .heading--secondary {
     font-size: 3rem;
     line-height: 4rem; }
+    @media only screen and (max-width: 48em) {
+      .heading--secondary {
+        font-size: 2rem; } }
   .heading--secondary2 {
     font-size: 2rem;
     line-height: 4rem;
@@ -473,6 +479,9 @@ body {
     line-height: 25px;
     padding-left: 45px;
     position: relative; }
+    @media only screen and (max-width: 48em) {
+      .check-list__item {
+        font-size: 1.4rem; } }
     .check-list__item:not(:last-child) {
       margin-bottom: 2rem; }
     .check-list__item::before {
@@ -541,6 +550,9 @@ body {
     line-height: 20px;
     padding-left: 20px;
     position: relative; }
+    @media only screen and (max-width: 48em) {
+      .square-list__item {
+        font-size: 1.4rem; } }
     .square-list__item:not(:last-child) {
       margin-bottom: 1.4rem; }
     .square-list__item::before {
@@ -559,6 +571,9 @@ body {
     line-height: 20px;
     padding-left: 10px;
     position: relative; }
+    @media only screen and (max-width: 48em) {
+      .numbered-list__item {
+        font-size: 1.4rem; } }
     .numbered-list__item:not(:last-child) {
       margin-bottom: 1.4rem; }
   .numbered-list:not(:last-child) {
@@ -573,6 +588,9 @@ body {
     line-height: 20px;
     padding-left: 40px;
     position: relative; }
+    @media only screen and (max-width: 48em) {
+      .pdf-list__item {
+        font-size: 1.4rem; } }
     .pdf-list__item__link:hover {
       color: #ff4040; }
     .pdf-list__item:not(:last-child) {
@@ -604,6 +622,9 @@ body {
       font-weight: 400;
       margin: 0;
       text-transform: uppercase; }
+      @media only screen and (max-width: 48em) {
+        .download-list__item__title {
+          font-size: 1.4rem; } }
     .download-list__item__link {
       background-color: #3a95ff;
       border-radius: 0.5rem;
@@ -659,19 +680,25 @@ body {
     font-size: 5rem;
     font-weight: 700;
     line-height: 5rem; }
+    @media only screen and (max-width: 48em) {
+      .page-intro .page-title {
+        font-size: 3rem; } }
   .page-intro .page-title1 {
     color: #003896;
     font-size: 6rem;
     font-weight: 700;
     line-height: 5rem; }
+    @media only screen and (max-width: 48em) {
+      .page-intro .page-title1 {
+        font-size: 4rem; } }
   .page-intro .service-title {
     width: 30em; }
   .page-intro .service-image {
-    padding-right: 0 !important; }
-
-@media (min-width: 768px) {
-  .service-image {
-    margin-top: -50px; } }
+    padding-right: 0 !important;
+    margin-top: -50px; }
+    @media only screen and (max-width: 48em) {
+      .page-intro .service-image {
+        margin-top: 0; } }
 
 .main-carousel .carousel-item {
   position: relative; }

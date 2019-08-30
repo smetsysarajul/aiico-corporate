@@ -8,6 +8,10 @@
     padding-left: 45px;
     position: relative;
 
+    @include respond(medium) {
+      font-size: 1.4rem;
+    }
+
     &:not(:last-child) {
       margin-bottom: 2rem;
     }
@@ -94,6 +98,10 @@
     padding-left: 20px;
     position: relative;
 
+    @include respond(medium) {
+      font-size: 1.4rem;
+    }
+
     &:not(:last-child) {
       margin-bottom: 1.4rem;
     }
@@ -119,6 +127,10 @@
     padding-left: 10px;
     position: relative;
 
+    @include respond(medium) {
+      font-size: 1.4rem;
+    }
+
     &:not(:last-child) {
       margin-bottom: 1.4rem;
     }
@@ -139,6 +151,10 @@
     line-height: 20px;
     padding-left: 40px;
     position: relative;
+
+    @include respond(medium) {
+      font-size: 1.4rem;
+    }
 
     &__link {
       &:hover {
@@ -189,6 +205,10 @@
       font-weight: 400;
       margin: 0;
       text-transform: uppercase;
+
+      @include respond(medium) {
+        font-size: 1.4rem;
+      }
     }
 
     &__link {

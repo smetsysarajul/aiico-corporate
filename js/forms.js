@@ -30,11 +30,13 @@ $(document).ready(function() {
   }
 
   function resetAllLife() {
-    $("#travel-section-one").hide();
+    $("#life-section-one").hide();
     hideOtherLifeSteps();
   }
 
   hideOtherAutoSteps();
+  hideOtherTravelSteps()
+  hideOtherLifeSteps();
 
   var claimsPosition = $(".claims-tab").offset().top;
 
@@ -96,7 +98,7 @@ $(document).ready(function() {
     $("#travel-section-one").show();
   });
   $("#travel-step-2, #travelback-step-2").click(function() {
-    resetAlltravel();
+    resetAllTravel();
     $("#travel-section-two").show();
   });
 
@@ -111,20 +113,20 @@ $(document).ready(function() {
 
   // Handle Travel Steps
   $("#life-step-1, #lifeback-step-1").click(function() {
-    resetAllTravel();
+    resetAllLife();
     $("#life-section-one").show();
   });
   $("#life-step-2, #lifeback-step-2").click(function() {
-    resetAlltravel();
+    resetAllLife();
     $("#life-section-two").show();
   });
 
   $("#life-step-3, #lifeback-step-3").click(function() {
-    resetAllTravel();
+    resetAllLife();
     $("#life-section-three").show();
   });
   $("#life-step-4").click(function() {
-    resetAllTravel();
+    resetAllLife();
     $("#life-section-four").show();
   });
   

@@ -43,6 +43,11 @@
     padding-left: 70px;
     position: relative;
 
+    @include respond(medium) {
+      font-size: 1.8rem;
+      padding-left: 40px;
+    }
+
     &:not(:last-child) {
       margin-bottom: 3rem;
     }
@@ -63,6 +68,11 @@
       position: absolute;
       top: -2px;
       width: 40px;
+
+      @include respond(medium) {
+        height: 20px;
+        width: 20px;
+      }
     }
 
     .paragraph {

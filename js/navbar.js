@@ -99,14 +99,23 @@ $(document).ready(function() {
 
 window.onscroll = function() {
   stickNav();
+  stickNavMobile();
   stickServicesNav();
 };
 
 var navbar = $(".header__navigation");
+var navbar_mobile = $(".mobile__navigation");
 var servicesNav = $(".services-tab");
 
 var sticky = navbar.offset().top;
-var servicesSticky = servicesNav.offset() ? servicesNav.offset().top - navbar.outerHeight(true) * 2 : 0;
+var sticky_mobile = navbar_mobile.offset().top;
+var servicesSticky;
+
+if (window.outerWidth < 768) {
+  servicesSticky = servicesNav.offset() ? servicesNav.offset().top - navbar_mobile.outerHeight(true) * 2 : 0;
+} else {
+  servicesSticky = servicesNav.offset() ? servicesNav.offset().top - navbar.outerHeight(true) * 2 : 0;
+}
 
 function stickNav() {
   if (window.pageYOffset >= sticky) {
@@ -116,10 +125,22 @@ function stickNav() {
   }
 }
 
+function stickNavMobile() {
+  if (window.pageYOffset >= sticky_mobile) {
+    navbar_mobile.addClass("fixed-top");
+  } else {
+    navbar_mobile.removeClass("fixed-top");
+  }
+}
+
 function stickServicesNav() {
   if (window.pageYOffset >= servicesSticky) {
     servicesNav.find(".nav").addClass("fixed-top");
-    servicesNav.find(".nav").css("top", navbar.outerHeight(true) + "px");
+    if (window.outerWidth < 768) {
+      servicesNav.find(".nav").css("top", navbar_mobile.outerHeight(true) + "px");
+    } else {
+      servicesNav.find(".nav").css("top", navbar.outerHeight(true) + "px");
+    }
     servicesNav.find(".nav").css("z-index", 1010);
     servicesNav.find(".tabs__inner").css("margin-top", $("#servicesTab").outerHeight(true) + "px");
   } else {
@@ -127,3 +148,7 @@ function stickServicesNav() {
     servicesNav.find(".tabs__inner").css("margin-top", "0px");
   }
 }
+
+servicesNav.find(".nav-item").on("click", function() {
+  window.scrollTo(0, servicesSticky);
+});

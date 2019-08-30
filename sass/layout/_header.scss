@@ -261,6 +261,9 @@ Support
 }
 
 .mobile__navigation {
+  background: $color-white;
+  padding-bottom: 1rem;
+
   .navbar-mobile {
     &__body {
       background: $color-white;

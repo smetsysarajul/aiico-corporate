@@ -40,6 +40,10 @@
     font-size: 5rem;
     font-weight: 700;
     line-height: 5rem;
+
+    @include respond(medium) {
+      font-size: 3rem;
+    }
   }
 
   .page-title1 {
@@ -47,6 +51,10 @@
     font-size: 6rem;
     font-weight: 700;
     line-height: 5rem;
+
+    @include respond(medium) {
+      font-size: 4rem;
+    }
   }
 
   .service-title {
@@ -55,11 +63,10 @@
 
   .service-image {
     padding-right: 0 !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .service-image {
     margin-top: -50px;
+
+    @include respond(medium) {
+      margin-top: 0;
+    }
   }
 }

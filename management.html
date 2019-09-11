@@ -968,7 +968,10 @@
     </header>
 
     <main>
-      <section class="page-intro">
+      <section
+        class="page-intro page-intro--alt"
+        style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(./images/banner.jpg)"
+      >
         <div class="container">
           <div class="row">
             <div class="col">
@@ -979,6 +982,7 @@
                 </ol>
               </nav>
               <h3 class="page-title">Executive Management</h3>
+              <p class="page-desc">Aiico offers a variety of motor insurance </p>
             </div>
           </div>
         </div>
@@ -994,7 +998,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Edwin Igbiti</h5>
                   <span class="person__designation">Managing Director / C.E.O</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-1" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1008,7 +1012,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Babatunde Fajemirokun</h5>
                   <span class="person__designation">Executive Director, Operations</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-2" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1022,7 +1026,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Adewale Kadri</h5>
                   <span class="person__designation">Executive Director, Operations</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-3" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1036,7 +1040,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Sola Ajayi</h5>
                   <span class="person__designation">Executive Director, Operations</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-4" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1050,7 +1054,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Donald Kanu</h5>
                   <span class="person__designation">Company Secretary</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-5" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1064,7 +1068,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Abiodun Adebanjo</h5>
                   <span class="person__designation">Head, Risk Management Division</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-6" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1078,7 +1082,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Joseph Oduniyi</h5>
                   <span class="person__designation">Head, Non Life Technical</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-7" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1092,7 +1096,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Benson Ogunyamoju</h5>
                   <span class="person__designation">Head, Group Life Business</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-8" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1106,7 +1110,7 @@
                 <div class="person__info">
                   <h5 class="person__name">Olusanjo Shodimu</h5>
                   <span class="person__designation">Head, Shared Services Division</span>
-                  <button class="person__profile-btn" data-toggle="modal" data-target="#profileModal">
+                  <button class="person__profile-btn" id="management-9" data-toggle="modal" data-target="#profileModal">
                     view profile
                   </button>
                 </div>
@@ -1136,7 +1140,7 @@
                 <div class="full-profile__info">
                   <h5 class="person__name">Babatunde Fajemirokun</h5>
                   <span class="person__designation">Executive Director, Operations</span>
-                  <p class="paragraph my-5">
+                  <p class="paragraph my-5 person__bio">
                     Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining
                     AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance
                     Company, where he worked for several years. He is a seasoned professional with an inestimable depth
@@ -1145,7 +1149,7 @@
                     solution proffering, team-spirited leader with excellent inter-personal skills.
                   </p>
                   <h5 class="heading heading--tertiary">Educational Background</h5>
-                  <p class="paragraph">
+                  <p class="paragraph person__education">
                     Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in
                     Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered
                     Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside
@@ -1350,5 +1354,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/navbar.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

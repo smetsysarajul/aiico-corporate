@@ -2,13 +2,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
-  min-height: 250px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
 
   &--alt {
     .breadcrumb {
       &-item {
-        color: $color-white !important;
+        color: rgba($color: $color-white, $alpha: 0.8) !important;
       }
     }
 
@@ -20,13 +22,15 @@
   .breadcrumb {
     background-color: transparent;
     font-size: 14px;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
 
     &-item {
       color: $color-grey;
 
       &.active {
-        color: $color-blue-skye !important;
+        color: $color-white !important;
+        font-weight: 700;
       }
     }
   }
@@ -35,11 +39,23 @@
     background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../shake.png);
   }
 
-  .page-title {
-    color: $color-blue;
-    font-size: 5rem;
+  .page-desc {
+    color: $color-white;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 5rem;
+
+    @include respond(medium) {
+      font-size: 2rem;
+    }
+  }
+
+  .page-title {
+    color: $color-blue;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
 
     @include respond(medium) {
       font-size: 3rem;

@@ -160,26 +160,198 @@ $serviceData = array
 		(
 			'top_page'=>array
 			(
-				'title'=>'Enter the title here',
-				'image'=>'specify image path heere'
+				'title'=>'Annuity',
+				'image'=>'../images//auto-insurance.jpg'
 			),
-			'page_name'=>'the title of the page to displayed as breadcrumbs',
-			'parent'=>array('name'=>'link'),
+			'page_name'=>'Annuity',
+			// 'parent'=>array('name'=>'link'),
 			'product'=><<<EOD
-				insert the html code for product here
+				<div class="row why__row py-5">
+				  <div class="col-md-6 why__col">
+				    <div class="why__content">
+				      <h3 class="heading heading--services">About AIICO Annuity?</h3>
 
+				      <p class="paragraph">
+				        Annuity is a long-term investment that is issued by an insurance company like AIICO and is designed to help protect you from the risk of outliving your income. Through annuitization, your purchase payments (what you contribute) are converted into periodic payments that can last for life.
+				      </p>
+				      <p class="paragraph">
+				        An annuity plan from AIICO Insurance policy provides offers flexible plans to contribute into the fund that are also tax deductible and retirement earnings to suite your preference.
+				      </p>
+				      <p class="paragraph">
+				        There are two AIICO annuity plans to suit your needs. These are:
+
+				      </p>
+
+				      <ul class="big-list mb-3">
+				        <li class="big-list__item">
+				          <span class="text-dark">Deferred Annuity</span>
+				          <p class="paragraph text-secondary">
+				            This plan encourages self-discipline by saving for the rainy day. You can determine your earning at retirement and fund it effectively. There is a death benefit of a multiple of 5 times annual earnings when he becomes an annuitant.
+
+				          </p>
+				        </li>
+				        <li class="big-list__item">
+				          <span class="text-dark">Immediate Annuity</span>
+				          <p class="paragraph text-secondary">
+				            This can be taken if you have a bulk sum and want to receive your earnings immediately. This forestalls the risk of frivolous spending and secures a source of income when one is weak until death.  
+				          </p>
+				          <p class="paragraph text-secondary">
+				            Immediate annuity also includes the option for a spouse to continue receiving 75% of your annuity benefit after the annuitant’s demise.
+				          </p>
+				        </li>
+				      </ul>
+				    </div>
+				  </div>
+
+				  <div class="filler"></div>
+
+				  <div class="col-md-5 why__col p-0">
+				    <div class="why__content h-100">
+				      <img class="services__image" src="../images//services/service.png" />
+				      <div class="services__overlay">
+				        <div class="services__image-icon"></div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 			EOD 
 			,
 			'benefit'=><<<EOD
-				insert the html code for benefit here
+				<div class="row why__row align-items-center py-5">
+				  <div class="col-md-5 why__col p-0">
+				    <div class="why__content">
+				      <figure>
+				        <img width="100%" src="../images//product-img.jpg" />
+				      </figure>
+				    </div>
+				  </div>
 
+				  <div class="col-md-7 why__col">
+				    <div class="why__content px-5">
+				      <h3 class="heading heading--secondary text-dark">Why do I need annuity plan?</h3>
+				      <p class="paragraph">
+				        An annuity plan is a great way to look forward to retirement with confidence. You save on tax, get regular income till death guaranteed for 10 years and thereafter guaranteed for life. You could also surrender value for deferred annuity after one year. Moreover, annuitant’s life assurance cover is available.				      </p>
+				        <p class="paragraph">
+							Our annuity offers:
+				        </p>
+
+				      <ul class="big-list mb-3">
+				        <li class="big-list__item">
+				          <!-- <span class="text-dark">Maturity</span> -->
+				          <p class="paragraph text-dark">
+				           Opportunity to save towards a deferred regular annuity
+
+				          </p>
+				        </li>
+				        <li class="big-list__item">
+				          <!-- <span class="text-dark">Interest</span> -->
+				          <p class="paragraph text-dark">
+				            Lump sum or Annual premium payment can be applied for deferred regular annuity
+
+				          </p>
+				        </li>
+				        <li class="big-list__item">
+				          <!-- <span class="text-dark">Death Benefits</span> -->
+				          <p class="paragraph text-secondary">
+				            Death benefit payable if it occurs during deferment
+
+				          </p>
+				        </li>
+				        <li class="big-list__item">
+				          <!-- <span class="text-dark">Death Benefits</span> -->
+				          <p class="paragraph text-dark">
+				            No medical examination is required
+
+				          </p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">
+				        	Target income at retirement can be flat or increasing at 5% or 10% annually</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">
+				        	A plan for your retirement is developed
+				        	</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">
+				        	Premium Payment is flexible (i.e annual or single for deferred annuity) 
+
+				        	</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">Guaranteed regular income</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">Flexible Annuity Plan</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">Tax relief on contributions to reduce tax liability.</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">Survival at retirement: Regular income till death guaranteed for 10 years and thereafter guaranteed for life.</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">Death benefits payable if it occurs during and after deferment.</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">Surrender value options for deferred annuity after one year.</p>
+				        </li>
+				        <li class="big-list__item">
+				        	<p class="paragraph text-dark">Annuitant’s life Assurance covers option.</p>
+				        </li>
+				      </ul>
+				    </div>
+				  </div>
+				</div>
 			EOD,
 			
 			'premium'=><<<EOD
-				insert the html code for benefit here
+				<div class="row why__row align-items-center py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <ul class="check-list">
+			        <li class="check-list__item">Annual or Single</li>
+			
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img2.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
 
 			EOD,
 		),
+
+		'annuity_test'=>array
+			(
+				'top_page'=>array
+				(
+					'title'=>'Annuity',
+					'image'=>'../images//auto-insurance.jpg'
+				),
+				'page_name'=>'Annuity',
+				// 'parent'=>array('name'=>'link'),
+				'product'=><<<EOD
+					insert the html code for product here
+
+				EOD 
+				,
+				'benefit'=><<<EOD
+					insert the html code for benefit here
+
+				EOD,
+				
+				'premium'=><<<EOD
+					insert the html code for benefit here
+
+				EOD,
+			),
 
 )
 

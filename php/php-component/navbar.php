@@ -5,7 +5,7 @@
             (
               'double'=>true,
               'children'=>array(
-              'Annuity Plan'=>'services.php',
+              'Annuity Plan'=>'services.php?p=annuity',
               'Auto Insurance Plan'=>'services.php',
               'Endowment Plan'=>array
                 (

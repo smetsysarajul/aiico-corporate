@@ -133,5 +133,13 @@ $footerTemplate =array
     </div>
   </div>
 </footer>
-
+<style>
+  @media (max-width: 768px)
+  {
+    .footer__nav-section__head{
+      border-bottom: 1px solid #003896;
+      padding-bottom: 2rem;
+    }
+  }
+</style>
 <?php  include 'resource_footer.php' ?>

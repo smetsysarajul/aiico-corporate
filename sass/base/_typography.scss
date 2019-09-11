@@ -16,11 +16,25 @@ body {
   &--primary {
     font-size: 4rem;
     line-height: 5rem;
+
+    @include respond(medium) {
+      font-size: 3rem;
+    }
   }
 
   &--secondary {
     font-size: 3rem;
     line-height: 4rem;
+
+    @include respond(medium) {
+      font-size: 2rem;
+    }
+  }
+
+  &--secondary2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    color: rgb(150, 63, 63);
   }
 
   &--services {
@@ -38,6 +52,11 @@ body {
       position: absolute;
       top: 1rem;
       width: 1rem;
+    }
+
+    @include respond(medium) {
+      font-size: 2.4rem;
+      line-height: 3rem;
     }
   }
 
@@ -68,5 +87,9 @@ body {
   &.small {
     font-size: 1.2rem;
     line-height: 2rem;
+  }
+
+  @include respond(medium) {
+    font-size: 1.4rem !important;
   }
 }

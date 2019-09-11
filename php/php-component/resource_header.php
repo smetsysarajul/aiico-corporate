@@ -8,4 +8,4 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="shortcut icon" href="../favicon.ico" />

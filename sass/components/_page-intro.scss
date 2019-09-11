@@ -32,8 +32,7 @@
   }
 
   &--locations {
-    background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)),
-      url(../images/location.png);
+    background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../shake.png);
   }
 
   .page-title {
@@ -41,6 +40,10 @@
     font-size: 5rem;
     font-weight: 700;
     line-height: 5rem;
+
+    @include respond(medium) {
+      font-size: 3rem;
+    }
   }
 
   .page-title1 {
@@ -48,6 +51,10 @@
     font-size: 6rem;
     font-weight: 700;
     line-height: 5rem;
+
+    @include respond(medium) {
+      font-size: 4rem;
+    }
   }
 
   .service-title {
@@ -56,11 +63,10 @@
 
   .service-image {
     padding-right: 0 !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .service-image {
     margin-top: -50px;
+
+    @include respond(medium) {
+      margin-top: 0;
+    }
   }
 }

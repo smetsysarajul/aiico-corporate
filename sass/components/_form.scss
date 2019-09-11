@@ -10,7 +10,7 @@
   }
 
   .form-group {
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
   }
 
   .form-label {
@@ -110,9 +110,13 @@
 .claims-form {
   .form {
     &-desc {
-      border-bottom: 1px solid #c4c4c4;
-      margin-bottom: 3rem;
+      margin-bottom: 0;
       padding-bottom: 1rem;
+    }
+
+    &-divider {
+      border-top: 1px solid #c4c4c4;
+      margin-bottom: 3rem;
     }
 
     &-label {
@@ -130,6 +134,6 @@
 
   .text-box,
   .text-area {
-    border: 1px solid #2266b6;
+    border: 1px solid #194f8b;
   }
 }

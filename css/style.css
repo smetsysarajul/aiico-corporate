@@ -659,27 +659,40 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
-  min-height: 250px; }
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 400px; }
   .page-intro--alt .breadcrumb-item {
-    color: #ffffff !important; }
+    color: rgba(255, 255, 255, 0.8) !important; }
   .page-intro--alt .page-title {
     color: #ffffff !important; }
   .page-intro .breadcrumb {
     background-color: transparent;
     font-size: 14px;
-    margin-bottom: 2rem; }
+    margin-bottom: 2.5rem;
+    text-transform: uppercase; }
     .page-intro .breadcrumb-item {
       color: #4a4a4a; }
       .page-intro .breadcrumb-item.active {
-        color: #3a95ff !important; }
+        color: #ffffff !important;
+        font-weight: 700; }
   .page-intro--locations {
     background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../shake.png); }
-  .page-intro .page-title {
-    color: #003896;
-    font-size: 5rem;
+  .page-intro .page-desc {
+    color: #ffffff;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 5rem; }
+    @media only screen and (max-width: 48em) {
+      .page-intro .page-desc {
+        font-size: 2rem; } }
+  .page-intro .page-title {
+    color: #003896;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-bottom: 2.5rem; }
     @media only screen and (max-width: 48em) {
       .page-intro .page-title {
         font-size: 3rem; } }

@@ -159,16 +159,16 @@ EOD
 		(
 			'top_page'=>array
 			(
-				'title'=>'Annuity',
+				'title'=>'Annuity Plan',
 				'image'=>'../images//auto-insurance.jpg'
 			),
-			'page_name'=>'Annuity',
+			'page_name'=>'Annuity plan',
 			// 'parent'=>array('name'=>'link'),
 			'product'=><<<EOD
 				<div class="row why__row py-5">
 				  <div class="col-md-6 why__col">
 				    <div class="why__content">
-				      <h3 class="heading heading--services">About AIICO Annuity?</h3>
+				      <h3 class="heading heading--services">About AIICO Annuity...</h3>
 
 				      <p class="paragraph">
 				        Annuity is a long-term investment that is issued by an insurance company like AIICO and is designed to help protect you from the risk of outliving your income. Through annuitization, your purchase payments (what you contribute) are converted into periodic payments that can last for life.

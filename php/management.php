@@ -33,7 +33,7 @@
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Babatunde Fajemirokun</h5>
-                <span class="person__designation">Executive Director, Operations</span>
+                <span class="person__designation">Managing Director / Chief Executive Officer</span>
                 <button class="person__profile-btn" id="management-1" data-toggle="modal" data-target="#profileModal">
                   view profile
                 </button>

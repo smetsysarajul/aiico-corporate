@@ -692,7 +692,7 @@ body {
     .page-intro .breadcrumb-item {
       color: #4a4a4a; }
       .page-intro .breadcrumb-item.active {
-        color: #ffffff !important;
+        color: #ff4040 !important;
         font-weight: 700; }
   .page-intro--locations {
     background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.8)), url(../shake.png); }

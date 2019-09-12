@@ -328,7 +328,56 @@ $serviceData = array
 			EOD,
 		),
 
-		'annuity_test'=>array
+		'Personal_Accident'=>array
+			(
+				'top_page'=>array
+				(
+					'title'=>'Annuity',
+					'image'=>'../images//auto-insurance.jpg'
+				),
+				'page_name'=>'Annuity',
+				// 'parent'=>array('name'=>'link'),
+				'product'=><<<EOD
+					insert the html code for product here
+
+				EOD 
+				,
+				'benefit'=><<<EOD
+					insert the html code for benefit here
+
+				EOD,
+				
+				'premium'=><<<EOD
+					insert the html code for benefit here
+
+				EOD,
+			),
+
+			'education_legacy'=>array
+			(
+				'top_page'=>array
+				(
+					'title'=>'Education Legacy Assurance',
+					'image'=>'../images//auto-insurance.jpg'
+				),
+				'page_name'=>'Education Legacy Assurance',
+				'parent'=>array('Endowment Plan'=>'#'),
+				'product'=><<<EOD
+				Endowment product
+
+				EOD 
+				,
+				'benefit'=><<<EOD
+				Endowment benefit
+
+				EOD,
+				
+				'premium'=><<<EOD
+				Endowment premium
+
+				EOD,
+			),
+			'annuity_test'=>array
 			(
 				'top_page'=>array
 				(

@@ -6,30 +6,30 @@
               'double'=>true,
               'children'=>array(
               'Annuity Plan'=>'services.php?p=annuity',
-              'Auto Insurance Plan'=>'services.php',
+              'Auto Insurance Plan'=>'services.php?p=auto_insurance',
               'Endowment Plan'=>array
                 (
-                    'Cash Accummulation'=>'services.php?p=cash_accumulation',
-                    'Credit Life Policy'=>'services.php?p=credit_life',
-                    'Education Legacy Assurance'=>'services.php?p=credit_life',
+                    'Education Legacy Assurance'=>'services.php?p=education_legacy',
                     'Flexible Endowment Plan'=>'services.php?p=flexible_endowment',
-                    'Life Celebration Plan'=>'services.php?p=credit_life',
-                    'New Income Investment'=>'services.php?p=credit_life'
+                    'Life Celebration Plan'=>'services.php?p=life_celebration',
+                    'New Income Investment'=>'services.php?p=new_income'
                 ),
                 'Life Plan'=>array
                 (
                     'Credit Life Policy'=>'services.php?p=credit_life',
-                    'Mortgage Protection Plan'=>'services.php?p=credit_life',
+                    'Mortgage Protection Plan'=>'services.php?p=mortgage',
 
                 ),
-                'Personal Accident Plan'=>'services.php?p=credit_life',
+                'Personal Accident Plan'=>'services.php?p=personal_accident',
                 'Savings Plan'=>array
                 (
-                  'Children’s Education Plan'=>'services.php?p=credit_life',
-                  'Term Assurance'=>'services.php?p=credit_life'
-                ),
-
-                'Travel Insurance Plan'=>'services.php?p=credit_life'
+                  // 'Children’s Education Plan'=>'services.php?p=credit_life',
+                  'Term Assurance'=>'services.php?p=terms_assurance'
+                ), 'Travel Insurance Plans'=>array
+                (
+                  ' International Plan'=>'services.php?p=international',
+                  'Local Plans'=>'services.php?p=local'
+                )
               )
             ),
             'Business'=>array
@@ -43,24 +43,26 @@
                 ),
                 'Manufacturing Industry'=>array
                 (
-                    'Machinery Loss of Profit (MLOP)'=>'services.php?p=credit_life',
-                    'Marine Hull & Machinery'=>'services.php?p=credit_life',
+                    'Machinery Loss of Profit (MLOP)'=>'services.php?p=mlop',
+                    'Marine Hull & Machinery'=>'services.php?p=marine_hull',
 
                 ),
-                'Oil and Gas'=>'services.php?p=credit_life',
-                'Agric. Insurance'=>'services.php?p=credit_life',
+                'Oil and Gas'=>'services.php?p=oil_gas',
+                'Agric. Insurance'=>'services.php?p=agric',
                 'General Business Plan'=>array
                 (
-                  'Group Life Insurance'=>'services.php?p=credit_life',
-                  'Group Education Plan'=>'services.php?p=credit_life',
-                  'Fire & Special Peril'=>'services.php?p=credit_life',
-                  'Cash Accumulation Plan'=>'services.php?p=credit_life',
-                  'Bond Insurance'=>'services.php?p=credit_life',
-                  // 'Occupiers Liability'=>'services.php?p=credit_life',
-                  // 'Fidelity Guarantee'=>'services.php?p=credit_life',
-                  // 'Goods-in-Transit'=>'services.php?p=credit_life',
+                  'Group Life Insurance'=>'services.php?p=group_life',
+                  'Group Education Plan'=>'services.php?p=group_education',
+                  'Fire & Special Peril'=>'services.php?p=fire_peril',
+                  'Cash Accumulation Plan'=>'services.php?p=cash_accumulation',
+                  'Consequential Loss '=>'services.php?p=consequential_loss',
+                  'Contractor-All-Risk '=>'services.php?p=contractor',
+                  'Electronic Equipment Policy'=>'services.php?p=electronic_equipment',
+                  'Employer’s Liability'=>'services.php?p=employer_liability',
+                  'Erection-All-Risk '=>'services.php?p=erection_risk',
+                  'Fidelity Guarantee'=>'services.php?p=fidelity_guarantee',
+                  'Home Insurance'=>'services.php?p=home_insurance',
                   // 'Machinery Breakdown'=>'services.php?p=credit_life',
-                  // 'Erection All Risk'=>'services.php?p=credit_life',
                 )
               )
             )
@@ -98,7 +100,8 @@
                   'Investor News'=>'investor-news.php',
                   'Shareholders Info.'=>'shareholders-info.php'
                 ),
-                'Business Locations'=>'locations.php'
+                'Business Locations'=>'locations.php',
+                'Contact Us'=>'contact-us.php'
               )
             )            ,
             'Support'=>array

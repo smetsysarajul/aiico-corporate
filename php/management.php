@@ -29,7 +29,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/babatunde.jpg" alt="Babatunde Fajemirokun" />
+                <img class="person__avatar" src="../images/mgt/Babatunde.jpg" alt="Babatunde Fajemirokun" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Babatunde Fajemirokun</h5>
@@ -43,7 +43,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/adewale.jpg" alt="Adewale Kadri" />
+                <img class="person__avatar" src="../images/mgt/Adewale.jpg" alt="Adewale Kadri" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Adewale Kadri</h5>
@@ -57,7 +57,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/sola.jpg" alt="Sola Ajayi" />
+                <img class="person__avatar" src="../images/mgt/Sola.jpg" alt="Sola Ajayi" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Sola Ajayi</h5>
@@ -72,7 +72,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/donald.jpg" alt="Donald Kanu" />
+                <img class="person__avatar" src="../images/mgt/Donald.jpg" alt="Donald Kanu" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Donald Kanu</h5>
@@ -86,7 +86,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/adebanjo.jpg" alt="Abiodun Adebanjo" />
+                <img class="person__avatar" src="../images/mgt/Adebanjo.jpg" alt="Abiodun Adebanjo" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Abiodun Adebanjo</h5>
@@ -100,7 +100,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/oduniyi.jpg" alt="Joseph Oduniyi" />
+                <img class="person__avatar" src="../images/mgt/Oduniyi.jpg" alt="Joseph Oduniyi" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Joseph Oduniyi</h5>
@@ -114,7 +114,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/benson.jpg" alt="Benson Ogunyamoju" />
+                <img class="person__avatar" src="../images/mgt/Benson.jpg" alt="Benson Ogunyamoju" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Benson Ogunyamoju</h5>
@@ -128,7 +128,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/sanjo.jpg" alt="Olusanjo Shodimu" />
+                <img class="person__avatar" src="../images/mgt/Sanjo.jpg" alt="Olusanjo Shodimu" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Olusanjo Shodimu</h5>
@@ -143,34 +143,25 @@
       </div>
     </section>
 
-    <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
+    <div class="modal fade" id="profileModal" tabindex  ="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-body">
             <div class="full-profile">
               <div class="full-profile__picture">
                 <figure class="person__avatar-wrapper">
-                  <img class="person__avatar" src="./images/mgt/babatunde.jpg" />
+                  <img class="person__avatar" src="../images/mgt/babatunde.jpg" />
                 </figure>
               </div>
               <div class="full-profile__info">
-                <h5 class="person__name2">Babatunde Fajemirokun</h5>
-                <span class="person__designation2">Executive Director, Operations</span>
+                <h5 class="person__name2"></h5>
+                <span class="person__designation2"></span>
                 <p class="paragraph my-5 person__bio">
-                  Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served
-                  and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years.
-                  He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged
-                  across the industry. He has managed relationships between the company and several international partners
-                  and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.
+                 
                 </p>
                 <h5 class="heading heading--tertiary">Educational Background</h5>
                 <p class="paragraph person__education">
-                  Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University
-                  of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and
-                  a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to
-                  the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems
-                  Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A.
-                  He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN).
+                
                 </p>
               </div>
               <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">

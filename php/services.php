@@ -21,6 +21,7 @@ if (!$pageContent) {
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
+                
                 <li class="breadcrumb-item"><a href="<?php echo $pageContent['parent']['link'] ?>"><?php echo $pageContent['parent']['title'] ?></a></li>
                 <li class="breadcrumb-item active" aria-current="page"><?php echo $pageContent['top_page']['title'] ?></li>
               </ol>

@@ -302,17 +302,22 @@ body {
     cursor: pointer; }
 
 .person {
-  margin-bottom: 3rem;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
   .person__avatar-wrapper {
     border-top-left-radius: .4rem;
     border-top-right-radius: .4rem;
     margin: 0;
     overflow: hidden;
-    width: 100%; }
+    width: 100%;
+    height: 300px; }
   .person__avatar {
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    object-fit: cover;
+    object-position: center; }
   .person__info {
     background-color: #ffffff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);

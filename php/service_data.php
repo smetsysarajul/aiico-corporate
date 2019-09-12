@@ -68,7 +68,6 @@ $serviceData = array
 			      </ul>
 			    </div>
 			  </div>
-
 			  <div class="filler"></div>
 
 			  <div class="col-md-5 why__col p-0">
@@ -80,7 +79,7 @@ $serviceData = array
 			    </div>
 			  </div>
 			</div>
-			EOD 
+EOD
 			,
 			'benefit'=><<<EOD
 
@@ -126,8 +125,8 @@ $serviceData = array
 			    </div>
 			  </div>
 			</div>
-
-			EOD,
+EOD
+			,
 			
 			'premium'=><<<EOD
 			<div class="row why__row align-items-center py-5">
@@ -153,7 +152,7 @@ $serviceData = array
 			  </div>
 			</div>
 
-			EOD
+EOD
 		),
 // example for filling the data
 	'annuity'=>array
@@ -214,7 +213,7 @@ $serviceData = array
 				    </div>
 				  </div>
 				</div>
-			EOD 
+EOD
 			,
 			'benefit'=><<<EOD
 				<div class="row why__row align-items-center py-5">
@@ -304,7 +303,9 @@ $serviceData = array
 				    </div>
 				  </div>
 				</div>
-			EOD,
+EOD
+			
+			,
 			
 			'premium'=><<<EOD
 				<div class="row why__row align-items-center py-5">
@@ -325,7 +326,8 @@ $serviceData = array
 			  </div>
 			</div>
 
-			EOD,
+EOD
+			,
 		),
 
 		'Personal_Accident'=>array
@@ -340,17 +342,19 @@ $serviceData = array
 				'product'=><<<EOD
 					insert the html code for product here
 
-				EOD 
+EOD
 				,
 				'benefit'=><<<EOD
 					insert the html code for benefit here
 
-				EOD,
+EOD
+				,
 				
 				'premium'=><<<EOD
 					insert the html code for benefit here
 
-				EOD,
+EOD
+				,
 			),
 
 			'education_legacy'=>array
@@ -365,17 +369,19 @@ $serviceData = array
 				'product'=><<<EOD
 				Endowment product
 
-				EOD 
+EOD
 				,
 				'benefit'=><<<EOD
 				Endowment benefit
 
-				EOD,
+EOD
+				,
 				
 				'premium'=><<<EOD
 				Endowment premium
 
-				EOD,
+EOD
+				,
 			),
 			'annuity_test'=>array
 			(
@@ -389,20 +395,21 @@ $serviceData = array
 				'product'=><<<EOD
 					insert the html code for product here
 
-				EOD 
+EOD
 				,
 				'benefit'=><<<EOD
 					insert the html code for benefit here
 
-				EOD,
+EOD
+				,
 				
 				'premium'=><<<EOD
 					insert the html code for benefit here
 
-				EOD,
+EOD
+
 			),
 
 )
-
 
  ?>

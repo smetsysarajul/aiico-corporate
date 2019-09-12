@@ -29,3 +29,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
       <script src="../js/file-browser.js"></script>
     <?php endif ?>
+    <?php if ($page=='board'): ?>
+      <script src="../js/modal.js"></script>
+    <?php endif ?>
+      

@@ -162,7 +162,7 @@ EOD
 	'parent'=>array
 		(
 			'title'=>'Individual Plans',
-			'link'=>'#'
+			'link'=>''
 		),
 			'top_page'=>array
 			(
@@ -292,86 +292,456 @@ EOD
 		),
 
 		'personal_accident'=>array
-			(
+			(	'page_title'=>"Personal Accident | AIICO Insurance Plc.",
+			'page_name'=>'Personal Accident',
+	'parent'=>array
+		(
+			'title'=>'Individual Plans',
+			'link'=>''
+		),
 				'top_page'=>array
 				(
 					'title'=>'Personal Accident Plans',
-					'image'=>'../images//auto-insurance.jpg'
+					'image'=>'../images//services//personal1.jpg'
 				),
 				'page_name'=>'Personal Accident Plans',
 				// 'parent'=>array('name'=>'link'),
 				'product'=><<<EOD
-					Product for personal Accident
+				<div class="row why__row py-5">
+				  <div class="col-md-6 why__col">
+				    <div class="why__content">
+				      <h3 class="heading heading--services">AIICO Personal Accident</h3>
+
+				      <p class="paragraph">
+							Be prepared for the unexpected? No matter what precautions we take, accidents do happen. With AIICO Personal Accident Insurance Plan, you can protect yourself and/or your loved ones financially in the event that you suffer a serious accident or disability.   </p>
+				     
+							<ul class="check-list">
+							<li class="check-list__item">Loss of both feet</li>
+							<li class="check-list__item"> Loss of both hands</li>
+							<li class="check-list__item"> Loss of one hand and one foot</li>
+							<li class="check-list__item">Loss of one hand and one eye</li>
+							<li class="check-list__item"> Loss of one foot</li>
+							<li class="check-list__item">Loss of one hand</li>
+							<li class="check-list__item">Loss of one eye</li>
+						</ul>
+				    </div>
+				  </div>
+
+				  <div class="filler"></div>
+
+				  <div class="col-md-5 why__col p-0">
+				    <div class="why__content h-100">
+				      <img class="services__image" src="../images//services/annuity2.jpg" />
+				    
+				    </div>
+				  </div>
+				</div>
 
 EOD
 				,
 				'benefit'=><<<EOD
-			personal Accident benefit here
+				<div class="row why__row  py-5">
+				<div class="col-md-5 why__col p-0">
+					<div class="why__content">
+						<figure>
+							<img width="100%" src="../images//services/annuity3.jpg" />
+						</figure>
+					</div>
+				</div>
+
+				<div class="col-md-7 why__col">
+					<div class="why__content px-5">
+						<h3 class="heading heading--secondary text-dark">Why do I need th?</h3>
+						<p class="paragraph">
+							An annuity plan is a great way to look forward to retirement with confidence. You save on tax, get regular income till death guaranteed for 10 years and thereafter guaranteed for life. You could also surrender value for deferred annuity after one year. Moreover, annuitant’s life assurance cover is available.				      </p>
+							<p class="paragraph">
+						Our annuity offers:
+							</p>
+							<ul class="check-list">
+							<li class="check-list__item"> It is an affordable insurance </li>
+							<li class="check-list__item">No medical exam necessary</li>
+							<li class="check-list__item">It can be provided at low cost for ALL family members</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
 EOD
 				,
 				
 				'premium'=><<<EOD
-				personal Accident premium here
+				<div class="row why__row py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+					<h3 class="heading heading--secondary text-dark">Aunual or Single</h3>
+					<p class="paragraph">
+					Notes:
+On death of the policyholder before commencement of annuity payment, all premium paid are refunded with interest compounded of at least 3% per annum.
+On death of the annuitant after annuity payment commences, a lump sum of five (5) times the annual annuity at the point of death together with any balance resulting from guarantee becomes payable.
+</p>
+					</div>
+			
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//services//annuity3.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
 
 EOD
 				,
 			),
 
+
 			'education_legacy'=>array
 			(
+				'parent'=>array
+		(
+			'title'=>'Endowment Plans',
+			'link'=>''
+		),
 				'top_page'=>array
 				(
 					'title'=>'Education Legacy Assurance',
-					'image'=>'../images//auto-insurance.jpg'
+					'image'=>'../images//services//Education1.jpg'
 				),
 				'page_name'=>'Education Legacy Assurance',
 				'parent'=>array('Endowment Plan'=>'#'),
 				'product'=><<<EOD
-				Endowment product
+				<div class="row why__row py-5">
+				  <div class="col-md-6 why__col">
+				    <div class="why__content">
+				      <h3 class="heading heading--services">About Education Legacy Assurance...</h3>
+				      <p class="paragraph">
+				      Every Parent’s joy is ensuring that their children get quality education and is given the tools for them to pursue a fulfilling life in the future. AIICO Insurance Plc offers two (2) education policies to meet these needs. 
+They are:
+   </p>
+				    
+				    
+
+				      <ul class="big-list mb-3">
+				        <li class="big-list__item">
+				          <span class="text-dark">Children Education Plan (CEP)</span>
+				          <p class="paragraph text-secondary">
+									It is a savings plan that is designed to provide school fees at an earmarked educational milestone in the event of death or permanent disablement of the parent/guardian.
+				          </p>
+				        </li>
+				        <li class="big-list__item">
+				          <span class="text-dark">Education Legacy Assurance Plan (ELAP)</span>
+				          <p class="paragraph text-secondary">
+									It is a savings plan targeted towards financing the future education of a named child in the event of death or permanent disability of parent/guardian.  </p>
+				          <p class="paragraph text-secondary">
+				            Immediate annuity also includes the option for a spouse to continue receiving 75% of your annuity benefit after the annuitant’s demise.
+				          </p>
+				        </li>
+				      </ul>
+				    </div>
+					</div>
+			
+
+				  <div class="filler"></div>
+
+				  <div class="col-md-5 why__col p-0">
+				    <div class="why__content h-100">
+				      <img class="services__image" src="../images//services/education2.jpg" />
+				    </div>
+				  </div>
+				</div>
 
 EOD
 				,
 				'benefit'=><<<EOD
-				Endowment benefit
+				
 
+				<div class="row py-5">
+			  <div class="col-md-6 ">
+				<h3 class="heading heading--secondary text-dark">Children Education Plan (CEP)</h3>
+				<ul class="check-list">
+				<li class="check-list__item">Payment of a lump sum at maturity when the child enters University or Secondary School.</li>
+				<li class="check-list__item">Premium can be returned in the event of the child’s death before maturity of the plan.
+				</li>
+				<li class="check-list__item">The funds may be transferred to the benefit of another child of the policy holder.
+				</li>
+				<li class="check-list__item">Guaranteed payments of school fees in the event of death, total and permanent disablement of the parent/guardian.
+				</li>
+			
+			  </div>
+
+			  <div class="col-md-6 ">
+			    <div class="why__content px-5">
+					<h3 class="heading heading--secondary text-dark">Education Legacy Assurance Plan (ELAP)</h3>
+					<ul class="check-list">
+					<li class="check-list__item">Protect children from prematurely stopping their schooling arising from: Death of parent/ sponsor. Total Permanent Disability of parent/ Sponsor resulting from accident or critical illness of parent/ sponsor
+					.</li>
+					<li class="check-list__item">Period of policy can range from minimum of 8 years and maximum of 18 years.
+	
+					</li>
+					<li class="check-list__item">Maximum age at entry of parent/ sponsor 57 and at exit 65
+					</li>
+				</ul>
+			    </div>
+			  </div>
+			</div>
+			<div class="row text-center justify-content-center">
+			<h3  class="heading heading--secondary text-dark">Optional Withdrawal benefits:
+			</h3>
+			<ul class="check-list">
+			<li class="check-list__item">Cash Withdrawal – 20% from investment account balance in the 5th year and every 5year subject to a limit of 3 withdrawals.</li>
+	
+		</ul>
+		</div>
+			
 EOD
 				,
 				
 				'premium'=><<<EOD
-				Endowment premium
+				<div class="row why__row py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Secure your child’s future prospects now.
+
+						</h3>
+						<ul class="check-list">
+						<li class="check-list__item">
+						Frequency: Monthly, Quarterly, Half-yearly and Yearly
+					</li>	
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img2.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
 
 EOD
 				,
 			),
 
-			
+
+
+
 			'flexible_endowment'=>array
 			(
 				'top_page'=>array
 				(
 					'title'=>'Flexible Endowment Plans',
-					'image'=>'../images//auto-insurance.jpg'
+					'image'=>'../images//services/education2.jpg'
 				),
 				'page_name'=>'Flexible Endowment Plans',
 				'parent'=>array('Endowment Plan'=>'#'),
 				'product'=><<<EOD
-				Flexible Endowment Plans product
+				<div class="row why__row py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">About Flexible Endowment Plan
+
+						</h3>
+						<p class="paragraph">
+						This is an endowment plan that combines protection and investment. It provides guaranteed pay-outs at regular intervals in three instalments.
+					
+ </p>
+				
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			   
+			  </div>
+			</div>
 
 EOD
 				,
 				'benefit'=><<<EOD
-				Flexible Endowment Plans benefit
+				<div class="row py-5">
+			  <div class="col-md-6 ">
+				<h3 class="heading heading--secondary text-dark">Some of the Benefits</h3>
+				<ul class="check-list">
+				<li class="check-list__item">Provides for guaranteed pay-outs at regular intervals in three instalments.</li>
+				<li class="check-list__item">1st Payment
+				25% of face amount (1/3 of the term of the policy).
+				</li>
+				<li class="check-list__item">2nd Payment 
+				25% of face amount (2/3 of the term of the policy)
+				</li>
+				<li class="check-list__item">3rd Payment 
+				100% of the face amount (At maturity date)
+				</li>
+			
+				<li class="check-list__item">Provides for full payment of the face amount in the event of death of the policyholder during the period of insurance.
+				</li>
+			
+				<li class="check-list__item">Period of insurance ranges from 6, 9, 12, and 15 years.
+
+				</li>
+				<li class="check-list__item">Provides for annual reversionary bonus payable in addition to the face amount or earlier death at the rate of 4% or N40.00 per thousand.
+				</li>
+				<li class="check-list__item">Provides for cash values on the basic policy and the declared reversionary bonus..
+
+				</li>
+			
+			  </div>
+
+			  <div class="col-md-6 ">
+			    <div class="why__content px-5">
+					<h3 class="heading heading--secondary text-dark">Additional Riders:</h3>
+					<ul class="check-list">
+					<li class="check-list__item">Waiver of premium – This benefit comes to force at a time when a policyholder is unable to perform his normal duties as a result of either accident or critical illness for a minimum of six months. Premiums that fall due within such period are waived and the policyholder will not be charged for it.</li>
+					<li class="check-list__item">Permanent Total Disability – This covers the loss of body parts that make it impossible for the customer to continue to work as he used to. At this point, the policy is treated as being closed and the benefit is paid. Examples of such disability are loss of both eyes, both hands and both legs (if he is a footballer).
+					</li>	<li class="check-list__item">Accidental Death, Dismemberment and Weekly Indemnity Rider – This covers loss of parts of the body following an accident as stated in the schedule of Indemnity attached to the policy document. The principal sum under this benefit rider is N2,000,000.00.
+
+	
+					</li>
+				
+				</ul>
+			    </div>
+			  </div>
+			</div>
 
 EOD
 				,
 				
 				'premium'=><<<EOD
-				Flexible Endowment Plans benefit here
+				<h3 class="heading heading--secondary text-dark">			Provide financial protection for your family today.
+
+				</h3>
+			 	Get a quote now.
+	
 
 EOD
 
 			),
+
+			'life_celebration'=>array
+			(
+				'top_page'=>array
+				(
+					'title'=>'Life Celebration Plans',
+					'image'=>'../images//services/lifecelebration.jpg'
+				),
+				'page_name'=>'Life Celebration Plans',
+				'parent'=>array('Endowment Plan'=>'#'),
+				'product'=><<<EOD
+				<div class="row why__row py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">About Life Celebration Plan
+
+						</h3>
+						<p class="paragraph">
+						Rites of passage are significant part of Nigerian life so is the finical stress that sometimes come with them. AIICO Life Celebration is designed to take care of financial expenses in the event of death of a loved one or self. The plan provides financial assistance upon loss to the family member or named beneficiary.
+
+						Who can be covered?
+						You, spouse, parents and parents-in-law. The wider family (up to a maximum of 14) – Uncles, Aunties, Step Parents
+						
+ </p>
+				
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			   
+			  </div>
+			</div>
+
+EOD
+				,
+				'benefit'=><<<EOD
+				<div class="row py-5">
+			  <div class="col-md-6 ">
+				<h3 class="heading heading--secondary text-dark">Some of the Benefits</h3>
+				<p class="paragraph">
+			The benefit amount will be sold in cover types. This makes it easy to calculate how much cover is needed as well as how much it will cost. The table below shows the value of each cover type
+			</p>
+			
+				<ul class="check-list">
+				<li class="check-list__item">The plan makes a lump sum payment in the event of death of any member that is covered under the plan.</li>
+				<li class="check-list__item">Grab additional 10% of sum assured payable for accidental death or permanent disability of insured.
+				</li>
+				<li class="check-list__item">One full year premium will be paid back every five years in respect of any member, in case of no claim. The policyholder has the option of:
+				</li>
+			  </div>
+
+			  <div class="col-md-6 ">
+			    <div class="why__content px-5">
+					<h3 class="heading heading--secondary text-dark">Additional Riders:</h3>
+					<ul class="check-list">
+					<li class="check-list__item">Waiver of premium – This benefit comes to force at a time when a policyholder is unable to perform his normal duties as a result of either accident or critical illness for a minimum of six months. Premiums that fall due within such period are waived and the policyholder will not be charged for it.</li>
+					<li class="check-list__item">Permanent Total Disability – This covers the loss of body parts that make it impossible for the customer to continue to work as he used to. At this point, the policy is treated as being closed and the benefit is paid. Examples of such disability are loss of both eyes, both hands and both legs (if he is a footballer).
+					</li>	<li class="check-list__item">Accidental Death, Dismemberment and Weekly Indemnity Rider – This covers loss of parts of the body following an accident as stated in the schedule of Indemnity attached to the policy document. The principal sum under this benefit rider is N2,000,000.00.
+
+	
+					</li>
+				
+				</ul>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+				,
+				
+				'premium'=><<<EOD
+
+				<ul class="big-list mb-3">
+				<li class="big-list__item">
+					<span class="text-dark">	Premium Payment Mode</span>
+					<p class="paragraph text-secondary">
+					Premiums can be made monthly, quarterly, half yearly or annually
+					</p>
+				</li>
+				<li class="big-list__item">
+					<span class="text-dark">Surrender Value:</span>
+					<p class="paragraph text-secondary">
+					There is no surrender benefit payable under this product and the policy has no paid-up value.	</p>
+				</li>
+				<li class="big-list__item">
+					<span class="text-dark">Maturity Benefit:</span>
+					<p class="paragraph text-secondary">
+					The policy has no maturity value</p>
+				</li>
+				<li class="big-list__item">
+					<span class="text-dark">Waiting Period:
+					</span>
+					<p class="paragraph text-secondary">
+					Except for accidental death, there is a six month waiting period from the inception date before rights to benefit can accrue.</p>
+				</li>
+				<li class="big-list__item">
+				<span class="text-dark">Waiting Period:
+				</span>
+				<p class="paragraph text-secondary">
+				Except for accidental death, there is a six month waiting period from the inception date before rights to benefit can accrue.</p>
+			</li>
+			</ul>
+
+
+
+			
+				<h3 class="heading heading--secondary text-dark">		Maturity Benefit:
+				</h3>  	<p class="paragraph text-dark">
+				The policy has no maturity value
+			</p>
+			<h3 class="heading heading--secondary text-dark">	Waiting Period:
+				</h3>  	<p class="paragraph text-dark">
+				Except for accidental death, there is a six month waiting period from the inception date before rights to benefit can accrue.
+
+			</p>
+			<h3 class="heading heading--secondary text-dark">	Waiver of premium on attaining age 65:
+			</h3>  	
+			<p class="paragraph text-dark">
+			This is usually only available if the policy is taken out before age 55. At age 65 cover continues for the life for the policyholder and spouse and all future premiums are waived.
+
+		</p>
+	
+
+EOD
+
+			),
+
 
 )
 

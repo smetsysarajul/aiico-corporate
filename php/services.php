@@ -36,7 +36,7 @@ if (!$pageContent) {
     </div>
   </section>
 
-  <section class="section">
+  <section class="section pt-2">
     <div class="container-fluid p-0">
       <div class="tabs services-tab">
         <ul class="nav nav-fill bg-white" id="servicesTab" role="tablist">

@@ -233,7 +233,16 @@ $pageTitle = "AIICO Insurance Plc.";
                     <div class="card">
                       <div class="card__image" style="background-image: url('../images/products/marine.jpg')"></div>
                       <div class="card__content">
-                        <p class="card__title">Marine Industry</p>
+                        <p class="card__title">Group Life Plans</p>
+                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card__image" style="background-image: url('../images/products/marine.jpg')"></div>
+                      <div class="card__content">
+                        <p class="card__title">Employer's Liability</p>
                         <p class="card__text">We offer a wide range of products and services which are tailored....</p>
                       </div>
                     </div>
@@ -247,15 +256,7 @@ $pageTitle = "AIICO Insurance Plc.";
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="card__image" style="background-image: url('../images/products/oil.jpeg')"></div>
-                      <div class="card__content">
-                        <p class="card__title">Oil and Gas </p>
-                        <p class="card__text">We offer a wide range of products and services which are tailored....</p>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div class="col-md-3">
                     <div class="card">
                       <div class="card__image" style="background-image: url('../images/products/agric.jpg')"></div>

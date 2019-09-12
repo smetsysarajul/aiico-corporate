@@ -100,7 +100,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/Oduniyi.jpg" alt="Joseph Oduniyi" />
+                <img class="person__avatar" src="../images/mgt/Oduniyi.jpg" alt="Joseph Oduniyi" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Joseph Oduniyi</h5>
@@ -114,7 +114,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/Benson.jpg" alt="Benson Ogunyamoju" />
+                <img class="person__avatar" src="../images/mgt/Benson.jpg" alt="Benson Ogunyamoju" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Benson Ogunyamoju</h5>
@@ -128,7 +128,7 @@
           <div class="col-md-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
-                <img class="person__avatar" src="./images/mgt/Sanjo.jpg" alt="Olusanjo Shodimu" />
+                <img class="person__avatar" src="../images/mgt/Sanjo.jpg" alt="Olusanjo Shodimu" />
               </figure>
               <div class="person__info">
                 <h5 class="person__name">Olusanjo Shodimu</h5>
@@ -150,7 +150,7 @@
             <div class="full-profile">
               <div class="full-profile__picture">
                 <figure class="person__avatar-wrapper">
-                  <img class="person__avatar" src="./images/mgt/babatunde.jpg" />
+                  <img class="person__avatar" src="../images/mgt/babatunde.jpg" />
                 </figure>
               </div>
               <div class="full-profile__info">

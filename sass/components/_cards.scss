@@ -32,11 +32,26 @@
     line-height: 20px;
     margin-bottom: 0.5rem; // text-transform: uppercase;
   }
+  &__name2 {
+    color: $color-blue;
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 0.5rem; // text-transform: uppercase;
+  }
   &__designation {
     display: block;
     font-size: 1.2rem;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
+  }
+  &__designation2 {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+    color: $color-red;
   }
   &__profile-btn {
     background-color: transparent;

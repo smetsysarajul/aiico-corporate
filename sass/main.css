@@ -173,9 +173,10 @@ body {
 
 .heading--tertiary {
   color: #ff4040;
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.1rem;
   text-transform: uppercase;
+  margin-bottom: 1.4rem;
 }
 
 .heading.white {
@@ -496,11 +497,28 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.person__name2 {
+  color: #003896;
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 0.5rem;
+}
+
 .person__designation {
   display: block;
   font-size: 1.2rem;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+}
+
+.person__designation2 {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+  color: #ff4040;
 }
 
 .person__profile-btn {

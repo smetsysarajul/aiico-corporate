@@ -66,75 +66,67 @@ var boardData = [{
 
 var managementData = [{
     id: "management-1",
-    name: "Kundan Sainani",
-    job: "Chairman",
-    image: "./images/mgt/kundan.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    name: "Babatunde Fajemirokun",
+    job: "Managing Director/ Chief Executive Officer",
+    image: "./images/mgt/Babatunde.jpg",
+    bio: "Mr. Babatunde Fajemirokun is the Managing Director/Chief Executive Officer of AIICO Insurance Plc.     He started his career in 2001 as a visiting lecturer in the department of Economics & Enterprise at the Glasgow Caledonian University, Scotland. He joined Accenture (Nigeria) Financial Services Unit (Banking and Insurance Groups) in 2003, as an analyst and specialized in Mergers & Acquisitions projects. He joined Capgemini Consulting (UK) Business Information Strategy Unit (cross-industry) in 2008, as a Senior Consultant, and worked on UK government transformation projects.      Mr. Fajemirokun joined AIICO Insurance Plc, Life Division, in 2009 and was responsible for the delivery of key projects in its maiden transformation initiatives. He led the retail operations function between 2009 and 2013, which encompassed retail processing (underwriting new business & renewals, alterations/endorsements, and policy issuance & delivery), customer services/ retail claims, business process redesign and technology.  In 2013, he was appointed Chief Operating Officer, which required him to oversee all strategic functions, retail processing/ operations, actuarial functions, enterprise risk management and shared services (finance, human resources, information technology, procurement, and estate management) operations in the company.    In 2017, he was appointed Group Chief Business Officer, with supervisory responsibility for all the subsidiary businesses especially the asset management business. He was also responsible for raising additional capital at appropriate valuations for Group companies to meet solvency and/ or strategic growth objectives.  He also has external appointments as a Non-Executive Director in AIICO Pension Managers Limited, Food Concepts Plc and Xerox Corporation Nigeria (XHS).",
+    education: "He holds an MBA from University of Chicago Booth School of Business with a concentration in Finance, a Master’s Degree in Business Information Technology Systems (with dist.) from the University of Strathclyde and a BA (Hons) degree in Business Economics from the Glasgow Caledonian University. He is a qualified associate (ACII) of the Charted Institute of Insurance (UK and Nigeria) with a Chartered Status (Chartered Insurer). He is also a member of the Institute of Directors."
   },
   {
     id: "management-2",
-    name: "Edwin Igbiti",
-    job: "Head, Non Life Technical",
-    image: "./images/mgt/edwin.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    name: "Adewale Kadri",
+    job: "Executive Director, Technical",
+    image: "./images/mgt/adewale.jpg",
+    bio: "Adewale Kadri began his Insurance career with Worldwide Insurance Company Limited in 1994 as a Life Marketer and later moved to ELMAC Assurance Nigeria Limited in 1997. He also worked as an Insurance Officer of Modandola Group of Companies where he was exposed to the rudiment of Insurance broking and technical operations. He later joined the Marketing team of Newline Insurance Company Limited and Sun Insurance Plc. where he worked in various managerial capacities before joining the pioneer team of UBA Insurance in 2004 as Group Head, Brokers’ Management Division.    He had a brief stay at NICON Insurance Plc as Senior Manager/Head, Strategic Business Unit before joining Oceanic Insurance Company Limited as Group Head, Brokers Management Unit in 2007. Wale was the Acting Managing Director of Oceanic Insurance Company Limited/Old Mutual Nigeria General Insurance between July 2012 and April 2014. He left the services Old Mutual Nigeria as Business Development Executive in April 2017 and joined AIICO Insurance Plc as General Manager, Head of Non-Life Business.",
+    education: "He is a Fellow of Chartered Insurance Institute of Nigeria (CIIN) and a Chartered Certified Accountant. He holds a B.sc in Applied Accounting from Oxford Brookes University, United Kingdom and Master’s Degree in Business Administration with specialization in Marketing from Lagos State University, Ojo. He received a Certificate of competence in Management Advancement Programme from University of the Witwatersrand, Johannesburg, South Africa."
   },
   {
     id: "management-3",
-    name: "Babatunde Fajemirokun",
-    job: "Executive Director, Operations",
-    image: "./images/mgt/babatunde.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    name: "Olusola Ajayi",
+    job: "Executive Director, Group Retail Business",
+    image: "./images/mgt/sola.jpg",
+    bio: "Olusola is an experienced business leader with over fifteen years’ leadership positions in management consulting and insurance in Nigeria and the United Kingdom. He joined AIICO in 2009 as head of the Business Strategy and Transformation teams.  In 2013, ‘Sola assumed leadership of the retail life insurance business, and has led the transformation of the agency business, by deploying cutting-edge solutions and enabling capabilities which has resulted in significant growth in the company’s annual premiums and asset under management (AUM). Prior to joining AIICO, he worked at the prestigious consulting firm Accenture (Lagos) in the Financial Services market unit, before joining Deloitte Consulting (London, UK). As a business consultant in both firms, he supported/led business transformation initiatives in Strategy, Process Optimization and Technology Deployments. In this new position, he will oversee the Group Retail Division, with a mandate to drive growth across the group retail businesses and retaining AIICO as an industry leader. Mr. Olusola currently serves as Chairman ",
+    education: "He holds an MBA from INSEAD and obtained his first degree in Chemical Engineering from the University of Lagos. Sola is a certified Project Manager as well as a Senior Member of the Chartered Insurance Institute of Nigeria."
   },
   {
     id: "management-4",
-    name: "Adewale Kadri",
-    job: "Executive Director, Operations",
-    image: "./images/mgt/adewale.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    name: "Donald Kanu",
+    job: "Company Secratary",
+    image: "./images/mgt/donald.jpg",
+    bio: "Donald Kanu is the Company Secretary/Legal Adviser at AIICO Insurance Plc. He commenced his career with Savannah Bank and then moved on to join A.U. Kalu (SAN) and Associates. He was recruited back to the financial services sector where he worked with UTB Trustees and Fidelity Bank respectively. He later left Fidelity Bank to join Globacom, a telecommunications company. After his period in the telecommunication industry, Donald moved back to the financial sector when he joined the Cornerstone group as the Company Secretary/Legal Adviser and Chief Compliance Officer. He was recruited to join AIICO from the Cornerstone Group in 2014.",
+    education: "Donald graduated from University of Calabar and later went on to pursue a Master’s Degree in Business Administration from the same University. He later proceeded to obtain an LL.M from the University of Lagos. Donald has attended several capacity building courses both within and outside the country.    He is a member of the Nigerian Bar Association, the Institute of Chartered Secretaries and Administrators and a member of the Institute of Directors."
   },
   {
     id: "management-5",
-    name: "Ademola Adebise",
-    job: "Non-Executive Director",
-    image: "./images/mgt/ademola.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    name: "Abiodun Adebanjo",
+    job: "Head, Risk Management Division",
+    image: "./images/mgt/adebanjo.jpg",
+    bio: "Abiodun Adebanjo is a seasoned Audit Executive with an impressive track record of more than two decades of hands-on experience in financial services industry. Prior to joining AIICO Insurance Plc. in 2010 as the Chief Audit Executive, Abiodun served in various operational and managerial capacities in reputable and top rated Banks in Nigeria which include Ecobank Nig. Plc, Diamond Bank, UBA Plc and First Bank. His experience in the financial sector spans over 20 years, covering Banking Operations, Cash Management Services, Operational Risk Management, Internal Audit and Control, Abiodun has shown strong professional bias for Audit and Risk Management. He is highly numerate and possesses strong passion for excellence and organizational transformation.He is an excellent team player and a highly motivated professional imbued with a strong spirit for achievement.",
+    education: "Abiodun graduated from the University of Lagos with a first class degree in Mathematics and Statistics as the overall best student. He earned an MBA Degree in Business Management (MBA) at the prestigious University of Liverpool, UK.  He is a professional member and Fellow of the Institute of Chartered Accountants of Nigeria (ICAN); a member of Chartered Institute of Taxation (CITN); a member of the Institute of Internal Auditors and a member of Nigeria Institute of Management Chartered (NIMC)."
   },
   {
     id: "management-6",
-    name: "S.D.A Sobanjo",
-    job: "Non-Executive Director",
-    image: "./images/mgt/sobanjo.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    name: "Joseph Oduniyi",
+    job: "Head, Non Life Technical",
+    image: "./images/mgt/oduniyi.jpg",
+    bio: "Mr. Joseph Oduniyi is the Head of Non-Life Technical at AIICO Insurance Plc. Prior to joining AIICO, he had garnered significant experience serving with the Ministry of Works and Housing, Oyo State, The Nigerian Life & Pensions Consultants, Glanvill Enthoven & Co Nig. Ltd, Union Commercial Insurance Brokers and Risktech Insurance Brokers Limited respectively.  He is an astute insurance professional with a wealth of experience cutting across all aspects of the non-life business and has attended many courses and seminars both locally and internationally.",
+    education: "He holds a Bachelor's Degree in Insurance from the University of Lagos and is professionally affiliated to the Chartered Insurance Institute of Nigeria and London.    "
   },
   {
     id: "management-7",
-    name: "Samaila Dalhat Zubairu",
-    job: "Non-Exec Director (Independent)",
-    image: "./images/mgt/samaila.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    name: "Benson Ogunyamoju",
+    job: "Head, Group Life Business",
+    image: "./images/mgt/benson.jpg",
+    bio: "Benson Ogunyamoju is the Head of Group Life Business at AIICO Insurance Plc. He is a seasoned Insurance practitioner with an in -depth wealth of experience in Life Insurance Operations spanning over two decades and has virtually worked in all sections of the division.Presently, he supervises the Life Technical Division which provides technical and actuarial expertise to support business objectives.Benson has attended various learning interventions within and outside Nigeria. ",
+    education: "He is a graduate of Insurance from the University of Lagos, Nigeria. He is a Fellow of the Chartered Insurance Institute of Nigeria, as well as a Fellow of the Life Management Institute (U.S.A.)."
   },
   {
     id: "management-8",
-    name: "Folakemi Fajemirokun",
-    job: "Non-Executive Director",
-    image: "./images/mgt/folakemi.png",
+    name: "Olusanjo Shodimu",
+    job: "Head, Shared Services Division",
+    image: "./images/mgt/sanjo.jpg",
     bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
-  },
-  {
-    id: "management-9",
-    name: "Folakemi Fajemirokun",
-    job: "Non-Executive Director",
-    image: "./images/mgt/folakemi.png",
-    bio: "Mr. Edwin Igbiti is currently the Managing Director/CEO at AIIO Insurance Plc. Prior to Joining AIICO Insurance, he had served and gained vast experience in Insurance from Phoenix Insurance Company, where he worked for several years. He is a seasoned professional with an inestimable depth and wealth of technical experience that is acknowledged across the industry. He has managed relationships between the company and several international partners and affiliates and is a solution proffering, team-spirited leader with excellent inter-personal skills.",
-    education: "Mr. Igbiti holds an MBA from the University of Ado-Ekiti (2005) and an Advanced Diploma in Management from the University of Lagos. He is a Certified Insurance practitioner with the Chartered Insurance Institute of London and a Fellow of the Chartered Insurance Institute of Nigeria. Aside from being professionally affiliated to the Nigerian Institute of Management, Chartered (NIMC), he is also a certified Business Continuity Systems Lead Auditor from the British Institute, UK and an alumnus of the Howard University Business School, U.S.A. He currently seats on the Governing Council of the Chartered Insurance Institute of Nigeria (CIIN)."
+    education: "He holds an MBA from University of Chicago Booth School of Business and a First Class degree (Hons) in Physics from the University of Ibadan. He is a qualified Project Management Professional, an ITIL Service Management Expert (UK) and also holds Cert in Insurance (CII) from the Chartered Institute of Insurance, UK (ACII).    ."
   }
 ];
 
@@ -155,11 +147,11 @@ $(document).ready(function () {
       .attr("src", memberObject.image);
 
     $("#profileModal")
-      .find(".person__name")
+      .find(".person__name2")
       .html(memberObject.name);
 
     $("#profileModal")
-      .find(".person__designation")
+      .find(".person__designation2")
       .html(memberObject.job);
 
     $("#profileModal")

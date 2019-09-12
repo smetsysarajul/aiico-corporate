@@ -74,7 +74,7 @@
         <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
-              <img class="person__avatar" src="../images/mgt/sola.png" alt="Olusola Ajayi" />
+              <img class="person__avatar" src="../images/mgt/Sola.jpg" alt="Olusola Ajayi" />
             </figure>
             <div class="person__info">
               <h5 class="person__name">Olusola Ajayi</h5>

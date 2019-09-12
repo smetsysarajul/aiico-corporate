@@ -5,29 +5,29 @@
 <?php include 'php-component/header.php' ?>
 
      <main>
-    <section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(./images/banner.jpg)">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">Executive Management</li>
-              </ol>
-            </nav>
-            <h3 class="page-title">Executive Management</h3>
-            <p class="page-desc">Put nice caption here </p>
-          </div>
+     <section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Executive Management</li>
+            </ol>
+          </nav>
+          <h3 class="page-title">Executive Management</h3>
+          <p class="page-desc">Put nice caption here </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
     <section class="section section__about-page">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="person">
+        <div class="col-md-4 mb-4 mb-4">
+          <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Babatunde.jpg" alt="Babatunde Fajemirokun" />
               </figure>
@@ -40,7 +40,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Adewale.jpg" alt="Adewale Kadri" />
@@ -54,13 +54,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Sola.jpg" alt="Sola Ajayi" />
               </figure>
               <div class="person__info">
-                <h5 class="person__name">Sola Ajayi</h5>
+                <h5 class="person__name">Olusola Ajayi</h5>
                 <span class="person__designation">Executive Director, Group Retail Businesss</span>
                 <button class="person__profile-btn" id="management-3" data-toggle="modal" data-target="#profileModal">
                   view profile
@@ -69,7 +69,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Donald.jpg" alt="Donald Kanu" />
@@ -83,7 +83,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Adebanjo.jpg" alt="Abiodun Adebanjo" />
@@ -97,7 +97,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Oduniyi.jpg" alt="Joseph Oduniyi" />
@@ -111,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Benson.jpg" alt="Benson Ogunyamoju" />
@@ -125,7 +125,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="person">
               <figure class="person__avatar-wrapper">
                 <img class="person__avatar" src="../images/mgt/Sanjo.jpg" alt="Olusanjo Shodimu" />

@@ -26,7 +26,7 @@ var boardData = [{
     id: "board-4",
     name: "Olusola Ajayi",
     job: "Executive Director, Operations",
-    image: "../images/mgt/Olushola.png",
+    image: "../images/mgt/Sola.jpg",
     bio: "Olusola is an experienced business leader with over fifteen years’ leadership positions in management consulting and insurance in Nigeria and the United Kingdom. He joined AIICO in 2009 as head of the Business Strategy and Transformation teams.  In 2013, ‘Sola assumed leadership of the retail life insurance business, and has led the transformation of the agency business, by deploying cutting-edge solutions and enabling capabilities which has resulted in significant growth in the company’s annual premiums and asset under management (AUM). Prior to joining AIICO, he worked at the prestigious consulting firm Accenture (Lagos) in the Financial Services market unit, before joining Deloitte Consulting (London, UK). As a business consultant in both firms, he supported/led business transformation initiatives in Strategy, Process Optimization and Technology Deployments. In this new position, he will oversee the Group Retail Division, with a mandate to drive growth across the group retail businesses and retaining AIICO as an industry leader. Mr. Olusola currently serves as Chairman ",
     education: "He holds an MBA from INSEAD and obtained his first degree in Chemical Engineering from the University of Lagos. Sola is a certified Project Manager as well as a Senior Member of the Chartered Insurance Institute of Nigeria."
   },
@@ -100,7 +100,7 @@ var managementData = [{
     id: "management-5",
     name: "Abiodun Adebanjo",
     job: "Head, Risk Management Division",
-    image: "./images/mgt/Adebanjo.jpg",
+    image: "../images/mgt/Adebanjo.jpg",
     bio: "Abiodun Adebanjo is a seasoned Audit Executive with an impressive track record of more than two decades of hands-on experience in financial services industry. Prior to joining AIICO Insurance Plc. in 2010 as the Chief Audit Executive, Abiodun served in various operational and managerial capacities in reputable and top rated Banks in Nigeria which include Ecobank Nig. Plc, Diamond Bank, UBA Plc and First Bank. His experience in the financial sector spans over 20 years, covering Banking Operations, Cash Management Services, Operational Risk Management, Internal Audit and Control, Abiodun has shown strong professional bias for Audit and Risk Management. He is highly numerate and possesses strong passion for excellence and organizational transformation.He is an excellent team player and a highly motivated professional imbued with a strong spirit for achievement.",
     education: "Abiodun graduated from the University of Lagos with a first class degree in Mathematics and Statistics as the overall best student. He earned an MBA Degree in Business Management (MBA) at the prestigious University of Liverpool, UK.  He is a professional member and Fellow of the Institute of Chartered Accountants of Nigeria (ICAN); a member of Chartered Institute of Taxation (CITN); a member of the Institute of Internal Auditors and a member of Nigeria Institute of Management Chartered (NIMC)."
   },
@@ -116,7 +116,7 @@ var managementData = [{
     id: "management-7",
     name: "Benson Ogunyamoju",
     job: "Head, Group Life Business",
-    image: "./images/mgt/Benson.jpg",
+    image: "../images/mgt/Benson.jpg",
     bio: "Benson Ogunyamoju is the Head of Group Life Business at AIICO Insurance Plc. He is a seasoned Insurance practitioner with an in -depth wealth of experience in Life Insurance Operations spanning over two decades and has virtually worked in all sections of the division.Presently, he supervises the Life Technical Division which provides technical and actuarial expertise to support business objectives.Benson has attended various learning interventions within and outside Nigeria. ",
     education: "He is a graduate of Insurance from the University of Lagos, Nigeria. He is a Fellow of the Chartered Insurance Institute of Nigeria, as well as a Fellow of the Life Management Institute (U.S.A.)."
   },

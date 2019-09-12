@@ -62,7 +62,6 @@
                   'Erection-All-Risk '=>'services.php?p=erection_risk',
                   'Fidelity Guarantee'=>'services.php?p=fidelity_guarantee',
                   'Home Insurance'=>'services.php?p=home_insurance',
-                  // 'Machinery Breakdown'=>'services.php?p=credit_life',
                 )
               )
             )

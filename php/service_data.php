@@ -157,10 +157,17 @@ EOD
 // example for filling the data
 	'annuity'=>array
 		(
+			'page_title'=>"Annuity | AIICO Insurance Plc.",
+			'page_name'=>'Annuity Plan',
+	'parent'=>array
+		(
+			'title'=>'Individual Plans',
+			'link'=>'#'
+		),
 			'top_page'=>array
 			(
 				'title'=>'Annuity Plan',
-				'image'=>'../images//auto-insurance.jpg'
+				'image'=>'../images//services//annuity1.jpg'
 			),
 			'page_name'=>'Annuity plan',
 			// 'parent'=>array('name'=>'link'),
@@ -206,21 +213,19 @@ EOD
 
 				  <div class="col-md-5 why__col p-0">
 				    <div class="why__content h-100">
-				      <img class="services__image" src="../images//services/service.png" />
-				      <div class="services__overlay">
-				        <div class="services__image-icon"></div>
-				      </div>
+				      <img class="services__image" src="../images//services/annuity2.jpg" />
+				    
 				    </div>
 				  </div>
 				</div>
 EOD
 			,
 			'benefit'=><<<EOD
-				<div class="row why__row align-items-center py-5">
+				<div class="row why__row  py-5">
 				  <div class="col-md-5 why__col p-0">
 				    <div class="why__content">
 				      <figure>
-				        <img width="100%" src="../images//product-img.jpg" />
+				        <img width="100%" src="../images//services/annuity3.jpg" />
 				      </figure>
 				    </div>
 				  </div>
@@ -233,73 +238,26 @@ EOD
 				        <p class="paragraph">
 							Our annuity offers:
 				        </p>
-
-				      <ul class="big-list mb-3">
-				        <li class="big-list__item">
-				          <!-- <span class="text-dark">Maturity</span> -->
-				          <p class="paragraph text-dark">
-				           Opportunity to save towards a deferred regular annuity
-
-				          </p>
-				        </li>
-				        <li class="big-list__item">
-				          <!-- <span class="text-dark">Interest</span> -->
-				          <p class="paragraph text-dark">
-				            Lump sum or Annual premium payment can be applied for deferred regular annuity
-
-				          </p>
-				        </li>
-				        <li class="big-list__item">
-				          <!-- <span class="text-dark">Death Benefits</span> -->
-				          <p class="paragraph text-secondary">
-				            Death benefit payable if it occurs during deferment
-
-				          </p>
-				        </li>
-				        <li class="big-list__item">
-				          <!-- <span class="text-dark">Death Benefits</span> -->
-				          <p class="paragraph text-dark">
-				            No medical examination is required
-
-				          </p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">
-				        	Target income at retirement can be flat or increasing at 5% or 10% annually</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">
-				        	A plan for your retirement is developed
-				        	</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">
-				        	Premium Payment is flexible (i.e annual or single for deferred annuity) 
-
-				        	</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">Guaranteed regular income</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">Flexible Annuity Plan</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">Tax relief on contributions to reduce tax liability.</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">Survival at retirement: Regular income till death guaranteed for 10 years and thereafter guaranteed for life.</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">Death benefits payable if it occurs during and after deferment.</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">Surrender value options for deferred annuity after one year.</p>
-				        </li>
-				        <li class="big-list__item">
-				        	<p class="paragraph text-dark">Annuitant’s life Assurance covers option.</p>
-				        </li>
-				      </ul>
+								<ul class="check-list">
+								<li class="check-list__item"> Opportunity to save towards a deferred regular annuity</li>
+								<li class="check-list__item"> Lump sum or Annual premium payment can be applied for deferred regular annuity
+								</li>
+								<li class="check-list__item" Death benefit payable if it occurs during deferment
+								</li>
+								<li class="check-list__item">  No medical examination is required</li>
+								<li class="check-list__item">Target income at retirement can be flat or increasing at 5% or 10% annually</p>
+								</li>
+								<li class="check-list__item">	A plan for your retirement is developed</li>
+								<li class="check-list__item">	Premium Payment is flexible (i.e annual or single for deferred annuity) 
+								</li>
+								<li class="check-list__item">Guaranteed regular inegular income till death guaranteed for 10 years and thereafter guaranteed for lifeFlexible Annuity Plan</li>
+								<li class="check-list__item">Death benefits payable if it occurs during and after deferment.</li>
+								<li class="check-list__item">Surrender value options for deferred annuity after one year</li>
+								<li class="check-list__item">Tax relief on contributions to reduce tax liability</li>
+								<li class="check-list__item">Annuitant’s life Assurance covers option</li>
+				
+							</ul>
+				    
 				    </div>
 				  </div>
 				</div>
@@ -308,19 +266,22 @@ EOD
 			,
 			
 			'premium'=><<<EOD
-				<div class="row why__row align-items-center py-5">
+				<div class="row why__row py-5">
 			  <div class="col-md-7 why__col">
 			    <div class="why__content px-5">
-			      <ul class="check-list">
-			        <li class="check-list__item">Annual or Single</li>
+					<h3 class="heading heading--secondary text-dark">Aunual or Single</h3>
+					<p class="paragraph">
+					Notes:
+On death of the policyholder before commencement of annuity payment, all premium paid are refunded with interest compounded of at least 3% per annum.
+On death of the annuitant after annuity payment commences, a lump sum of five (5) times the annual annuity at the point of death together with any balance resulting from guarantee becomes payable.
+</p>
+					</div>
 			
-			      </ul>
-			    </div>
 			  </div>
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
 			      <figure>
-			        <img width="100%" src="../images//product-img2.jpg" />
+			        <img width="100%" src="../images//services//annuity3.jpg" />
 			      </figure>
 			    </div>
 			  </div>
@@ -330,28 +291,28 @@ EOD
 			,
 		),
 
-		'Personal_Accident'=>array
+		'personal_accident'=>array
 			(
 				'top_page'=>array
 				(
-					'title'=>'Annuity',
+					'title'=>'Personal Accident Plans',
 					'image'=>'../images//auto-insurance.jpg'
 				),
-				'page_name'=>'Annuity',
+				'page_name'=>'Personal Accident Plans',
 				// 'parent'=>array('name'=>'link'),
 				'product'=><<<EOD
-					insert the html code for product here
+					Product for personal Accident
 
 EOD
 				,
 				'benefit'=><<<EOD
-					insert the html code for benefit here
+			personal Accident benefit here
 
 EOD
 				,
 				
 				'premium'=><<<EOD
-					insert the html code for benefit here
+				personal Accident premium here
 
 EOD
 				,
@@ -383,54 +344,30 @@ EOD
 EOD
 				,
 			),
-			'annuity_test'=>array
+
+			
+			'flexible_endowment'=>array
 			(
 				'top_page'=>array
 				(
-					'title'=>'Annuity',
+					'title'=>'Flexible Endowment Plans',
 					'image'=>'../images//auto-insurance.jpg'
 				),
-				'page_name'=>'Annuity',
-				// 'parent'=>array('name'=>'link'),
+				'page_name'=>'Flexible Endowment Plans',
+				'parent'=>array('Endowment Plan'=>'#'),
 				'product'=><<<EOD
-					insert the html code for product here
+				Flexible Endowment Plans product
 
 EOD
 				,
 				'benefit'=><<<EOD
-					insert the html code for benefit here
+				Flexible Endowment Plans benefit
 
 EOD
 				,
 				
 				'premium'=><<<EOD
-					insert the html code for benefit here
-
-EOD
-
-			),
-			'annuity_test'=>array
-			(
-				'top_page'=>array
-				(
-					'title'=>'Annuity',
-					'image'=>'../images//auto-insurance.jpg'
-				),
-				'page_name'=>'Annuity',
-				// 'parent'=>array('name'=>'link'),
-				'product'=><<<EOD
-					insert the html code for product here
-
-EOD
-				,
-				'benefit'=><<<EOD
-					insert the html code for benefit here
-
-EOD
-				,
-				
-				'premium'=><<<EOD
-					insert the html code for benefit here
+				Flexible Endowment Plans benefit here
 
 EOD
 

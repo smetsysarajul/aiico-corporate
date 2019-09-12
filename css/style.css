@@ -715,9 +715,9 @@ body {
         font-size: 3rem; } }
   .page-intro .page-title1 {
     color: #003896;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
-    line-height: 5rem; }
+    line-height: 5.5rem; }
     @media only screen and (max-width: 48em) {
       .page-intro .page-title1 {
         font-size: 4rem; } }

@@ -347,7 +347,7 @@ body {
       color: #a60000; }
 
 @media only screen and (max-width: 37.5em) {
-  .full-profile__info {
+  .full-profile {
     flex-direction: column; } }
 
 .general-form .form-name {

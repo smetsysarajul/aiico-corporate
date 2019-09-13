@@ -67,7 +67,7 @@
   }
 }
 
-.full-profile__info {
+.full-profile {
   @include respond(small) {
     flex-direction: column;
   }

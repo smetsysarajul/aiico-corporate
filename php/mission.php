@@ -5,7 +5,8 @@
  ?>
 <?php include 'php-component/header.php' ?>
 <main>
-  <section class="page-intro">
+  <section class="page-intro page-intro--alt"
+  style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -16,11 +17,13 @@
             </ol>
           </nav>
           <h3 class="page-title">Mission and Vision</h3>
+          <p class="page-desc">We are synonymous with innovation, building excellence..</p>
         </div>
       </div>
     </div>
   </section>
-  <section class="section section__about-page">
+ 
+  <section class="section section__about-page bg-blue">
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-12">
@@ -39,35 +42,35 @@
         </div>
       </div>
     </div>
-  </section>
 
-  <section class="section section__about-page">
-    <div class="container">
+    
+  <section class="section section__about-page ">
+    <div class="container ">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5 bg-blue">
           <div class="section__about-col">
             <div class="section__about-icon">
-              <img src="../images/about/mission.svg" class="img-fluid" alt="mission" />
+              <img src="../images//about/mission.svg" class="img-fluid" alt="mission" />
               <div class="section__about-icon--bg"></div>
             </div>
             <h3 class="heading">Mission</h3>
             <p class="paragraph">We exist to create and protect wealth for our customers.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5 bg-red">
           <div class="section__about-col">
             <div class="section__about-icon">
-              <img src="../images/about/vision.svg" class="img-fluid" alt="vision" />
+              <img src="../images//about/vision.svg" class="img-fluid" alt="vision" />
               <div class="section__about-icon--bg"></div>
             </div>
             <h3 class="heading">Vision</h3>
             <p class="paragraph">To become the Indisputable leader in all markets we choose to play in.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5 bg-blue">
           <div class="section__about-col">
             <div class="section__about-icon">
-              <img src="../images/about/core-values.svg" class="img-fluid" alt="core-values" />
+              <img src="../images//about/core-values.svg" class="img-fluid" alt="core-values" />
               <div class="section__about-icon--bg"></div>
             </div>
             <h3 class="heading">Core Values</h3>
@@ -78,10 +81,6 @@
     </div>
   </section>
 
-  <section class="section section__about-page">
-    <div class="container-fluid p-0">
-        <img class="img-fluid w-100" src="../images/about/about.png" />
-    </div>
-  </section>
+
 </main>
 <?php include 'php-component/footer.php' ?>

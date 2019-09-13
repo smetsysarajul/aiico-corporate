@@ -74,7 +74,7 @@
               'Our Company'=>array
                 (
                     'About AIICO'=>'about.php',
-                    'Mission and Vision'=>'services.php?p=credit_life'
+                    'Mission and Vision'=>'mission.php'
                 ),
                 'Leadership'=>array
                 (
@@ -86,7 +86,7 @@
                 (
                   'Our Culture'=>'culture.php',
                   'Vacancies'=>'vacancies.php',
-                  'Entreneurship'=>'entreneurship.php'
+                  // 'Entreneurship'=>'entreneurship.php'
                 ),
                 'Media'=>array
                 (
@@ -94,12 +94,7 @@
                   'Image Gallery'=>'album.php',
                   'Video Gallery'=>'videos.php'
                 ),
-                'Investor Relations'=>array
-                (
-                  'Financial Information'=>'financial-info.php',
-                  'Investor News'=>'investor-news.php',
-                  'Shareholders Info.'=>'shareholders-info.php'
-                ),
+                'Investor Relations'=>"investor-relations.php",
                 'Business Locations'=>'locations.php',
                 'Contact Us'=>'contact-us.php'
               )
@@ -111,7 +106,7 @@
                 'Whistle Blower'=>'whistle-blower.php',
                 'Form Download'=>'form-download.php',
                 'Customer Feedback Form'=>'feedback-form.php',
-                'Update your info'=>'update-info.php',
+                // 'Update your info'=>'update-info.php',
                 'Claims Center'=>'claims-center.php',
                 'Claims Payment'=>'claims-payment.php'
               )
@@ -133,7 +128,7 @@
                     <li class="nav-item dropdown">
                     <a
                       class="nav-link dropdown-toggle"
-                      href="services.html"
+                      href="#"
                       id="<?php echo str_replace(' ', '_', $key).'Dropdown' ?>"
                       role="button"
                       data-toggle="dropdown"
@@ -211,7 +206,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="btn text-red bold" href="claims_center.php"> REPORT A CLAIM</a>
+                  <a class="btn text-red bold" href="claims-center.php"> REPORT A CLAIM</a>
                 </li>
                 <li class="nav-item">
                   <a class="btn btn--primary" href="#"> VISIT e-Business</a>
@@ -301,7 +296,7 @@
                   </li>
                   <?php endforeach ?>
                   <li class="nav-item claim-btn">
-                    <a class="btn btn--primary w-100" href="claims-center.html"> REPORT A CLAIM</a>
+                    <a class="btn btn--primary w-100" href="claims-center.php"> REPORT A CLAIM</a>
                   </li>
                 </ul>
               </div>

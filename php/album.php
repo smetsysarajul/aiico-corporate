@@ -5,7 +5,8 @@
 <?php include 'php-component/header.php' ?>
 
     <main>
-      <section class="page-intro page-intro--locations">
+      <section class="page-intro page-intro--alt"
+      style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -14,7 +15,7 @@
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item"><a href="#">About us</a></li>
                   <li class="breadcrumb-item"><a href="#">Media</a></li>
-                  <li class="breadcrumb-item"><a href="image-gallery.php">Image Gallery</a></li>
+                  <li class="breadcrumb-item"><a href="image-gallery.html">Image Gallery</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Xmas party in 2019</li>
                 </ol>
               </nav>

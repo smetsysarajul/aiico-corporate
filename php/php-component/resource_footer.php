@@ -32,4 +32,12 @@
     <?php if ($page=='board'): ?>
       <script src="../js/modal.js"></script>
     <?php endif ?>
+    <?php if ($page=='claims-center'): ?>
+      <script src="../js/forms.js"></script>
+       <script src="../js/file-browser.js"></script>
+    <?php endif ?>
+    <?php if ($page=='investor-relations'): ?>
+      <script src="../js/forms.js"></script>
+       <script src="../js/file-browser.js"></script>
+    <?php endif ?>
       

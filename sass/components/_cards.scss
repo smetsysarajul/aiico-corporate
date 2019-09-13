@@ -66,3 +66,9 @@
     }
   }
 }
+
+.full-profile__info {
+  @include respond(small) {
+    flex-direction: column;
+  }
+}

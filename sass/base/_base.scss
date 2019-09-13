@@ -51,7 +51,7 @@ main {
 }
 
 main {
-  @include respond(small) {
-    margin-top: 105px;
-  }
+  // @include respond(small) {
+  //   margin-top: 105px;
+  // }
 }

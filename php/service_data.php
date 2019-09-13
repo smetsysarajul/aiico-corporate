@@ -1403,7 +1403,7 @@ Loss of money
 Missed/Cancelled flights
 Evacuation
 Repatriation of mortal remains (corpse)
-
+			
 		
 			</div>
 
@@ -1702,7 +1702,7 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>'Marine Insurance(Cargo)',
-				'image'=>'../images//services//marine.jpg'
+				'image'=>'../images//services//marine1.jpg'
 			),
 			'product'=><<<EOD
 
@@ -1722,7 +1722,7 @@ EOD
 
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
-			      <img class="services__image" src="../images//services/oil.png" />
+			      <img class="services__image" src="../images//services/marine2.jpg" />
 			    
 			    </div>
 			  </div>
@@ -1735,7 +1735,7 @@ EOD
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
 			      <figure>
-			        <img width="100%" src="../images//product-img.jpg" />
+			        <img width="100%" src="../images//services/marine3.jpg" />
 			      </figure>
 			    </div>
 			  </div>
@@ -1765,13 +1765,7 @@ EOD
 						Get in touch with us.
 			    </div>
 			  </div>
-			  <div class="col-md-5 p-0">
-			    <div class="">
-			      <figure>
-			        <img width="100%" src="../images//services/oil.png" />
-			      </figure>
-			    </div>
-			  </div>
+			 
 			</div>
 
 EOD
@@ -1874,8 +1868,8 @@ EOD
 
 		'mlop'=>array
 		(
-			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
-			'page_name'=>'Marine Hull & Machinery',
+			'page_title'=>"Machinery Loss of Profit (MLOP)| AIICO Insurance Plc.",
+			'page_name'=>'Machinery Loss of Profit (MLOP)',
 
 			'parent'=>array
 			(
@@ -1890,14 +1884,14 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>'Marine Hull & Machinery',
-				'image'=>'../images//services//marine.jpg'
+				'image'=>'../images//services//machine1.jpg'
 			),
 			'product'=><<<EOD
 
 			<div class="row why__row py-5">
 			  <div class="col-md-6 why__col">
 			    <div class="why__content">
-			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+			      <h3 class="heading heading--services">About AIICO Machinery Loss of Profit (MLOP)</h3>
 
 			      <p class="paragraph">
 						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
@@ -1909,7 +1903,7 @@ EOD
 
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
-			      <img class="services__image" src="../images//services/oil.png" />
+			      <img class="services__image" src="../images//services//machine2.png" />
 			    
 			    </div>
 			  </div>

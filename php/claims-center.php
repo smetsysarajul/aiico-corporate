@@ -4,6 +4,7 @@
  ?>
 <?php include 'php-component/header.php' ?>
 
+
    <main>
     <section class="section section__numbers">
       <div class="container">
@@ -162,7 +163,6 @@
                       </div>
                     </div>
                   </div>
-
                   <div id="auto-section-three">
                     <h4 class="form-name">Step 3:</h4>
                     <p class="paragraph form-desc">
@@ -806,17 +806,7 @@
         </div>
       </div>
 
-
-
-
-
-
-
-
-
     </section>
-
-
   </main>
 
 <?php include 'php-component/footer.php' ?>

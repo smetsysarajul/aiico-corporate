@@ -82,7 +82,7 @@
                 (
                   'Our Culture'=>'culture.php',
                   'Vacancies'=>'vacancies.php',
-                  'Entreneurship'=>'entreneurship.php'
+                  // 'Entreneurship'=>'entreneurship.php'
                 ),
                 'Media'=>array
                 (
@@ -90,12 +90,7 @@
                   'Image Gallery'=>'album.php',
                   'Video Gallery'=>'videos.php'
                 ),
-                'Investor Relations'=>array
-                (
-                  'Financial Information'=>'financial-info.php',
-                  'Investor News'=>'investor-news.php',
-                  'Shareholders Info.'=>'shareholders-info.php'
-                ),
+                'Investor Relations'=>"investor-relations.php",
                 'Business Locations'=>'locations.php',
                 'Contact Us'=>'contact-us.php'
               )
@@ -107,7 +102,7 @@
                 'Whistle Blower'=>'whistle-blower.php',
                 'Form Download'=>'form-download.php',
                 'Customer Feedback Form'=>'feedback-form.php',
-                'Update your info'=>'update-info.php',
+                // 'Update your info'=>'update-info.php',
                 'Claims Center'=>'claims-center.php',
                 'Claims Payment'=>'claims-payment.php'
               )
@@ -129,7 +124,7 @@
                     <li class="nav-item dropdown">
                     <a
                       class="nav-link dropdown-toggle"
-                      href="services.html"
+                      href="#"
                       id="<?php echo str_replace(' ', '_', $key).'Dropdown' ?>"
                       role="button"
                       data-toggle="dropdown"

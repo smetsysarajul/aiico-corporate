@@ -13,13 +13,12 @@
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item"><a href="#">About us</a></li>
                   <li class="breadcrumb-item"><a href="#">Media</a></li>
-                  <li class="breadcrumb-item"><a href="image-gallery.html">Image Gallery</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Xmas party in 2019</li>
+                  <!-- <li class="breadcrumb-item"><a href="image-gallery.html">Image Gallery</a></li> -->
+                  <li class="breadcrumb-item active" aria-current="page">Image Gallery</li>
                 </ol>
               </nav>
-              <h3 class="page-title">Xmas party in 2019</h3>
+              <h3 class="page-title">Image Gallery</h3>
             </div>
           </div>
         </div>
@@ -29,14 +28,14 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h3 class="heading heading--secondary">Xmas party in 2019</h3>
+              <h3 class="heading heading--secondary">September 2019</h3>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="../images/album.png"
+                src="../images/press/album1.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -45,7 +44,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="../images/album.png"
+                src="../images/press/album2.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -54,7 +53,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="../images/album.png"
+                src="../images/press/album3.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -64,7 +63,7 @@
 
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="../images/album.png"
+                src="../images/press/album4.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -82,7 +81,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
               <img
-                src="../images/album.png"
+                src="../images/press/album1.png"
                 alt="album"
                 class="image__item"
                 data-toggle="modal"
@@ -105,7 +104,7 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-body p-0">
-              <img src="../images/album.png" alt="album" class="image__item image__item--big" />
+              <img src="../images/press/album1.png" alt="album" class="image__item image__item--big" />
             </div>
           </div>
         </div>

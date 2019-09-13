@@ -113,7 +113,7 @@
       <div class="header__navigation hidden-tablet hidden-phone">
         <div class="container">
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="/php">
+            <a class="navbar-brand" href="./index.php">
               <img src="../images/logo.svg" class="logo" />
             </a>
 

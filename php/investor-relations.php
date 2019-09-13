@@ -7,7 +7,7 @@
 <main class="investor-relations">
   <section
     class="page-intro page-intro--alt"
-    style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)"
+    style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(..//images/group-picture-header2.jpg)"
   >
     <div class="container">
       <div class="row">
@@ -22,12 +22,34 @@
             </ol>
           </nav>
           <h3 class="page-title">Investor's Relations</h3>
-          <p class="page-desc">Aiico offers a variety of motor insurance </p>
+          <p class="page-desc">A forward-thinking conglomerate with a growth agenda.</p>
         </div>
       </div>
     </div>
   </section>
+  <section class="section">
+    <div class="container">
+    <div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">Access our Annual Financial Statements which we release every year</h3>
 
+			    
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images///investor.jpg" />
+			    
+			    </div>
+			  </div>
+			</div> </div>
+    </div>
+  </section>
   <section class="py-3">
     <div class="container">
       <div class="row">
@@ -643,21 +665,6 @@
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="section__contact-info">
-        <div class="row">
-          <div class="col-md-6">
-            <h3 class="heading heading--secondary">Contact Us</h3>
-            <div class="contact-box">
-              <h5 class="label">Investor Relations:</h5>
-              <p class="value">Email: <a href="#" class="link">whisleblowing@aiicoplc.com</a></p>
-              <p class="value">Tel: <a href="#" class="link">+234 279 2930 989</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 </main>
 <?php include 'php-component/footer.php' ?>

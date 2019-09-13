@@ -6,7 +6,7 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
 
 <main>
   <section class="page-intro page-intro--alt"
-  style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
+  style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images//about//about.png)">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -20,7 +20,7 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
           </nav>
           <h3 class="page-title">About AIICO</h3>
 
-          <p class="page-desc">Effectiveness in the discharge of  responsibilities </p>
+          <p class="page-desc">Market leader in insurance and services </p>
         </div>
       </div>
     </div>
@@ -45,13 +45,13 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
         </div>
         <div class="col-md-6">
           <figure class="image-wrapper ">
-            <img class="image " src="../images/building.png" />
+            <img class="image " src="../images/about/about2.jpg" />
           </figure>
         </div>
       </div>
     </div>
   </section>
-  <section class="section section__about-page bg-red">
+  <section class="section section__about-page bg-blue">
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-12">
@@ -102,7 +102,7 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
       </div>
     </div>
   </section>
-  <section class="section section__about-page bg-blue">
+  <section class="section section__about-page bg-red">
     <div class="container">
       <div class="row mb-5 align-items-center justify-content-between">
         <div class="col-md-6">
@@ -122,7 +122,7 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
         </div>
         <div class="col-md-5">
           <figure class="image-wrapper ">
-            <img class="image " src="../images/goal.jpg" />
+            <img class="image " src="../images/about/about3.jpg" />
           </figure>
         </div>
       </div>

@@ -4,10 +4,77 @@
  ?>
 <?php include 'php-component/header.php' ?>
 <main>
+<section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/press/news.png)">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Events and News</li>
+            </ol>
+          </nav>
+          <h3 class="page-title">Contact Us</h3>
+          <p class="page-desc">Fill the form or visit any of our centers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container">
-      <div class="section__intro">
-        <h3 class="section__heading">Contact Us</h3>
+    
+      <div class="row">
+        <div class="col">
+          <div class="form-section">
+            <h4 class="form-section__name">We'll love to hear from you....</h4>
+            <!-- <p class="form-section__text">
+              The goal of every tourist website is to turn potential leads into guests by guiding. The goal of every
+              tourist website is to turn potential leads into guests by guiding.
+            </p> -->
+            <form id="contactForm" class="general-form">
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label class="form-label" for="name"> <span class="star">*</span>Name </label>
+                    <input type="text" class="form-control text-box" id="name" />
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <label class="form-label" for="emailAddress"> <span class="star">*</span>Email Address </label>
+                    <input type="text" class="form-control text-box" id="emailAddress" />
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label class="form-label" for="subject"> <span class="star">*</span>Subject </label>
+                    <input type="text" class="form-control text-box" id="subject" />
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <label class="form-label" for="solveThis"> <span class="star">*</span>Solve This </label>
+                    <input type="text" class="form-control text-box" id="solveThis" />
+                  </div>
+                </div>
+              </div> -->
+              <div class="form-group">
+                <label class="form-label" for="message"> <span class="star">*</span>Message </label>
+                <textarea class="form-control text-area" id="message" rows="4"></textarea>
+              </div>
+              <div class="btn-section">
+                <button type="submit" class="btn btn-primary submit-btn">
+                  Submit Form
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -130,56 +197,7 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col">
-          <div class="form-section">
-            <h4 class="form-section__name">Contact form</h4>
-            <p class="form-section__text">
-              The goal of every tourist website is to turn potential leads into guests by guiding. The goal of every
-              tourist website is to turn potential leads into guests by guiding.
-            </p>
-            <form id="contactForm" class="general-form">
-              <div class="row">
-                <div class="col">
-                  <div class="form-group">
-                    <label class="form-label" for="name"> <span class="star">*</span>Name </label>
-                    <input type="text" class="form-control text-box" id="name" />
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="form-group">
-                    <label class="form-label" for="emailAddress"> <span class="star">*</span>Email Address </label>
-                    <input type="text" class="form-control text-box" id="emailAddress" />
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <div class="form-group">
-                    <label class="form-label" for="subject"> <span class="star">*</span>Subject </label>
-                    <input type="text" class="form-control text-box" id="subject" />
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="form-group">
-                    <label class="form-label" for="solveThis"> <span class="star">*</span>Solve This </label>
-                    <input type="text" class="form-control text-box" id="solveThis" />
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="form-label" for="message"> <span class="star">*</span>Message </label>
-                <textarea class="form-control text-area" id="message" rows="4"></textarea>
-              </div>
-              <div class="btn-section">
-                <button type="submit" class="btn btn-primary submit-btn">
-                  Submit Form
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
 </main>

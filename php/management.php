@@ -18,7 +18,7 @@
             </ol>
           </nav>
           <h3 class="page-title">Executive Management</h3>
-          <p class="page-desc">Put nice caption here </p>
+          <p class="page-desc">Put sub-caption here </p>
         </div>
       </div>
     </div>

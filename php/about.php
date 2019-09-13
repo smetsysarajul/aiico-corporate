@@ -5,21 +5,26 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
 <?php include 'php-component/header.php' ?>
 
 <main>
-  <section class="page-intro">
+<section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
     <div class="container">
       <div class="row">
         <div class="col">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
               <li class="breadcrumb-item active" aria-current="page">About Us</li>
             </ol>
           </nav>
           <h3 class="page-title">About AIICO</h3>
+          <p class="page-desc">Effectiveness in the discharge of  responsibilities </p>
         </div>
       </div>
     </div>
   </section>
+
+
   <section class="section section__about-page">
     <div class="container">
       <div class="row align-items-center justify-content-between">

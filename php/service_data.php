@@ -1387,7 +1387,7 @@ EOD
 
 			<div class="row py-5">
 			<div class="col-md-6 ">
-			<h3 class="heading heading--secondary text-dark">Children Education Plan (CEP)</h3>
+			<h3 class="heading heading--secondary text-dark">Why you should get AIICO travel Insurance</h3>
 			<ul class="check-list">
 			<li class="check-list__item">Payment of a lump sum at maturity when the child enters University or Secondary School.</li>
 			<li class="check-list__item">Premium can be returned in the event of the child’s death before maturity of the plan.
@@ -1396,32 +1396,23 @@ EOD
 			</li>
 			<li class="check-list__item">Guaranteed payments of school fees in the event of death, total and permanent disablement of the parent/guardian.
 			</li>
+			Emergency medical expenses
+Repatriation on medical reasons
+Loss of baggage 
+Loss of money
+Missed/Cancelled flights
+Evacuation
+Repatriation of mortal remains (corpse)
+
 		
 			</div>
 
 			<div class="col-md-6 ">
-				<div class="why__content px-5">
-				<h3 class="heading heading--secondary text-dark">Education Legacy Assurance Plan (ELAP)</h3>
-				<ul class="check-list">
-				<li class="check-list__item">Protect children from prematurely stopping their schooling arising from: Death of parent/ sponsor. Total Permanent Disability of parent/ Sponsor resulting from accident or critical illness of parent/ sponsor
-				.</li>
-				<li class="check-list__item">Period of policy can range from minimum of 8 years and maximum of 18 years.
-
-				</li>
-				<li class="check-list__item">Maximum age at entry of parent/ sponsor 57 and at exit 65
-				</li>
-			</ul>
-				</div>
+			
 			</div>
 		</div>
-		<div class="row text-center justify-content-center">
-		<h3  class="heading heading--secondary text-dark">Optional Withdrawal benefits:
-		</h3>
-		<ul class="check-list">
-		<li class="check-list__item">Cash Withdrawal – 20% from investment account balance in the 5th year and every 5year subject to a limit of 3 withdrawals.</li>
 
-	</ul>
-	</div>
+	
 		
 EOD
 			,
@@ -1430,12 +1421,12 @@ EOD
 			<div class="row why__row py-5">
 			<div class="col-md-7 why__col">
 				<div class="why__content px-5">
-					<h3 class="heading heading--secondary text-dark">Secure your child’s future prospects now.
+					<h3 class="heading heading--secondary text-dark">Who can get this?
 
 					</h3>
 					<ul class="check-list">
 					<li class="check-list__item">
-					Frequency: Monthly, Quarterly, Half-yearly and Yearly
+					This is for Corporate,  Indviduals and HNI's.
 				</li>	
 					</ul>
 				</div>
@@ -1454,6 +1445,1656 @@ EOD
 		),
 
 
+		'oil_gas'=>array
+		(
+			'page_title'=>"Oil and Gas| AIICO Insurance Plc.",
+			'page_name'=>'Oil and Gas Plan',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Oil and Gas Plan',
+				'image'=>'../images//services//oil.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Oil and Gas?</h3>
+
+			      <p class="paragraph">
+			        AIICO Auto Insurance covers all types of automobiles for both private and commercial uses.
+			        Also covered are motorcycles and tricycles.
+			      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why do I need auto insurance?</h3>
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Maturity</span> -->
+			          <p class="paragraph text-dark">
+			            It is compulsory; it is the Law! (Road Traffic Act,1950)
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Interest</span> -->
+			          <p class="paragraph text-dark">
+			            Provides replacement cost of damage or theft of your car
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-secondary">
+			            To provide financial support for you when you damage other people’s property
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-dark">
+			            Re-imbursement of litigation cost
+			          </p>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--services">Who should be interested in this plan?</h3>
+			      <ul class="check-list">
+			        <li class="check-list__item">Private Vehicle Owners</li>
+			        <li class="check-list__item">Multiple Family Owners</li>
+			        <li class="check-list__item">Taxi Owners</li>
+			        <li class="check-list__item">Bus Owners</li>
+			        <li class="check-list__item">Delivery vehicles</li>
+			        <li class="check-list__item">Commercial fleets</li>
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img2.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+		'agric'=>array
+		(
+			'page_title'=>"Oil and Gas| AIICO Insurance Plc.",
+			'page_name'=>'Oil and Gas Plan',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Oil and Gas Plan',
+				'image'=>'../images//services//oil.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Oil and Gas?</h3>
+
+			      <p class="paragraph">
+			        AIICO Auto Insurance covers all types of automobiles for both private and commercial uses.
+			        Also covered are motorcycles and tricycles.
+			      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why do I need auto insurance?</h3>
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Maturity</span> -->
+			          <p class="paragraph text-dark">
+			            It is compulsory; it is the Law! (Road Traffic Act,1950)
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Interest</span> -->
+			          <p class="paragraph text-dark">
+			            Provides replacement cost of damage or theft of your car
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-secondary">
+			            To provide financial support for you when you damage other people’s property
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-dark">
+			            Re-imbursement of litigation cost
+			          </p>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--services">Who should be interested in this plan?</h3>
+			      <ul class="check-list">
+			        <li class="check-list__item">Private Vehicle Owners</li>
+			        <li class="check-list__item">Multiple Family Owners</li>
+			        <li class="check-list__item">Taxi Owners</li>
+			        <li class="check-list__item">Bus Owners</li>
+			        <li class="check-list__item">Delivery vehicles</li>
+			        <li class="check-list__item">Commercial fleets</li>
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img2.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+		'marine_cargo'=>array
+		(
+			'page_title'=>"Marine Insurance(Cargo)| AIICO Insurance Plc.",
+			'page_name'=>'Marine Insurance(Cargo)',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Insurance(Cargo)',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Insurance(Cargo)</h3>
+
+			      <p class="paragraph">
+			      This policy covers damage to goods on board a ship, as well as prior to loading and discharge as well as during inter-modal carriage of these goods.
+			      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+								Payment for repair or replacement of Damaged to cargoed goods.
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'marine_hull'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+		'mlop'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'breakdown'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'group_life'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+		'group_education'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+		'fire_peril'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+		'cash_accumulation'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'consequential_loss'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'contractor'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'electronic_equipment'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'employer_liability'=>array
+		(
+			'page_title'=>"Employer’s Liability | AIICO Insurance Plc.",
+			'page_name'=>'Employer’s Liability',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Employer’s Liability',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Employer’s Liability</h3>
+
+			      <p class="paragraph">
+						Employers of labour must pay compensation to an employee for injury or death as a result of accident sustained during usual employment.
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+								Reimbursement payment of work related injuries and/or death for employers of labour 
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'erection_risk'=>array
+		(
+			'page_title'=>"Erection-All-Risk| AIICO Insurance Plc.",
+			'page_name'=>'Erection-All-Risk',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Erection-All-Risk',
+				'image'=>'../images//services//erection1.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Erection-All-Risk</h3>
+
+			      <p class="paragraph">
+						AIICO’s Erection-All-Risk policy provides broad insurance coverage during construction or erection of machinery, plant and steel structures. It provides compensation for unforeseen sudden physical losses or damages as a result of excessive pressure, fire & lightening, short circuits etc
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Erection-All-Risk</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+								Repair or replacement of damaged insured properties and compensation for third party liabilities 
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'fidelity_guarantee'=>array
+		(
+			'page_title'=>"Fidelity Guarantee| AIICO Insurance Plc.",
+			'page_name'=>'Fidelity Guarantee',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Fidelity Guarantee',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Fidelity Guarantee</h3>
+
+			      <p class="paragraph">
+						AIICO Fidelity Guarantee Insurance provides coverage against any direct financial loss sustained by the employer through acts of fraud, dishonesty, forgery or theft committed by his employees in connection with their occupation and duties. 			</p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Fidelity Guarantee?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+								Compensation for financial loss as a result of fraudulent activities of the employee.
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'fire_peril'=>array
+		(
+			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
+			'page_name'=>'Marine Hull & Machinery',
+
+			'parent'=>array
+			(
+				'title'=>'Business Plans',
+				'link'=>''
+			),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Marine Hull & Machinery',
+				'image'=>'../images//services//marine.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+
+			      <p class="paragraph">
+						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
+			     
+			  
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <img class="services__image" src="../images//services/oil.png" />
+			    
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why AIICO Marine Insurance?</h3>
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <p class="paragraph text-dark">
+							
+This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
+
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row  py-5">
+			  <div class="col-md-7">
+			    <div class=" px-5">
+			      <h3 class="heading heading--secondary text-dark">Interested in this plan?</h3><br>
+						Get in touch with us.
+			    </div>
+			  </div>
+			  <div class="col-md-5 p-0">
+			    <div class="">
+			      <figure>
+			        <img width="100%" src="../images//services/oil.png" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+		
+
 
 
 
@@ -1461,5 +3102,6 @@ EOD
 
 
 )
+
 
  ?>

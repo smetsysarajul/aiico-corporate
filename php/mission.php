@@ -5,26 +5,29 @@
  ?>
 <?php include 'php-component/header.php' ?>
 <main>
-  <section class="page-intro">
+<section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
     <div class="container">
       <div class="row">
         <div class="col">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
               <li class="breadcrumb-item active" aria-current="page">Mission and Vision</li>
             </ol>
           </nav>
           <h3 class="page-title">Mission and Vision</h3>
+          <p class="page-desc">Stability, Strength, Security and Trust  </p>
         </div>
       </div>
     </div>
   </section>
+  
   <section class="section section__about-page">
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-12">
-          <h3 class="heading heading--secondary">At AIICO, you matter.</h3>
           <p class="paragraph">
             AIICO Insurance is the largest Life Insurer in Nigeria and a major underwriter for General Insurance
             business. We are key players in Oil and Gas and rated in the top three for General Insurance business in

@@ -4,22 +4,27 @@
  ?>
 <?php include 'php-component/header.php' ?>
     <main>
-      <section class="page-intro">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Corporate Governance</li>
-                </ol>
-              </nav>
-              <h3 class="page-title">Corporate Governance</h3>
-            </div>
-          </div>
+    <section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Corporate Governance</li>
+            </ol>
+          </nav>
+          <h3 class="page-title">Corporate Governance</h3>
+          <p class="page-desc">Effectiveness in the discharge of  responsibilities </p>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
+    
       <section class="section section__about-page">
+        
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md-12">
@@ -34,21 +39,98 @@
         </div>
       </section>
       <section class="section section__about-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="heading heading--secondary">Board of Directors</h3>
-                    <p class="paragraph"><b>Chairman, Board of Directors:</b> Mr. Bukola Oluwadiya</p>
-                    <p class="paragraph"><b>Managing Director:</b> Mr. Edwin Egbiti</p>
-                    <p class="paragraph"><b>Executive Directo:</b> Mr. Babatunde Fajemirokun</p>
-                    <p class="paragraph"><b>Non-Executive Director:</b> Mr. Kundan Sainani</p>
-                    <p class="paragraph"><b>Non-Executive Director:</b> Mr. Sonnie Ayere</p>
-                    <p class="paragraph"><b>Non-Executive Director:</b> Mr. S.D.A. Sobanjo</p>
-                    <p class="paragraph"><b>Non-Executive Director:</b> Mr. Ademola Adebise</p>
-                    <p class="paragraph"><b>Non-Executive Director:</b> Mr. Samaila Dalhat Zubairu<<b>/p>
-                </div>
+      <div class="container">
+      <div class="row">
+        
+      <h3 class="heading heading--secondary col-12 text-center ">Board of Directors</h3>
+                           
+        <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">	Mr. Kundan Sainani</h5>
+              <p class="location__address"> Chairman, Board of Directors.</p>  
             </div>
+          </div>
         </div>
+      
+        <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">		Mr. Babatunde Fajemirokun</h5>
+              <p class="location__address">Managing Director</p>  
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">		Mr. Adewale Kadri</h5>
+              <p class="location__address">Executive Director, Technical.</p>  
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">		Mr. S.D.A. Sobanjo</h5>
+              <p class="location__address">Non-Executive Director</p>  
+            </div>
+          </div>
+        </div>
+
+  <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">		Mr. Adewale Kadri</h5>
+              <p class="location__address">Executive Director, Technical.</p>  
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">		Mr. S.D.A. Sobanjo</h5>
+              <p class="location__address">Non-Executive Director</p>  
+            </div>
+          </div>
+        </div>
+
+          <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">		Mr. Ademola Adebise</h5>
+              <p class="location__address">Non-Executive Director</p>  
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">		Mr. Samaila Dalhat Zubairu</h5>
+              <p class="location__address">Non-Executive Director(Independent)</p>  
+            </div>
+          </div>
+        </div>
+
+   <div class="col-md-6 text-center">
+          <div class="location">
+            <div class="location__details">
+              <h5 class="location__name text-blue">	Folakemi Fajemirokun</h5>
+              <p class="location__address">Non-Executive Director</p>  
+            </div>
+          </div>
+        </div>
+      
+      
+      </div>
+
+     
+    </div>
+
+      
       </section>
     </main>
 

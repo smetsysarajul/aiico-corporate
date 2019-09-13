@@ -35,13 +35,13 @@
               'children'=>array(
               'Marine Industry'=>array
                 (
-                    'Marine Insurance (cargo)'=>'services.php?p=cash_accumulation',
-                    'Marine Hull & Machinery'=>'services.php?p=credit_life'
+                    'Marine Insurance (cargo)'=>'services.php?p=marine_cargo',
+                    'Marine Hull & Machinery'=>'services.php?p=marine_hull'
                 ),
                 'Manufacturing Industry'=>array
                 (
                     'Machinery Loss of Profit (MLOP)'=>'services.php?p=mlop',
-                    'Marine Hull & Machinery'=>'services.php?p=marine_hull',
+                    'Machinery Breakdown Insurance'=>'services.php?p=breakdown',
 
                 ),
                 'Oil and Gas'=>'services.php?p=oil_gas',
@@ -70,7 +70,7 @@
               'Our Company'=>array
                 (
                     'About AIICO'=>'about.php',
-                    'Mission and Vision'=>'services.php?p=credit_life'
+                    'Mission and Vision'=>'mission.php'
                 ),
                 'Leadership'=>array
                 (

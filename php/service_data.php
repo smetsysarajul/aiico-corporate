@@ -1933,10 +1933,8 @@ EOD
 			      <ul class="big-list mb-3">
 			        <li class="big-list__item">
 			          <p class="paragraph text-dark">
-							
-This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
-
-			          </p>
+								AIICO Insurance provides cover for the actual loss of gross profit sustained as a result of a business. This interruption follows an accident that can be indemnified under Machinery breakdown insurance.
+								</p>
 			        </li>
 			      
 			      </ul>

@@ -7,6 +7,10 @@
   min-height: 400px;
   padding: 0;
 
+  @include respond(small) {
+    background: #003896;
+  }
+
   &__info {
     background-color: $color-blue;
     color: $color-white;

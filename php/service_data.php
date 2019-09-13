@@ -173,7 +173,7 @@ EOD
 			// 'parent'=>array('name'=>'link'),
 			'product'=><<<EOD
 				<div class="row why__row py-5">
-				  <div class="col-md-6 why__col">
+				  <div class="col-md-9 why__col">
 				    <div class="why__content">
 				      <h3 class="heading heading--services">About AIICO Annuity...</h3>
 
@@ -211,26 +211,14 @@ EOD
 
 				  <div class="filler"></div>
 
-				  <div class="col-md-5 why__col p-0">
-				    <div class="why__content h-100">
-				      <img class="services__image" src="../images//services/annuity2.jpg" />
-				    
-				    </div>
-				  </div>
+				 
 				</div>
 EOD
 			,
 			'benefit'=><<<EOD
 				<div class="row why__row  py-5">
-				  <div class="col-md-5 why__col p-0">
-				    <div class="why__content">
-				      <figure>
-				        <img width="100%" src="../images//services/annuity3.jpg" />
-				      </figure>
-				    </div>
-				  </div>
 
-				  <div class="col-md-7 why__col">
+				  <div class="col-md-10 why__col">
 				    <div class="why__content px-5">
 				      <h3 class="heading heading--secondary text-dark">Why do I need annuity plan?</h3>
 				      <p class="paragraph">
@@ -628,7 +616,7 @@ EOD
 				'parent'=>array('Endowment Plan'=>'#'),
 				'product'=><<<EOD
 				<div class="row why__row py-5">
-			  <div class="col-md-7 why__col">
+			  <div class="col-md-9 why__col">
 			    <div class="why__content px-5">
 			      <h3 class="heading heading--secondary text-dark">About Life Celebration Plan
 
@@ -721,26 +709,755 @@ EOD
 
 
 			
-				<h3 class="heading heading--secondary text-dark">		Maturity Benefit:
-				</h3>  	<p class="paragraph text-dark">
-				The policy has no maturity value
-			</p>
-			<h3 class="heading heading--secondary text-dark">	Waiting Period:
-				</h3>  	<p class="paragraph text-dark">
-				Except for accidental death, there is a six month waiting period from the inception date before rights to benefit can accrue.
-
-			</p>
-			<h3 class="heading heading--secondary text-dark">	Waiver of premium on attaining age 65:
-			</h3>  	
-			<p class="paragraph text-dark">
-			This is usually only available if the policy is taken out before age 55. At age 65 cover continues for the life for the policyholder and spouse and all future premiums are waived.
-
-		</p>
+				
 	
 
 EOD
 
 			),
+
+
+			'new_income'=>array
+			(
+				'top_page'=>array
+				(
+					'title'=>'New Income Investment Plans',
+					'image'=>'../images//services/newincome1.jpg'
+				),
+				'page_name'=>'New Income Investment Plans',
+				'parent'=>array('Endowment Plan'=>'#'),
+				'product'=><<<EOD
+				<div class="row why__row py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">About New Income Investment Plan
+
+						</h3>
+						<p class="paragraph">
+						Our Income Investment Plan is a long term investment linked policy that is structured to take care of your immediate and future needs as a customer. It’s a great addition to financial score card. You can work it into financial planning for short and long-term financial planning goals. It combines investment, savings and insurance protection
+ </p>
+				
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			   
+			  </div>
+			</div>
+
+EOD
+				,
+				'benefit'=><<<EOD
+				<div class="row py-5">
+			  <div class="col-md-6 ">
+				<h3 class="heading heading--secondary text-dark">Some of the Benefits</h3>
+				<ul class="check-list">
+				<li class="check-list__item">Provides for regular monthly minimum contribution payments of N5,000 as well as additional contribution for target savings.   </li>
+				<li class="check-list__item">Duration of policy are: 10, 12, 15 and 20
+				</li>
+				<li class="check-list__item">Your individual account (policy holder’s account) is where your allocated premiums and interest will be credited.
+				</li>
+			  </div>
+
+			  <div class="col-md-6 ">
+			    <div class="why__content px-5">
+					<ul class="check-list">
+					<li class="check-list__item">Provides for competitive interest rate on both contribution and target savings.
+					</li>
+					<li class="check-list__item">Provides for payment of sum assured, investment account balance and savings account balance (if any) to the beneficiary on the demise of the policyholder.
+
+					</li>	
+					<li class="check-list__item">Provides for payment of investment account balance and total savings on maturity date of the policy.
+
+					</li>
+				
+				</ul>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+				,
+				
+				'premium'=><<<EOD
+				<p class="paragraph ">
+				Start building that next egg now with as little as N5,000 with the benefits of an insurance cover.
+				</p>
+
+
+			
+				
+	
+
+EOD
+
+			),
+
+
+
+
+			'new_income'=>array
+			(
+				'top_page'=>array
+				(
+					'title'=>'New Income Investment Plans',
+					'image'=>'../images//services/newincome1.jpg'
+				),
+				'page_name'=>'New Income Investment Plans',
+				'parent'=>array('Endowment Plan'=>'#'),
+				'product'=><<<EOD
+				<div class="row why__row py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">About New Income Investment Plan
+
+						</h3>
+						<p class="paragraph">
+						Our Income Investment Plan is a long term investment linked policy that is structured to take care of your immediate and future needs as a customer. It’s a great addition to financial score card. You can work it into financial planning for short and long-term financial planning goals. It combines investment, savings and insurance protection
+ </p>
+				
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			   
+			  </div>
+			</div>
+
+EOD
+				,
+				'benefit'=><<<EOD
+				<div class="row py-5">
+			  <div class="col-md-6 ">
+				<h3 class="heading heading--secondary text-dark">Some of the Benefits</h3>
+				<ul class="check-list">
+				<li class="check-list__item">Provides for regular monthly minimum contribution payments of N5,000 as well as additional contribution for target savings.   </li>
+				<li class="check-list__item">Duration of policy are: 10, 12, 15 and 20
+				</li>
+				<li class="check-list__item">Your individual account (policy holder’s account) is where your allocated premiums and interest will be credited.
+				</li>
+				</ul>
+			  </div>
+
+			  <div class="col-md-6 ">
+			    <div class="why__content px-5">
+					<ul class="check-list">
+					<li class="check-list__item">Provides for competitive interest rate on both contribution and target savings.
+					</li>
+					<li class="check-list__item">Provides for payment of sum assured, investment account balance and savings account balance (if any) to the beneficiary on the demise of the policyholder.
+
+					</li>	
+					<li class="check-list__item">Provides for payment of investment account balance and total savings on maturity date of the policy.
+
+					</li>
+				
+				</ul>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+				,
+				
+				'premium'=><<<EOD
+				<p class="paragraph ">
+				Calculated by applying rates based on the age next birthday, sum assured and term of the policy.	</p>
+				
+				<h3 class="heading heading--secondary text-dark">Frequency of payment</h3>
+				<ul class="check-list">
+				
+				<li class="check-list__item">Annual or Single Premium allowed.
+
+				</li>
+				</ul>
+
+EOD
+
+			),
+
+
+
+
+			'home_insurance'=>array
+			(
+				'top_page'=>array
+				(
+					'title'=>'Home Insurance Plans',
+					'image'=>'../images//services/newincome1.jpg'
+				),
+				'page_name'=>'New Income Investment Plans',
+				// 'parent'=>array('Endowment Plan'=>'#'),
+				'product'=><<<EOD
+				<div class="row why__row py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">About New Income Investment Plan
+
+						</h3>
+						<p class="paragraph">
+						Our Income Investment Plan is a long term investment linked policy that is structured to take care of your immediate and future needs as a customer. It’s a great addition to financial score card. You can work it into financial planning for short and long-term financial planning goals. It combines investment, savings and insurance protection
+ </p>
+				
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			   
+			  </div>
+			</div>
+
+EOD
+				,
+				'benefit'=><<<EOD
+				<div class="row py-5">
+			  <div class="col-md-6 ">
+				<h3 class="heading heading--secondary text-dark">Some of the Benefits</h3>
+				<ul class="check-list">
+				<li class="check-list__item">Provides for regular monthly minimum contribution payments of N5,000 as well as additional contribution for target savings.   </li>
+				<li class="check-list__item">Duration of policy are: 10, 12, 15 and 20
+				</li>
+				<li class="check-list__item">Your individual account (policy holder’s account) is where your allocated premiums and interest will be credited.
+				</li>
+				</ul>
+			  </div>
+
+			  <div class="col-md-6 ">
+			    <div class="why__content px-5">
+					<ul class="check-list">
+					<li class="check-list__item">Provides for competitive interest rate on both contribution and target savings.
+					</li>
+					<li class="check-list__item">Provides for payment of sum assured, investment account balance and savings account balance (if any) to the beneficiary on the demise of the policyholder.
+
+					</li>	
+					<li class="check-list__item">Provides for payment of investment account balance and total savings on maturity date of the policy.
+
+					</li>
+				
+				</ul>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+				,
+				
+				'premium'=><<<EOD
+				<p class="paragraph ">
+				Calculated by applying rates based on the age next birthday, sum assured and term of the policy.	</p>
+				
+				<h3 class="heading heading--secondary text-dark">Frequency of payment</h3>
+				<ul class="check-list">
+				
+				<li class="check-list__item">Annual or Single Premium allowed.
+
+				</li>
+				</ul>
+
+EOD
+
+			),
+
+
+		'credit_life'=>array
+		(
+			'page_title'=>"Credit Life Policy | AIICO Insurance Plc.",
+			'page_name'=>'Credit Life Policy Plan',
+
+			'parent'=>array
+			(
+				'title'=>'Individual Plans',
+				'link'=>'#'
+			),
+
+				'parent'=>array('Life Plan'=>'#'),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Credit Life Policy Plan',
+				'image'=>'../images//services//credit.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-6 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About Credit Life.,</h3>
+
+			      <p class="paragraph">
+			        AIICO Auto Insurance covers all types of automobiles for both private and commercial uses.
+			        Also covered are motorcycles and tricycles.
+			      </p>
+			     
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <span class="text-dark">Third Party Auto Insurance</span>
+			          <p class="paragraph text-secondary">
+			            We offer a wide range of products and services which are tailored towards our customers'
+			            needs.We offer a wide range of products and services which are tailored.
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why do I need auto insurance?</h3>
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Maturity</span> -->
+			          <p class="paragraph text-dark">
+			            It is compulsory; it is the Law! (Road Traffic Act,1950)
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Interest</span> -->
+			          <p class="paragraph text-dark">
+			            Provides replacement cost of damage or theft of your car
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-secondary">
+			            To provide financial support for you when you damage other people’s property
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-dark">
+			            Re-imbursement of litigation cost
+			          </p>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--services">Who should be interested in this plan?</h3>
+			      <ul class="check-list">
+			        <li class="check-list__item">Private Vehicle Owners</li>
+			        <li class="check-list__item">Multiple Family Owners</li>
+			        <li class="check-list__item">Taxi Owners</li>
+			        <li class="check-list__item">Bus Owners</li>
+			        <li class="check-list__item">Delivery vehicles</li>
+			        <li class="check-list__item">Commercial fleets</li>
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img2.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+		'mortgage'=>array
+		(
+			'page_title'=>"Mortgage Protection Plan | AIICO Insurance Plc.",
+			'page_name'=>'Mortgage Protection Plan',
+
+			'parent'=>array
+			(
+				'title'=>'Individual Plans',
+				'link'=>'#'
+			),
+
+				'parent'=>array('Life Plan'=>'#'),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>'Mortgage Protection Plan',
+				'image'=>'../images//services//mortgage.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-12 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About Mortgage Protection,</h3>
+
+			      <p class="paragraph">
+						Congratulations, you are about to own your own home and put in place a legacy that secures a firm footing for your family in perpetuity. Make sure you get a mortgage loan protection plan that covers you against the unfortunate event of death during the loan repayment period. Should this happen, the protection plan sum assured goes to pay down the mortgage loan, ensuring your legacy.
+			      </p>
+			     
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <span class="text-dark">Third Party Auto Insurance</span>
+			          <p class="paragraph text-secondary">
+			            We offer a wide range of products and services which are tailored towards our customers'
+			            needs.We offer a wide range of products and services which are tailored.
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why do I need auto insurance?</h3>
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Maturity</span> -->
+			          <p class="paragraph text-dark">
+			            It is compulsory; it is the Law! (Road Traffic Act,1950)
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Interest</span> -->
+			          <p class="paragraph text-dark">
+			            Provides replacement cost of damage or theft of your car
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-secondary">
+			            To provide financial support for you when you damage other people’s property
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-dark">
+			            Re-imbursement of litigation cost
+			          </p>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--services">Who should be interested in this plan?</h3>
+			      <ul class="check-list">
+			        <li class="check-list__item">Private Vehicle Owners</li>
+			        <li class="check-list__item">Multiple Family Owners</li>
+			        <li class="check-list__item">Taxi Owners</li>
+			        <li class="check-list__item">Bus Owners</li>
+			        <li class="check-list__item">Delivery vehicles</li>
+			        <li class="check-list__item">Commercial fleets</li>
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img2.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+
+		'term_assurance'=>array
+		(
+			'page_title'=>"Term Assurance Plan | AIICO Insurance Plc.",
+			'page_name'=>'Term Assurance Plan',
+
+			'parent'=>array
+			(
+				'title'=>'Individual Plans',
+				'link'=>'#'
+			),
+
+			'parent'=>array('Life Plan'=>'#'),
+			'action_link'=>array(
+				'title'=>'GET QUOTE',
+				'link'=>"#"
+			),
+
+			'top_page'=>array
+			(
+				'title'=>' Term Assurance Plan ',
+				'image'=>'../images//services//term.jpg'
+			),
+			'product'=><<<EOD
+
+			<div class="row why__row py-5">
+			  <div class="col-md-12 why__col">
+			    <div class="why__content">
+			      <h3 class="heading heading--services">About Term Assurance Plan,</h3>
+
+			      <p class="paragraph">
+						Congratulations, you are about to own your own home and put in place a legacy that secures a firm footing for your family in perpetuity. Make sure you get a mortgage loan protection plan that covers you against the unfortunate event of death during the loan repayment period. Should this happen, the protection plan sum assured goes to pay down the mortgage loan, ensuring your legacy.
+			      </p>
+			     
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <span class="text-dark">Third Party Auto Insurance</span>
+			          <p class="paragraph text-secondary">
+			            We offer a wide range of products and services which are tailored towards our customers'
+			            needs.We offer a wide range of products and services which are tailored.
+			          </p>
+			        </li>
+			      
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="filler"></div>
+
+			
+			</div>
+EOD
+			,
+			'benefit'=><<<EOD
+
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--secondary text-dark">Why do I need auto insurance?</h3>
+
+			      <ul class="big-list mb-3">
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Maturity</span> -->
+			          <p class="paragraph text-dark">
+			            It is compulsory; it is the Law! (Road Traffic Act,1950)
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Interest</span> -->
+			          <p class="paragraph text-dark">
+			            Provides replacement cost of damage or theft of your car
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-secondary">
+			            To provide financial support for you when you damage other people’s property
+			          </p>
+			        </li>
+			        <li class="big-list__item">
+			          <!-- <span class="text-dark">Death Benefits</span> -->
+			          <p class="paragraph text-dark">
+			            Re-imbursement of litigation cost
+			          </p>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row why__row align-items-center py-5">
+			  <div class="col-md-7 why__col">
+			    <div class="why__content px-5">
+			      <h3 class="heading heading--services">Who should be interested in this plan?</h3>
+			      <ul class="check-list">
+			        <li class="check-list__item">Private Vehicle Owners</li>
+			        <li class="check-list__item">Multiple Family Owners</li>
+			        <li class="check-list__item">Taxi Owners</li>
+			        <li class="check-list__item">Bus Owners</li>
+			        <li class="check-list__item">Delivery vehicles</li>
+			        <li class="check-list__item">Commercial fleets</li>
+			      </ul>
+			    </div>
+			  </div>
+			  <div class="col-md-5 why__col p-0">
+			    <div class="why__content">
+			      <figure>
+			        <img width="100%" src="../images//product-img2.jpg" />
+			      </figure>
+			    </div>
+			  </div>
+			</div>
+
+EOD
+		),
+
+
+		'international'=>array
+		(
+			'parent'=>array
+	(
+		'title'=>'Individual Plans',
+		'link'=>''
+	),
+			'top_page'=>array
+			(
+				'title'=>'International Travel Plans',
+				'image'=>'../images//services//travel1.jpg'
+			),
+			'page_name'=>'International Travel Plans',
+		
+			'product'=><<<EOD
+			<div class="row why__row py-5">
+				<div class="col-md-12 why__col">
+					<div class="why__content">
+						<h3 class="heading heading--services">About Education Legacy Assurance...</h3>
+						<p class="paragraph">
+						
+Travelling is always an exciting activity be it for leisure or business. The fun and excitement comes with the responsibility to make your journey safe to and fro. 
+
+Your desire to have a fun-filled travel without worries is what we yearn to achieve. AIICO Travel Insurance Plan in partnership with AIG South Africa provides cover against a broad range of mishaps.
+
+Travel insurance is a mandatory requirement at all Schengen embassies (France, Germany, Italy, Netherlands, Iceland, Luxemburg, Belgium, Sweden, Denmark, Greece, Finland, Norway, Spain, Portugal, Slovakia, Slovenia, Malta, Lithuania, Latvia, Hungary, Estonia, Czech republic, Austria, Switzerland and Poland).
+
+AIICO Travel Insurance Plan is recognized and accepted at all Schengen and Non Schengen embassies.
+
+ </p>
+					
+					
+
+					
+					</div>
+				</div>
+		
+
+				<div class="filler"></div>
+
+			
+			</div>
+
+EOD
+			,
+			'benefit'=><<<EOD
+			
+
+			<div class="row py-5">
+			<div class="col-md-6 ">
+			<h3 class="heading heading--secondary text-dark">Children Education Plan (CEP)</h3>
+			<ul class="check-list">
+			<li class="check-list__item">Payment of a lump sum at maturity when the child enters University or Secondary School.</li>
+			<li class="check-list__item">Premium can be returned in the event of the child’s death before maturity of the plan.
+			</li>
+			<li class="check-list__item">The funds may be transferred to the benefit of another child of the policy holder.
+			</li>
+			<li class="check-list__item">Guaranteed payments of school fees in the event of death, total and permanent disablement of the parent/guardian.
+			</li>
+		
+			</div>
+
+			<div class="col-md-6 ">
+				<div class="why__content px-5">
+				<h3 class="heading heading--secondary text-dark">Education Legacy Assurance Plan (ELAP)</h3>
+				<ul class="check-list">
+				<li class="check-list__item">Protect children from prematurely stopping their schooling arising from: Death of parent/ sponsor. Total Permanent Disability of parent/ Sponsor resulting from accident or critical illness of parent/ sponsor
+				.</li>
+				<li class="check-list__item">Period of policy can range from minimum of 8 years and maximum of 18 years.
+
+				</li>
+				<li class="check-list__item">Maximum age at entry of parent/ sponsor 57 and at exit 65
+				</li>
+			</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center justify-content-center">
+		<h3  class="heading heading--secondary text-dark">Optional Withdrawal benefits:
+		</h3>
+		<ul class="check-list">
+		<li class="check-list__item">Cash Withdrawal – 20% from investment account balance in the 5th year and every 5year subject to a limit of 3 withdrawals.</li>
+
+	</ul>
+	</div>
+		
+EOD
+			,
+			
+			'premium'=><<<EOD
+			<div class="row why__row py-5">
+			<div class="col-md-7 why__col">
+				<div class="why__content px-5">
+					<h3 class="heading heading--secondary text-dark">Secure your child’s future prospects now.
+
+					</h3>
+					<ul class="check-list">
+					<li class="check-list__item">
+					Frequency: Monthly, Quarterly, Half-yearly and Yearly
+				</li>	
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-5 why__col p-0">
+				<div class="why__content">
+					<figure>
+						<img width="100%" src="../images//product-img2.jpg" />
+					</figure>
+				</div>
+			</div>
+		</div>
+
+EOD
+			,
+		),
+
+
+
+
+
+
 
 
 )

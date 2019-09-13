@@ -19,7 +19,7 @@
                 (
                     'Credit Life Policy'=>'services.php?p=credit_life',
                     'Mortgage Protection Plan'=>'services.php?p=mortgage',
-                    'Term Assurance'=>'services.php?p=terms_assurance'
+                    'Term Assurance'=>'services.php?p=term_assurance'
                 ),
                 'Personal Accident Plan'=>'services.php?p=personal_accident',
                 'Travel Insurance Plans'=>array
@@ -207,7 +207,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="btn text-red bold" href="claims_center.php"> REPORT A CLAIM</a>
+                  <a class="btn text-red bold" href="claims-center.php"> REPORT A CLAIM</a>
                 </li>
                 <li class="nav-item">
                   <a class="btn btn--primary" href="#"> VISIT e-Business</a>
@@ -297,7 +297,7 @@
                   </li>
                   <?php endforeach ?>
                   <li class="nav-item claim-btn">
-                    <a class="btn btn--primary w-100" href="claims-center.html"> REPORT A CLAIM</a>
+                    <a class="btn btn--primary w-100" href="claims-center.php"> REPORT A CLAIM</a>
                   </li>
                 </ul>
               </div>

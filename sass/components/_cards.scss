@@ -6,18 +6,23 @@
 }
 
 .person {
-  margin-bottom: 3rem; // padding: 5px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   &__avatar-wrapper {
     border-top-left-radius: .4rem;
     border-top-right-radius: .4rem;
     margin: 0;
     overflow: hidden;
     width: 100%;
+    height: 350px;
   }
   &__avatar {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
   }
   &__info {
     background-color: #ffffff;

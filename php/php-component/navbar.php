@@ -14,21 +14,18 @@
                     'Life Celebration Plan'=>'services.php?p=life_celebration',
                     'New Income Investment'=>'services.php?p=new_income'
                 ),
+                'Home Insurance'=>'services.php?p=home_insurance',
                 'Life Plan'=>array
                 (
                     'Credit Life Policy'=>'services.php?p=credit_life',
                     'Mortgage Protection Plan'=>'services.php?p=mortgage',
-
+                    'Term Assurance'=>'services.php?p=term_assurance'
                 ),
                 'Personal Accident Plan'=>'services.php?p=personal_accident',
-                'Savings Plan'=>array
-                (
-                  // 'Children’s Education Plan'=>'services.php?p=credit_life',
-                  'Term Assurance'=>'services.php?p=terms_assurance'
-                ), 'Travel Insurance Plans'=>array
+                'Travel Insurance Plans'=>array
                 (
                   ' International Plan'=>'services.php?p=international',
-                  'Local Plans'=>'services.php?p=local'
+                  'Local Plans'=>''
                 )
               )
             ),
@@ -38,13 +35,13 @@
               'children'=>array(
               'Marine Industry'=>array
                 (
-                    'Marine Insurance (cargo)'=>'services.php?p=cash_accumulation',
-                    'Marine Hull & Machinery'=>'services.php?p=credit_life'
+                    'Marine Insurance (cargo)'=>'services.php?p=marine_cargo',
+                    'Marine Hull & Machinery'=>'services.php?p=marine_hull'
                 ),
                 'Manufacturing Industry'=>array
                 (
                     'Machinery Loss of Profit (MLOP)'=>'services.php?p=mlop',
-                    'Marine Hull & Machinery'=>'services.php?p=marine_hull',
+                    'Machinery Breakdown Insurance'=>'services.php?p=breakdown',
 
                 ),
                 'Oil and Gas'=>'services.php?p=oil_gas',
@@ -61,8 +58,7 @@
                   'Employer’s Liability'=>'services.php?p=employer_liability',
                   'Erection-All-Risk '=>'services.php?p=erection_risk',
                   'Fidelity Guarantee'=>'services.php?p=fidelity_guarantee',
-                  'Home Insurance'=>'services.php?p=home_insurance',
-                  // 'Machinery Breakdown'=>'services.php?p=credit_life',
+                
                 )
               )
             )

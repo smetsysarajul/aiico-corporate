@@ -12,17 +12,21 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
         <div class="col">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
               <li class="breadcrumb-item active" aria-current="page">About Us</li>
             </ol>
           </nav>
           <h3 class="page-title">About AIICO</h3>
-          <p class="page-desc">Who we are..</p>
+
+          <p class="page-desc">Effectiveness in the discharge of  responsibilities </p>
         </div>
       </div>
     </div>
   </section>
-  <section class="section section__about-page bg-blue">
+
+  <section class="section section__about-page">
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-5">

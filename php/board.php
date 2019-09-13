@@ -26,7 +26,7 @@
   <section class="section section__about-page">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
               <img class="person__avatar" src="../images/mgt/kundan.png" alt="Kundan Sainani" />
@@ -40,7 +40,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
               <img class="person__avatar" src="../images/mgt/Babatunde.jpg" alt="Babatunde Fajemirokun" />
@@ -56,7 +56,7 @@
 
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
               <img class="person__avatar" src="../images/mgt/Adewale.jpg" alt="Adewale Kadri" />
@@ -71,10 +71,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
-              <img class="person__avatar" src="../images/mgt/sola.png" alt="Olusola Ajayi" />
+              <img class="person__avatar" src="../images/mgt/Sola.jpg" alt="Olusola Ajayi" />
             </figure>
             <div class="person__info">
               <h5 class="person__name">Olusola Ajayi</h5>
@@ -86,7 +86,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
               <img class="person__avatar" src="../images/mgt/ademola.png" alt="Ademola Adebise" />
@@ -100,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
               <img class="person__avatar" src="../images/mgt/sobanjo.png" alt="S.D.A Sobanjo" />
@@ -114,7 +114,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
               <img class="person__avatar" src="../images/mgt/samaila.png" alt="Samaila Dalhat Zubairu" />
@@ -128,7 +128,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
           <div class="person">
             <figure class="person__avatar-wrapper">
               <img class="person__avatar" src="../images/mgt/folakemi.png" alt="Folakemi Fajemirokun" />

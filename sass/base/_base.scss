@@ -49,3 +49,9 @@ main {
 :focus:not(:focus-visible) {
   outline: none;
 }
+
+main {
+  // @include respond(small) {
+  //   margin-top: 105px;
+  // }
+}

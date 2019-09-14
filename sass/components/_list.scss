@@ -208,6 +208,8 @@
 
       @include respond(medium) {
         font-size: 1.4rem;
+        flex: 1;
+        margin-right: 2rem;
       }
     }
 

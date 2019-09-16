@@ -4,45 +4,33 @@
  ?>
 <?php include 'php-component/header.php' ?>
 
-<main>
+<main> <section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(..//images/customercare.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Suport</li>
+            </ol>
+          </nav>
+          <h3 class="page-title">Customer Feedback</h3>
+          <p class="page-desc">Say Hello today.. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
   <section class="section">
-    <div class="container">
-      <div class="section__intro">
-        <h3 class="section__heading">Customer Feedback Form</h3>
-      </div>
-    </div>
-  </section>
-  <section class="section pt-0">
-    <div class="container">
-      <div class="row align-items-center justify-content-between mb-5">
-        <div class="col-md-5">
-          <p class="paragraph">Talk with our team and start building your payments solution.</p>
-          <p class="paragraph">
-            Notified, adequately substantiated, discreetly investigated and equitably quantified, an approved
-            settlement offer is communicated to the Insured and/or the Broker as an acceptance of liability on the
-            policy.
-          </p>
-          <p class="paragraph">
-            AIICO Insurance Plc. issues its cheque in settlement of claims immediately upon receipt of the Discharge
-            Voucher from the insured
-          </p>
-        </div>
-        <div class="col-md-6">
-          <figure class="image-wrapper ">
-            <img class="image " src="../images//feedback.png" alt="ask ella" />
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section bg-blue-light">
     <div class="container">
       <div class="section__intro">
         <h3 class="section__heading">Kindly fill the form below</h3>
       </div>
       <div class="row justify-content-center">
         <div class="col-md-10">
-          <form id="whistleBlowerForm" class="general-form">
+          <form id="whistleBlowerForm" class="general-form ">
             <div class="row">
               <div class="col">
                 <div class="form-group">

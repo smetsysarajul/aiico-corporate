@@ -162,76 +162,56 @@ $pageTitle = "AIICO Insurance Plc.";
                     <div class="card">
                       <div class="card__image" style="background-image: url('../images/products/insurance.png')"></div>
                       <div class="card__content">
-                        <a class="card__title" href="https://smetsysarajul.github.io/aiico-corporate/services.html"
-                          >Auto Insurance Plans</a
+                        <a class="card__title" href="services.php?p=auto_insurance"
+                          >Auto Insurance </a
                         >
                         <p class="card__text">Accidents happen that’s why we have seatbelts, airbags, bumpers...</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-lg-3 mb-5">
-                    <div class="card">
-                      <div class="card__image" style="background-image: url('../images/products/accident.png')"></div>
-                      <div class="card__content">
-                        <p class="card__title">Personal Accident</p>
-                        <p class="card__text">A burden shared is one half solved. Don’t take on the financial ...</p>
-                      </div>
-                    </div>
-                  </div>
+                
                   <div class="col-md-4 col-lg-3 mb-5">
                     <div class="card">
                       <div class="card__image" style="background-image: url('../images/products/travel.png')"></div>
                       <div class="card__content">
-                        <p class="card__title">Travel Insurance</p>
-                        <p class="card__text">Don’t let worries interrupt your vacation or travel experience. ....</p>
+                      <a class="card__title" href="services.php?p=international"
+                          >Travel Insurance </a
+                        > <p class="card__text">Don’t let worries interrupt your vacation or travel experience. ....</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-lg-3 mb-5">
-                    <div class="card">
-                      <div class="card__image" style="background-image: url('../images/products/life.png')"></div>
-                      <div class="card__content">
-                        <p class="card__title">Life Insurance Plan</p>
-                        <p class="card__text">Life happens and there is no reason why you shouldn’t have life...</p>
-                      </div>
-                    </div>
-                  </div>
+                
                   <div class="col-md-4 col-lg-3 mb-5">
                     <div class="card">
                       <div class="card__image" style="background-image: url('../images/products/endowment.png')"></div>
                       <div class="card__content">
-                        <p class="card__title">Endowment Plans</p>
-                        <p class="card__text">Leaving a legacy is what many work daily to achieve and .....</p>
+                      <a class="card__title" href="services.php?p=education_legacy"
+                          >Endowment Plans</a
+                        ><p class="card__text">Leaving a legacy is what many work daily to achieve and .....</p>
                       </div>
                     </div>
                   </div>
+               
                   <div class="col-md-4 col-lg-3 mb-5">
-                    <div class="card">
-                      <div class="card__image" style="background-image: url('../images/products/savings.png')"></div>
-                      <div class="card__content">
-                        <p class="card__title">Savings Plans</p>
-                        <p class="card__text">Let your money do more than just earn you interest. With ...</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-lg-3 mb-5">
-                    <div class="card">
+                    <a class="card" href="services.php?p=Annuity">
                       <div class="card__image" style="background-image: url('../images/products/annuity.png')"></div>
                       <div class="card__content">
-                        <p class="card__title">Annuity Plans</p>
-                        <p class="card__text">
+                      <p class="card__title" 
+                          >Annuity Plans</p
+                        ><p class="card__text">
                           Don’t let the future creep up on, start planning for your retirement tod..
                         </p>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
+
               <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">
                 <div class="row">
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('../images/products/marine.jpg')"></div>
+                      <div class="card__image" style="background-image: url('../images/products/life.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Group Life Plans</p>
                         <p class="card__text">We offer a wide range of products and services which are tailored....</p>
@@ -240,7 +220,7 @@ $pageTitle = "AIICO Insurance Plc.";
                   </div>
                   <div class="col-md-3">
                     <div class="card">
-                      <div class="card__image" style="background-image: url('../images/products/marine.jpg')"></div>
+                      <div class="card__image" style="background-image: url('../images/album.png')"></div>
                       <div class="card__content">
                         <p class="card__title">Employer's Liability</p>
                         <p class="card__text">We offer a wide range of products and services which are tailored....</p>

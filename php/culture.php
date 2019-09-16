@@ -6,7 +6,7 @@
 
 <main>
   <section class="page-intro page-intro--alt"
-  style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
+  style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/girl.png)">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -43,14 +43,10 @@
         </div>
       </div>
       <div class="row justify-content-center mt-5">
-        <div class="col-md-5">
-          <div class="video__image landscape shadow-lg">
-            <div class="video__overlay shadow-lg ">
-              <button class="video__play-btn">
-                <i class="fas fa-play video__play-icon"></i>
-              </button>
-            </div>
-          </div>
+        <div class="col-md-7">
+        <figure class="image-wrapper ">
+            <img class="image " src="../images/group.jpg" />
+          </figure>
         </div>
       </div>
     </div>
@@ -73,7 +69,7 @@
         </div>
         <div class="col-md-5">
           <figure class="image-wrapper ">
-            <img class="image " src="../images/lady-smiling.png" />
+            <img class="image " src="../images/strong.jpg" />
           </figure>
         </div>
       </div>
@@ -84,7 +80,7 @@
       <div class="row mb-5 align-items-center justify-content-between">
         <div class="col-md-5">
           <figure class="image-wrapper ">
-            <img class="image " src="../images/lady.png" />
+            <img class="image " src="../images/group-picture.png" />
           </figure>
         </div>
         <div class="col-md-6">
@@ -118,7 +114,7 @@
         </div>
         <div class="col-md-5">
           <figure class="image-wrapper ">
-            <img class="image " src="../images/man-on-phone.png" />
+            <img class="image " src="../images/ball.jpg" />
           </figure>
         </div>
       </div>

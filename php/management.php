@@ -5,7 +5,7 @@
 <?php include 'php-component/header.php' ?>
 
      <main>
-     <section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/banner.jpg)">
+     <section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(..//images/group-picture-header3.jpg)">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -18,7 +18,7 @@
             </ol>
           </nav>
           <h3 class="page-title">Executive Management</h3>
-          <p class="page-desc">Put sub-caption here </p>
+          <p class="page-desc">The Leadership of AIICO </p>
         </div>
       </div>
     </div>

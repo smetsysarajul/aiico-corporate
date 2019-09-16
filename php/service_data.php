@@ -394,7 +394,7 @@ EOD
 				'top_page'=>array
 				(
 					'title'=>'Education Legacy Assurance',
-					'image'=>'../images//services//Education1.jpg'
+					'image'=>'../images//services//Education1.png'
 				),
 				'page_name'=>'Education Legacy Assurance',
 				'parent'=>array('Endowment Plan'=>'#'),
@@ -434,7 +434,7 @@ They are:
 
 				  <div class="col-md-5 why__col p-0">
 				    <div class="why__content h-100">
-				      <img class="services__image" src="../images//services/education2.jpg" />
+				      <img class="services__image" src="../images//services/education2.png" />
 				    </div>
 				  </div>
 				</div>
@@ -502,7 +502,7 @@ EOD
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
 			      <figure>
-			        <img width="100%" src="../images//product-img2.jpg" />
+			        <img width="100%" src="../images//services//education3.png" />
 			      </figure>
 			    </div>
 			  </div>
@@ -881,25 +881,26 @@ EOD
 				'top_page'=>array
 				(
 					'title'=>'Home Insurance Plans',
-					'image'=>'../images//services/newincome1.jpg'
+					'image'=>'../images//services/house.jpg'
 				),
-				'page_name'=>'New Income Investment Plans',
+				'page_name'=>'Home Insurance Plans',
 				// 'parent'=>array('Endowment Plan'=>'#'),
 				'product'=><<<EOD
 				<div class="row why__row py-5">
 			  <div class="col-md-7 why__col">
 			    <div class="why__content px-5">
-			      <h3 class="heading heading--secondary text-dark">About New Income Investment Plan
+			      <h3 class="heading heading--secondary text-dark">About Home Insurance Plan
 
 						</h3>
 						<p class="paragraph">
-						Our Income Investment Plan is a long term investment linked policy that is structured to take care of your immediate and future needs as a customer. It’s a great addition to financial score card. You can work it into financial planning for short and long-term financial planning goals. It combines investment, savings and insurance protection
- </p>
-				
+						Congratulations, you are about to own your own home and put in place a legacy that secures a firm footing for your family in perpetuity. Make sure you get a mortgage loan protection plan that covers you against the unfortunate event of death during the loan repayment period. Should this happen, the protection plan sum assured goes to pay down the mortgage loan, ensuring your legacy. </p>
+
 			    </div>
 			  </div>
 			  <div class="col-md-5 why__col p-0">
-			   
+				<figure>
+				<img width="100%" src="../images//services//home2.png" />
+			</figure>
 			  </div>
 			</div>
 
@@ -907,32 +908,35 @@ EOD
 				,
 				'benefit'=><<<EOD
 				<div class="row py-5">
-			  <div class="col-md-6 ">
-				<h3 class="heading heading--secondary text-dark">Some of the Benefits</h3>
-				<ul class="check-list">
-				<li class="check-list__item">Provides for regular monthly minimum contribution payments of N5,000 as well as additional contribution for target savings.   </li>
-				<li class="check-list__item">Duration of policy are: 10, 12, 15 and 20
+			  <div class="col-md-12 ">
+			
+
+
+				<p class="paragraph">
+				You get your full sum assured or your assured sum is payable on death reducing your outstanding loan. No survival benefit is paid under this plan
+
+			</p>
+
+			<ul class="big-list mb-3">
+				<li class="big-list__item">
+					<span class="text-dark">Government advantage:</span>
+					<p class="paragraph text-secondary">
+					Helps to repay all loans outstanding at the point of death of the mortgagor.
+					</p>
+					<p class="paragraph text-secondary">
+					Helps in the realization of government goals and objectives as it relates to home ownership.	</p>
 				</li>
-				<li class="check-list__item">Your individual account (policy holder’s account) is where your allocated premiums and interest will be credited.
+				<li class="big-list__item">
+					<span class="text-dark">Individual advantage</span>
+					<p class="paragraph text-secondary ">
+					Helps in the realization of government goals and objectives as it relates to home ownership.		</p>
+					<p class="paragraph text-secondary">
+						Immediate annuity also includes the option for a spouse to continue receiving 75% of your annuity benefit after the annuitant’s demise.
+					</p>
 				</li>
-				</ul>
+			</ul>
 			  </div>
 
-			  <div class="col-md-6 ">
-			    <div class="why__content px-5">
-					<ul class="check-list">
-					<li class="check-list__item">Provides for competitive interest rate on both contribution and target savings.
-					</li>
-					<li class="check-list__item">Provides for payment of sum assured, investment account balance and savings account balance (if any) to the beneficiary on the demise of the policyholder.
-
-					</li>	
-					<li class="check-list__item">Provides for payment of investment account balance and total savings on maturity date of the policy.
-
-					</li>
-				
-				</ul>
-			    </div>
-			  </div>
 			</div>
 
 EOD
@@ -1347,7 +1351,7 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>'International Travel Plans',
-				'image'=>'../images//services//travel1.jpg'
+				'image'=>'../images//services//travel1.png'
 			),
 			'page_name'=>'International Travel Plans',
 		
@@ -1355,7 +1359,7 @@ EOD
 			<div class="row why__row py-5">
 				<div class="col-md-12 why__col">
 					<div class="why__content">
-						<h3 class="heading heading--services">About Education Legacy Assurance...</h3>
+						<h3 class="heading heading--services">About International Travel.</h3>
 						<p class="paragraph">
 						
 Travelling is always an exciting activity be it for leisure or business. The fun and excitement comes with the responsibility to make your journey safe to and fro. 
@@ -1389,21 +1393,26 @@ EOD
 			<div class="col-md-6 ">
 			<h3 class="heading heading--secondary text-dark">Why you should get AIICO travel Insurance</h3>
 			<ul class="check-list">
-			<li class="check-list__item">Payment of a lump sum at maturity when the child enters University or Secondary School.</li>
+			<li class="check-list__item">Repatriation on medical reasons</li>
 			<li class="check-list__item">Premium can be returned in the event of the child’s death before maturity of the plan.
 			</li>
-			<li class="check-list__item">The funds may be transferred to the benefit of another child of the policy holder.
+			<li class="check-list__item">Loss of baggage 
 			</li>
-			<li class="check-list__item">Guaranteed payments of school fees in the event of death, total and permanent disablement of the parent/guardian.
+			<li class="check-list__item">Loss of money
 			</li>
-			Emergency medical expenses
-Repatriation on medical reasons
-Loss of baggage 
-Loss of money
-Missed/Cancelled flights
-Evacuation
-Repatriation of mortal remains (corpse)
+			<li class="check-list__item">Missed/Cancelled flights
+			</li>
+			<li class="check-list__item">Evacuation
+			</li>		<li class="check-list__item">Repatriation of mortal remains (corpse)
+			</li>
+		
 
+
+
+
+
+
+			
 		
 			</div>
 
@@ -1463,7 +1472,7 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>'Oil and Gas Plan',
-				'image'=>'../images//services//oil.jpg'
+				'image'=>'../images//services//oil2.jpg'
 			),
 			'product'=><<<EOD
 
@@ -1484,7 +1493,7 @@ EOD
 
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
-			      <img class="services__image" src="../images//services/oil.png" />
+			      <img class="services__image" src="../images//services/oil2.png" />
 			    
 			    </div>
 			  </div>
@@ -1497,7 +1506,7 @@ EOD
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
 			      <figure>
-			        <img width="100%" src="../images//product-img.jpg" />
+			        <img width="100%" src="../images//services/oil2.png" />
 			      </figure>
 			    </div>
 			  </div>
@@ -1702,7 +1711,7 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>'Marine Insurance(Cargo)',
-				'image'=>'../images//services//marine.jpg'
+				'image'=>'../images//services//marine1.jpg'
 			),
 			'product'=><<<EOD
 
@@ -1722,7 +1731,7 @@ EOD
 
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
-			      <img class="services__image" src="../images//services/oil.png" />
+			      <img class="services__image" src="../images//services/marine3.jpg" />
 			    
 			    </div>
 			  </div>
@@ -1735,7 +1744,7 @@ EOD
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
 			      <figure>
-			        <img width="100%" src="../images//product-img.jpg" />
+			        <img width="100%" src="../images//services/marine2.jpg" />
 			      </figure>
 			    </div>
 			  </div>
@@ -1765,13 +1774,7 @@ EOD
 						Get in touch with us.
 			    </div>
 			  </div>
-			  <div class="col-md-5 p-0">
-			    <div class="">
-			      <figure>
-			        <img width="100%" src="../images//services/oil.png" />
-			      </figure>
-			    </div>
-			  </div>
+			 
 			</div>
 
 EOD
@@ -1874,8 +1877,8 @@ EOD
 
 		'mlop'=>array
 		(
-			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
-			'page_name'=>'Marine Hull & Machinery',
+			'page_title'=>"Machinery Loss of Profit (MLOP)| AIICO Insurance Plc.",
+			'page_name'=>'Machinery Loss of Profit (MLOP)',
 
 			'parent'=>array
 			(
@@ -1890,14 +1893,14 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>'Marine Hull & Machinery',
-				'image'=>'../images//services//marine.jpg'
+				'image'=>'../images//services//machine1.jpg'
 			),
 			'product'=><<<EOD
 
 			<div class="row why__row py-5">
 			  <div class="col-md-6 why__col">
 			    <div class="why__content">
-			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+			      <h3 class="heading heading--services">About AIICO Machinery Loss of Profit (MLOP)</h3>
 
 			      <p class="paragraph">
 						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
@@ -1909,7 +1912,7 @@ EOD
 
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
-			      <img class="services__image" src="../images//services/oil.png" />
+			      <img class="services__image" src="../images//services//machine2.png" />
 			    
 			    </div>
 			  </div>
@@ -2062,8 +2065,8 @@ EOD
 
 		'group_life'=>array
 		(
-			'page_title'=>"Marine Hull & Machinery| AIICO Insurance Plc.",
-			'page_name'=>'Marine Hull & Machinery',
+			'page_title'=>"Group Life Insurance| AIICO Insurance Plc.",
+			'page_name'=>'Group Life Insurance',
 
 			'parent'=>array
 			(
@@ -2077,19 +2080,23 @@ EOD
 
 			'top_page'=>array
 			(
-				'title'=>'Marine Hull & Machinery',
-				'image'=>'../images//services//marine.jpg'
+				'title'=>'Group Life Insurance',
+				'image'=>'../images//services//life.jpg'
 			),
 			'product'=><<<EOD
 
 			<div class="row why__row py-5">
 			  <div class="col-md-6 why__col">
 			    <div class="why__content">
-			      <h3 class="heading heading--services">About AIICO Marine Hull & Machinery</h3>
+			      <h3 class="heading heading--services">About AIICO Group Life Insurance</h3>
 
-			      <p class="paragraph">
-						Marine Hull & Machinery Insurance covers all ocean going vessels including fishing trawlers and speed boats.	      </p>
-			     
+						<p class="paragraph">
+						Group life cover is long-termed insurance, also known as death in service benefit, which an employer provides to their staff. It is set up by an employer to cover employees of their organisation.
+
+ 
+
+Should a fatal incident occur in the performance of their duties a lump sum benefit is paid to the family of the employee or next of kin as required by law (Pensions Act of 2004). For a family to receive death in service benefit, the person must be employed with the organisation at the time of their demise.
+					</p>
 			  
 			    </div>
 			  </div>
@@ -2097,7 +2104,7 @@ EOD
 
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
-			      <img class="services__image" src="../images//services/oil.png" />
+			      <img class="services__image" src="../images//services//group2.jpg" />
 			    
 			    </div>
 			  </div>
@@ -2108,11 +2115,7 @@ EOD
 
 			<div class="row why__row align-items-center py-5">
 			  <div class="col-md-5 why__col p-0">
-			    <div class="why__content">
-			      <figure>
-			        <img width="100%" src="../images//product-img.jpg" />
-			      </figure>
-			    </div>
+			   
 			  </div>
 
 			  <div class="col-md-7 why__col">
@@ -2122,7 +2125,6 @@ EOD
 			        <li class="big-list__item">
 			          <p class="paragraph text-dark">
 							
-This policy will indemnify for physical loss or damage to the vessel while sailing or navigating with or without Pilots, while on trial trips and while towing and/or assisting any other vessels or craft in distress.
 
 			          </p>
 			        </li>
@@ -2142,13 +2144,7 @@ EOD
 						Get in touch with us.
 			    </div>
 			  </div>
-			  <div class="col-md-5 p-0">
-			    <div class="">
-			      <figure>
-			        <img width="100%" src="../images//services/oil.png" />
-			      </figure>
-			    </div>
-			  </div>
+			 
 			</div>
 
 EOD

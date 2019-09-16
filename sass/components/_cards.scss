@@ -28,6 +28,7 @@
     background-color: #ffffff;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     padding: 30px 20px;
+    flex: 1;
   }
   &__name {
     color: $color-blue;
@@ -70,5 +71,11 @@
     &:hover {
       color: darken($color-red, 30%);
     }
+  }
+}
+
+.full-profile {
+  @include respond(small) {
+    flex-direction: column;
   }
 }

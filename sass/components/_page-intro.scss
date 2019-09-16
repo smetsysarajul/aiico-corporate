@@ -1,4 +1,9 @@
 .page-intro {
+  @include respond(medium) {
+    min-height: 200px;
+    padding: 1.5rem 0;
+  }
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,6 +26,7 @@
     font-size: 14px;
     margin-bottom: 2.5rem;
     text-transform: uppercase;
+    padding: 0.75rem 0;
     &-item {
       color: $color-grey;
       &.active {
@@ -34,9 +40,10 @@
   }
   .page-desc {
     color: $color-white;
-    font-size: 1.9rem;
-    font-weight: 400;
-    line-height: 5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+
     @include respond(medium) {
       font-size: 2rem;
     }

@@ -3,6 +3,10 @@
     display: none;
     padding: 3rem;
 
+    @include respond(small) {
+      padding: 3rem 0;
+    }
+
     &.show {
       display: block;
     }
@@ -15,6 +19,17 @@
       background-color: #d1e9ff;
       margin-top: 6rem;
       padding: 6rem;
+
+      @include respond(small) {
+        margin-top: 3rem;
+        padding: 6rem 3rem;
+      }
+
+      .btn.btn--tertiary.w-100 {
+        @include respond(small) {
+          margin-bottom: 1rem;
+        }
+      }
     }
   }
 }

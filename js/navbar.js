@@ -1,6 +1,8 @@
 $(document).ready(function() {
   var initialHeight;
-
+  // acivateHover();
+  $(".dropdown-submenu").trigger('mouseover');
+  $(".dropdown-submenu").trigger('mouseleave');
   $(".header__navigation .nav-item, .dropdown-toggle").hover(
     function() {
       $(">.dropdown-menu", this)
@@ -23,6 +25,7 @@ $(document).ready(function() {
 
   $(".header__navigation .nav-item, .dropdown-submenu").hover(
     function() {
+      console.log('mouse entering');
       $(">.dropdown-menu-column--child", this)
         .stop(true, true)
         .fadeIn("fast");
@@ -39,6 +42,7 @@ $(document).ready(function() {
       }
     },
     function() {
+       console.log('mouseleaveing');
       $(">.dropdown-menu-column--child", this)
         .stop(true, true)
         .fadeOut("fast");

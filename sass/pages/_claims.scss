@@ -3,6 +3,10 @@
     display: none;
     padding: 3rem;
 
+    &:first-child {
+      display: block;
+    }
+
     &.show {
       display: block;
     }
@@ -12,7 +16,7 @@
     }
 
     &-inner {
-      background-color: #d1e9ff;
+      background-color: #f0f6fd;
       margin-top: 6rem;
       padding: 6rem;
     }

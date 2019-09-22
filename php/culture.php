@@ -6,7 +6,7 @@
 
 <main>
   <section class="page-intro page-intro--alt"
-  style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/girl.png)">
+  style="background-image: url(./images/girl.png)">
     <div class="container">
       <div class="row">
         <div class="col">

@@ -256,11 +256,9 @@ $pageTitle = "AIICO Insurance Plc.";
       <section class="section section__why">
         <div class="container-fluid p-0">
           <div class="why__row">
-            <div class="col-lg-6 why__col">
-              <div class="why__content">
-                <figure class="image-wrapper ">
-                  <img class="image " src="../images/group-image.png" />
-                </figure>
+            <div class="col-lg-6 why__col p-0">
+              <div class="why__content p-0">
+                  <img class="why__image" src="../images/group-image.png" />
               </div>
             </div>
             <div class="col-lg-6 why__col">
@@ -271,14 +269,14 @@ $pageTitle = "AIICO Insurance Plc.";
                   role models for society. We offer a wide range of products and services which are tailored towards our
                   customers' needs.
                 </p>
-                <ul class="big-list mb-3">
-                  <li class="big-list__item">
+                <ul class="check-list mb-3">
+                  <li class="check-list__item">
                     Tier one industry player with over 50 years of heritage in prompt claims payment
                   </li>
-                  <li class="big-list__item">
+                  <li class="check-list__item">
                     Products tailored for Nigerian customers with great coverage
                   </li>
-                  <li class="big-list__item">
+                  <li class="check-list__item">
                     Our products not only save you money but some are even tax deductible
                   </li>
                 </ul>

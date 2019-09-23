@@ -6,7 +6,7 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
 
 <main>
   <section class="page-intro page-intro--alt"
-  style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images//about//about.png)">
+  style="background-image: url(./images/about/about.png)">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -51,7 +51,7 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
       </div>
     </div>
   </section>
-  <section class="section section__about-page bg-blue">
+  <section class="section section__about-page">
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-12">

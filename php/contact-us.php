@@ -4,7 +4,7 @@
  ?>
 <?php include 'php-component/header.php' ?>
 <main>
-<section class="page-intro page-intro--alt" style="background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.42)), url(../images/press/news.png)">
+<section class="page-intro page-intro--alt" style="background-image: url(./images/press/news.png)">
     <div class="container">
       <div class="row">
         <div class="col">

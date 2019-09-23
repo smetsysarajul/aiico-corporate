@@ -1,21 +1,27 @@
-<?php 
+<?php
 
 
 include 'service_data.php';
-$pageKey = @$_GET['p']?$_GET['p']:'auto_insurance';
+$pageKey = @$_GET['p'] ? $_GET['p'] : 'auto_insurance';
 $pageContent = $serviceData[$pageKey];
 if (!$pageContent) {
   # show the 404 page here
 }
-  $page ="services"; 
-  $pageTitle=@$pageContent['page_title'];
+$page = "services";
+$pageTitle = @$pageContent['page_title'];
+
+$text;
+
+if (strpos($pageContent['parent']['title'], 'individual') !== false) {
+  $text = '<li class="nav-item"> <a class="nav-link premium" id="premium-tab" data-toggle="tab" href="#premium" role="tab" aria-controls="premium" aria-selected="false" > Premium </a> </li>';
+}
 ?>
 <?php include 'php-component/header.php' ?>
 <link rel="stylesheet" href="css/service.css">
 <main class="services">
   <section class="page-intro">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-md-6">
           <div class="mx-auto" style="max-width: 450px">
             <nav aria-label="breadcrumb">
@@ -42,43 +48,16 @@ if (!$pageContent) {
       <div class="tabs services-tab">
         <ul class="nav nav-fill bg-white" id="servicesTab" role="tablist">
           <li class="nav-item">
-            <a
-              class="nav-link product active"
-              id="product-tab"
-              data-toggle="tab"
-              href="#product"
-              role="tab"
-              aria-controls="product"
-              aria-selected="true"
-              >The Product</a
-            >
+            <a class="nav-link product active" id="product-tab" data-toggle="tab" href="#product" role="tab" aria-controls="product" aria-selected="true">The Product</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link benefit"
-              id="benefit-tab"
-              data-toggle="tab"
-              href="#benefit"
-              role="tab"
-              aria-controls="benefit"
-              aria-selected="false"
-            >
+            <a class="nav-link benefit" id="benefit-tab" data-toggle="tab" href="#benefit" role="tab" aria-controls="benefit" aria-selected="false">
               The Benefit
             </a>
           </li>
-          <li class="nav-item">
-            <a
-              class="nav-link premium"
-              id="premium-tab"
-              data-toggle="tab"
-              href="#premium"
-              role="tab"
-              aria-controls="premium"
-              aria-selected="false"
-            >
-              Premium
-            </a>
-          </li>
+          <?php
+          echo $text
+          ?>
 
           <li class="nav-item">
             <a class="nav-link quote" href="#">
@@ -90,15 +69,15 @@ if (!$pageContent) {
         <div class="container">
           <div class="tab-content tabs__inner" id="myTabContent">
             <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
-                <?php echo $pageContent['product'] ?>
+              <?php echo $pageContent['product'] ?>
             </div>
 
             <div class="tab-pane fade" id="benefit" role="tabpanel" aria-labelledby="benefit-tab">
-                <?php echo $pageContent['benefit'] ?>
+              <?php echo $pageContent['benefit'] ?>
             </div>
 
             <div class="tab-pane fade" id="premium" role="tabpanel" aria-labelledby="premium-tab">
-                  <?php echo $pageContent['premium'] ?>
+              <?php echo $pageContent['premium'] ?>
             </div>
           </div>
         </div>

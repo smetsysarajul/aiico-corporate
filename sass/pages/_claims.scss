@@ -2,9 +2,8 @@
   &-form {
     display: none;
     padding: 3rem;
-
-    @include respond(small) {
-      padding: 3rem 0;
+    &:first-child {
+      display: block;
     }
 
     &.show {
@@ -16,7 +15,7 @@
     }
 
     &-inner {
-      background-color: #d1e9ff;
+      background-color: #f0f6fd;
       margin-top: 6rem;
       padding: 6rem;
 

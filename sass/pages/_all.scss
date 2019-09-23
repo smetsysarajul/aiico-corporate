@@ -73,7 +73,7 @@
 }
 
 .investor-relations {
-  background: #f0f6fd;
+  background: #fff;
 
   .section__news {
     background-color: transparent;
@@ -81,6 +81,24 @@
 
   &-view {
     display: none;
+    padding: 5rem 0;
+
+    &:first-child {
+      display: block;
+    }
+
+    .financial-heading {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      color: #242087;
+    }
+  }
+
+  &-heading {
+    font-size: 30px;
+    line-height: 36px;
+    color: #242087;
   }
 }
 

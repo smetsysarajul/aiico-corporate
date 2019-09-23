@@ -394,7 +394,7 @@ EOD
 				'top_page'=>array
 				(
 					'title'=>'Education Legacy Assurance',
-					'image'=>'../images//services//Education1.png'
+					'image'=>'../images//services/education1.png'
 				),
 				'page_name'=>'Education Legacy Assurance',
 				'parent'=>array('Endowment Plan'=>'#'),
@@ -520,7 +520,7 @@ EOD
 				'top_page'=>array
 				(
 					'title'=>'Flexible Endowment Plans',
-					'image'=>'../images//services/education2.jpg'
+					'image'=>'../images/services/education2.png'
 				),
 				'page_name'=>'Flexible Endowment Plans',
 				'parent'=>array('Endowment Plan'=>'#'),
@@ -610,7 +610,7 @@ EOD
 				'top_page'=>array
 				(
 					'title'=>'Life Celebration Plans',
-					'image'=>'../images//services/lifecelebration.jpg'
+					'image'=>'../images/services/lifecelebration.jpg'
 				),
 				'page_name'=>'Life Celebration Plans',
 				'parent'=>array('Endowment Plan'=>'#'),
@@ -979,7 +979,7 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>'Credit Life Policy Plan',
-				'image'=>'../images//services//credit.jpg'
+				'image'=>'../images//services/credit.jpg'
 			),
 			'product'=><<<EOD
 
@@ -1018,7 +1018,7 @@ EOD
 			  <div class="col-md-5 why__col p-0">
 			    <div class="why__content">
 			      <figure>
-			        <img width="100%" src="../images//product-img.jpg" />
+			        <img width="100%" src="../images/product-img.jpg" />
 			      </figure>
 			    </div>
 			  </div>
@@ -1234,7 +1234,7 @@ EOD
 			'top_page'=>array
 			(
 				'title'=>' Term Assurance Plan ',
-				'image'=>'../images//services//term.jpg'
+				'image'=>'../images//services/term.jpg'
 			),
 			'product'=><<<EOD
 

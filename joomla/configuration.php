@@ -13,10 +13,10 @@ class JConfig {
 	public $debug_lang = '0';
 	public $debug_lang_const = '1';
 	public $dbtype = 'mysqli';
-	public $host = '34.66.209.183';
-	public $user = 'root';
-	public $password = 'change';
-	public $db = 'aiico_joomla';
+	public $host = 'ui0tj7jn8pyv9lp6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';//'34.66.209.183';
+	public $user = 'xrljv227ofml330n';//'root';
+	public $password = 'ujj3hldeumvkkme0';
+	public $db = 'ecocou5836584stc';
 	public $dbprefix = 'aiico_';
 	public $live_site = '';
 	public $secret = 'hj9rHOuiBRkHNFfP';

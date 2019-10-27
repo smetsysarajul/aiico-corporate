@@ -13,5 +13,4 @@
     <header class="header">
       <?php include "header_contact.php" ?>
       <?php include "navbar.php" ?>
-
     </header>

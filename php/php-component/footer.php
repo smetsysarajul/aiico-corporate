@@ -37,7 +37,6 @@ $footerTemplate =array
   ),
   'help service'=>array(
     'Contact Us'=>'contact-us.php?',
-    'Update Your Information'=>'update-info.php',
     'Complaints Management'=>'#',
     'Form Download'=>'form-download.php',
     'Customer Feedback'=>'feedback.php',

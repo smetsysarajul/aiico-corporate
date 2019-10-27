@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_lujaraadslider</name>
+	<author>Lujara Systems</author>
+	<creationDate>October 2019</creationDate>
+	<copyright>Copyright (C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@lujarasystems.com</authorEmail>
+	<authorUrl>http://lujarasystems.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Lujara System Ad Slider</description>
+	<files>
+		<filename module="mod_lujaraadslider">mod_lujaraadslider.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+	</files>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_MENU" />
+	<config>
+		<fields name="params"> 
+			<fieldset name="basic">
+				<field 
+					name='ad_type'
+					type='combo'
+					label='Ad Slider Type'
+				>
+					<option value="1">finance</option>
+					<option value="2">just image</option>
+				</field>
+				<field 
+					name='caption'
+					type='editor'
+					label='Ad Container Caption'
+					required='1'
+					filter='safe html'
+				/>
+				<field 
+					name='subtitle'
+					type='text'
+					label='Ad Container subtitle'
+				/>
+				<field 
+					name='background_image'
+					type='media'
+					label='Select Container background image'
+				/>
+				<field 
+					name='background_color'
+					type='color'
+					default='#fff'
+					label='Ad Container Caption'
+				/>
+				<field 
+					name='action_text'
+					type='text'
+					label='Action Button Text'
+				/>
+				<field 
+					name='action_link'
+					type='menuitem'
+					label='Action Button Link'
+				/>
+				<field 
+					name='slides'
+					type='subform'
+					description='slide fields'
+					label='Slide content settings'
+					required='1'
+					multiple='true'
+					min='3'
+					max='10'
+				>
+					<form>
+						<field 
+							name='icon'
+							type='media'
+							label='Image'
+							required='1'
+						/>
+						<field 
+							name='icon_class'
+							type='text'
+							label='Font awesome icon class'
+						/>
+						<field 
+							name='slide_caption'
+							type='editor'
+							label='Slide caption'
+							filter='safehtml'
+						/>
+						<field 
+							name='title_text'
+							type='textarea'
+							label='Title Text'
+						/>
+
+					</form>
+
+				</field>
+
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

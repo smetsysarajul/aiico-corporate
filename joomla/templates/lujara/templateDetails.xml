@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>LUJARA</name>
+	<version>1.0</version>
+	<creationDate>09/15/2019</creationDate>
+	<author>Lujara Systems</author>
+	<authorEmail>info@lujarasystems.com</authorEmail>
+	<copyright>Copyright (C) 2019 Lujara systems. All rights reserved.</copyright>
+	<description>TPL_LUJARA_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>sass</folder>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>footer</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_lujara.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_lujara.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field 
+					name="templateColor" 
+					type="color" 
+					label="TPL_LUJARA_COLOR_LABEL"
+					description="TPL_LUJARA_COLOR_DESC" 
+					class="" 
+					default="#08C"
+				/>
+
+				<field 
+					name="templateBackgroundColor" 
+					type="color" 
+					label="TPL_LUJARA_BACKGROUND_COLOR_LABEL"
+					description="TPL_LUJARA_BACKGROUND_COLOR_DESC" 
+					class="" 
+					default="#F4F6F7"
+				/>
+
+				<field 
+					name="logoFile" 
+					type="media" 
+					label="TPL_LUJARA_LOGO_LABEL"
+					description="TPL_LUJARA_LOGO_DESC"  
+					default=""
+				/>
+				<field 
+					name="news_page" 
+					type="menuitem" 
+					label="News Page"
+					description="News Page"  
+					default=""
+				/>
+				<field 
+					name="sitetitle"  
+					type="text" 
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					default=""
+					filter="string" 
+				/>
+				<field 
+					name="motto"  
+					type="text" 
+					label="Company Motto"
+					description="Company Motto"
+					default="Insurance at its best"
+					filter="string" 
+				/>
+				<field 
+					name="address"  
+					type="editor" 
+					label="Company Address"
+					description="Company Address"
+					filter="string" 
+				/>
+				<field 
+					name="footer_phone_1"  
+					type="text" 
+					label="Footer Phone 1"
+					description="Footer Phone 1"
+					filter="string" 
+				/>
+				<field 
+					name="footer_phone_2"  
+					type="text" 
+					label="Footer Phone 2"
+					description="Footer Phone 2"
+					filter="string" 
+				/>
+				<field 
+					name="footer_phone_3"  
+					type="text" 
+					label="Footer Phone 3"
+					description="Footer Phone 3"
+					filter="string" 
+				/>
+				<field 
+					name="site_email"  
+					type="text" 
+					label="Official Company Email Address"
+					description="Official Company Email Address"
+					default=""
+					filter="string" 
+				/>
+				<field 
+					name="privacy_policy_link"  
+					type="url" 
+					label="Privacy Policy Page"
+					description="Link to the page containing privacy policy"
+					default="#"
+					filter="string" 
+				/>
+				<field 
+					name="terms_condition_link"  
+					type="url" 
+					label="Terms and Condition Link"
+					description="Link to the page containing Terms and Condition"
+					default="#"
+					filter="string" 
+				/>
+				<field 
+					name="site_telephone"  
+					type="text" 
+					label="Official Company Telephone Number"
+					description="Official Company Telephone Number"
+					default="01 277 272 88"
+					filter="string" 
+				/>
+				
+				<field 
+					name="site_mobile"  
+					type="text" 
+					label="Official Company Mobile Number"
+					description="Official Company Mobile Number"
+					default="08177322408"
+					filter="string" 
+				/>
+				<field 
+					name="facebook_link"  
+					type="url" 
+					label="Link to Facebook Page"
+					description="Link to Facebook Page"
+					default="#" 
+				/>
+				<field 
+					name="twitter_link"  
+					type="url" 
+					label="Link to Twitter Page"
+					description="Link to Twitter Page"
+					default="#" 
+				/>
+				<field 
+					name="instagram_link"  
+					type="url" 
+					label="Link to Instagram Page"
+					description="Link to Instagram Page"
+					default="#" 
+				/>
+				<field 
+					name="linkedin_link"  
+					type="url" 
+					label="Link to linkedin Page"
+					description="Link to Linkedin Page"
+					default="#" 
+				/>
+				<field 
+					name="ebusiness_button_text"  
+					type="text" 
+					label="Ebusiness Button Text"
+					description="Ebusiness Button Text"
+					default="VISIT E-BUSINESS  PAGE" 
+				/>
+				<field 
+					name="ebusiness_link"  
+					type="url" 
+					label="Link to Ebusiness Page"
+					description="Link to Ebusiness Page"
+					default="#" 
+				/>
+
+				<field 
+					name="sitedescription"  
+					type="text" 
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					default=""
+					filter="string" 
+				/>
+
+				<field 
+					name="googleFont"
+					type="radio"
+					label="TPL_LUJARA_FONT_LABEL"
+					description="TPL_LUJARA_FONT_DESC"
+					class="btn-group btn-group-yesno"
+					default="1"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field 
+					name="googleFontName" 
+					type="text" 
+					label="TPL_LUJARA_FONT_NAME_LABEL"
+					description="TPL_LUJARA_FONT_NAME_DESC" 
+					class="" 
+					default="Open+Sans"
+					showon="googleFont:1" 
+				/>
+
+				<field 
+					name="fluidContainer"
+					type="radio"
+					label="TPL_LUJARA_FLUID_LABEL"
+					description="TPL_LUJARA_FLUID_DESC"
+					class="btn-group btn-group-yesno"
+					default="0"
+					>
+					<option value="1">TPL_LUJARA_FLUID</option>
+					<option value="0">TPL_LUJARA_STATIC</option>
+				</field>
+				<field 
+					name="facebookPage"
+					type="text"
+					label="TPL_LUJARA_FLUID_LABEL"
+					description="TPL_LUJARA_FLUID_DESC"
+					class="btn-group btn-group-yesno"
+					default="0"
+					>
+					<option value="1">TPL_LUJARA_FLUID</option>
+					<option value="0">TPL_LUJARA_STATIC</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

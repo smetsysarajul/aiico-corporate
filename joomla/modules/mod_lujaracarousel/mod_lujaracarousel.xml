@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_lujaracarousel</name>
+	<author>Lujara Systems</author>
+	<creationDate>August 2019</creationDate>
+	<copyright>Copyright (C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@lujarasystems.com</authorEmail>
+	<authorUrl>http://lujarasystems.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Lujara System Carousel</description>
+	<files>
+		<filename module="mod_lujaracarousel">mod_lujaracarousel.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+	</files>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_MENU" />
+	<config>
+
+		<fields name='params'> 
+			<fieldset name='basic'>
+				<field
+					name="slides"
+					type="subform"
+					label="Slide Settings"
+					description="Subform Field Description"
+					multiple="true"
+					min="1"
+					max="10"
+				>
+						<form>
+							<field 
+								name='image'
+								type='media'
+								label='Image'
+								required='1'
+							/>
+							<field 
+								name='caption'
+								type='text'
+								label='Slide Caption'
+								required='1'
+							/>
+							<field 
+								name='text'
+								type='textarea'
+								label='Slide Text'
+								required='1'
+							/>
+
+							<field 
+								name='buttonText1'
+								type='text'
+								label='First Button Text'
+								required='1'
+							/>
+							<field 
+								name='buttonLink1'
+								type='URL'
+								label='First Button Link'
+								required='1'
+							/>
+							<field 
+								name='buttonText2'
+								type='text'
+								label='Second Button Text'
+							/>
+							<field 
+								name='buttonLink2'
+								type='URL'
+								label='Second Button Link'
+							/>
+
+									
+							
+						</form>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

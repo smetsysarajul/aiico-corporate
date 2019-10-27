@@ -13,10 +13,10 @@ class JConfig {
 	public $debug_lang = '0';
 	public $debug_lang_const = '1';
 	public $dbtype = 'mysqli';
-	public $host = 'ui0tj7jn8pyv9lp6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';//'34.66.209.183';
-	public $user = 'xrljv227ofml330n';//'root';
-	public $password = 'ujj3hldeumvkkme0';
-	public $db = 'ecocou5836584stc';
+	public $host = "localhost";//'ui0tj7jn8pyv9lp6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';//'34.66.209.183';
+	public $user = "root";//'xrljv227ofml330n';//'root';
+	public $password = "change";//'ujj3hldeumvkkme0';
+	public $db = 'aiico_joomla';//'ecocou5836584stc';
 	public $dbprefix = 'aiico_';
 	public $live_site = '';
 	public $secret = 'hj9rHOuiBRkHNFfP';

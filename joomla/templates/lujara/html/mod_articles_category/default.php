@@ -8,6 +8,17 @@
  */
 
 defined('_JEXEC') or die;
+$categoryList = array();
+foreach ($list as $key => $listItem) {
+	$category = $listItem->category_title;
+	if (array_key_exists($category, $categoryList)) {
+		$categoryList[$category][]=$listItem;
+	}
+	else{
+		$categoryList[$category]=[$listItem];
+	}
+	
+}
 
 ?>
 <ul class="category-module<?php echo $moduleclass_sfx; ?> mod-list">
@@ -86,68 +97,70 @@ defined('_JEXEC') or die;
 		</li>
 		<?php endforeach; ?>
 	<?php else : ?>
-		<?php foreach ($list as $item) : ?>
-			<li>
-				<?php if ($params->get('link_titles') == 1) : ?>
-					<a class="mod-articles-category-title <?php echo $item->active; ?>" href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a>
-				<?php else : ?>
-					<?php echo $item->title; ?>
-				<?php endif; ?>
+		<!-- put the custom code here -->
+			<section class="section section__products">
+			  <div class="container">
+			    <div class="section__intro">
+			      <h3 class="section__heading">Need a cover as an individual or corporate body?</h3>
+			      <p class="section__sub-heading">
+			        Our products are made specially for you. Get access to fully customised portfolios and a range of
+			        solutions developed by our experts. We offer a wide range of products and services which are tailored
+			        towards our customers' needs.
+			      </p>
+			    </div>
+			
+			    <div class="tabs product-tabs">
+			      <ul class="nav justify-content-center mb-5" id="myTab" role="tablist">
 
-				<?php if ($item->displayHits) : ?>
-					<span class="mod-articles-category-hits">
-						(<?php echo $item->displayHits; ?>)
-					</span>
-				<?php endif; ?>
+			      	<?php foreach (array_keys($categoryList) as $key): ?>
+			      		<?php $keyTag = str_replace(' ', '_', $key); ?>
 
-				<?php if ($params->get('show_author')) : ?>
-					<span class="mod-articles-category-writtenby">
-						<?php echo $item->displayAuthorName; ?>
-					</span>
-				<?php endif; ?>
+			        <li class="nav-item">
+			          <a
+			            class="nav-link nav-link-home active d-flex align-items-center justify-content-center"
+			            id="<?=$key?>-tab"
+			            data-toggle="tab"
+			            href="#<?=$keyTag?>"
+			            role="tab"
+			            aria-controls="<?=$keyTag?>"
+			            aria-selected="true"
+			            ><i class="fas fa-male pr-3"></i><?=$key?></a
+			          >
+			        </li>
+			        
+			        <?php endforeach ?>
+			      </ul>
 
-				<?php if ($item->displayCategoryTitle) : ?>
-					<span class="mod-articles-category-category">
-						(<?php echo $item->displayCategoryTitle; ?>)
-					</span>
-				<?php endif; ?>
+			      <div class="tab-content tabs__inner" id="myTabContent">
+			      	<?php foreach ($categoryList as $key => $categories): ?>
+			      		<?php $keyTag = str_replace(' ', '_', $key); ?>
+			        <div class="tab-pane fade show active" id="<?=$keyTag?>" role="tabpanel" aria-labelledby="<?=$keyTag?>">
+			          <div class="row">
+			          	<?php foreach ($categories as $article): ?>
+			          		<?php 
+			          			$image = json_decode($article->images);
+			          			$imagePath =$image->image_intro?$image->image_intro:'images/products/annuity.png';
+			          		 ?>
+			          		<div class="col-md-4 col-lg-3 mb-5">
+			          		  <div class="card">
+			          		    <div class="card__image" style="background-image: url('<?=$imagePath?>')"></div>
+			          		    <div class="card__content">
+			          		      <a class="card__title" href="<?=$article->link?>"
+			          		        ><?=$article->title?> </a
+			          		      >
+			          		      <p class="card__text"><?php echo $article->introtext ?></p>
+			          		    </div>
+			          		  </div>
+			          		</div>
 
-				<?php if ($item->displayDate) : ?>
-					<span class="mod-articles-category-date">
-						<?php echo $item->displayDate; ?>
-					</span>
-				<?php endif; ?>
+			          	<?php endforeach ?>
+			          </div>
+			        </div>
 
-				<?php if ($params->get('show_tags', 0) && $item->tags->itemTags) : ?>
-					<div class="mod-articles-category-tags">
-						<?php echo JLayoutHelper::render('joomla.content.tags', $item->tags->itemTags); ?>
-					</div>
-				<?php endif; ?>
-
-				<?php if ($params->get('show_introtext')) : ?>
-					<p class="mod-articles-category-introtext">
-						<?php echo $item->displayIntrotext; ?>
-					</p>
-				<?php endif; ?>
-
-				<?php if ($params->get('show_readmore')) : ?>
-					<p class="mod-articles-category-readmore">
-						<a class="mod-articles-category-title <?php echo $item->active; ?>" href="<?php echo $item->link; ?>">
-							<?php if ($item->params->get('access-view') == false) : ?>
-								<?php echo JText::_('MOD_ARTICLES_CATEGORY_REGISTER_TO_READ_MORE'); ?>
-							<?php elseif ($readmore = $item->alternative_readmore) : ?>
-								<?php echo $readmore; ?>
-								<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
-							<?php elseif ($params->get('show_readmore_title', 0) == 0) : ?>
-								<?php echo JText::sprintf('MOD_ARTICLES_CATEGORY_READ_MORE_TITLE'); ?>
-							<?php else : ?>
-								<?php echo JText::_('MOD_ARTICLES_CATEGORY_READ_MORE'); ?>
-								<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
-							<?php endif; ?>
-						</a>
-					</p>
-				<?php endif; ?>
-			</li>
-		<?php endforeach; ?>
+			      </div>
+			    </div>
+			  </div>
+			</section>
+		<?php endforeach ?>
 	<?php endif; ?>
 </ul>

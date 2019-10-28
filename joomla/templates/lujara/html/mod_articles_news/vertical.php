@@ -8,6 +8,9 @@
  */
 
 defined('_JEXEC') or die;
+
+//process the list into category here and display the categories 
+print_r($list);exit;
 ?>
 <ul class="newsflash-vert<?php echo $params->get('moduleclass_sfx'); ?> mod-list">
 	<?php for ($i = 0, $n = count($list); $i < $n; $i ++) : ?>

@@ -36,15 +36,9 @@ class ModAiicoServiceHelper
 
 	}
 
-	public static function getOtherParameters(&$params){
-		$result['type']=$params['ad_type'];
-		$result['caption']=$params['caption'];
-		$result['subtitle']=$params['subtitle'];
-		$result['background_image']= $params['background_image'];
-		$result['background_color']=$params['background_color'];
-		$result['action_link']=$params['action_link'];
-		$result['action_text']=$params['action_text'];
-		return $result;
+	public static function getSettings(&$params){
+		//other times might require separate approach for retrieving the data
+		return $params;
 
 	}
 

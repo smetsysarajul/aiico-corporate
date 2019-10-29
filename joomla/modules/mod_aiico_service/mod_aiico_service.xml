@@ -10,7 +10,7 @@
 	<version>1.0.0</version>
 	<description>Aiico service pages modules</description>
 	<files>
-		<filename module="mod_lujaraadslider">mod_aiico_service.php</filename>
+		<filename module="mod_aiico_service">mod_aiico_service.php</filename>
 		<folder>tmpl</folder>
 		<filename>helper.php</filename>
 	</files>
@@ -19,83 +19,53 @@
 		<fields name="params"> 
 			<fieldset name="basic">
 				<field 
-					name='ad_type'
-					type='combo'
-					label='Ad Slider Type'
-				>
-					<option value="1">finance</option>
-					<option value="2">just image</option>
-				</field>
-				<field 
-					name='caption'
-					type='editor'
-					label='Ad Container Caption'
-					required='1'
-					filter='safe html'
-				/>
-				<field 
-					name='subtitle'
+					name='plan_title'
 					type='text'
-					label='Ad Container subtitle'
+					label='Plan Title'
+					required='1'
 				/>
 				<field 
-					name='background_image'
+					name='caption_image'
 					type='media'
-					label='Select Container background image'
+					label='Caption Image'
+					required='1'
 				/>
 				<field 
-					name='background_color'
-					type='color'
-					default='#fff'
-					label='Ad Container Caption'
+					name='product_section'
+					type='editor'
+					label='Product Section'
+					filter='safehtml'
+					required='1'
+				/>
+				<field 
+					name='benefit_section'
+					type='editor'
+					label='Benefit Section'
+					required='1'
+					filter='safehtml'
+				/>
+				<field 
+					name='premium_section'
+					type='editor'
+					label='Premium Section'
+					filter='safehtml'
+				/>
+				<field 
+					name='extra'
+					type='editor'
+					label='Foot note content'
+					filter='safehtml'
 				/>
 				<field 
 					name='action_text'
 					type='text'
-					label='Action Button Text'
+					label='Action Text'
 				/>
 				<field 
 					name='action_link'
 					type='menuitem'
-					label='Action Button Link'
+					label='Action Page'
 				/>
-				<field 
-					name='slides'
-					type='subform'
-					description='slide fields'
-					label='Slide content settings'
-					required='1'
-					multiple='true'
-					min='3'
-					max='10'
-				>
-					<form>
-						<field 
-							name='icon'
-							type='media'
-							label='Image'
-							required='1'
-						/>
-						<field 
-							name='icon_class'
-							type='text'
-							label='Font awesome icon class'
-						/>
-						<field 
-							name='slide_caption'
-							type='editor'
-							label='Slide caption'
-							filter='safehtml'
-						/>
-						<field 
-							name='title_text'
-							type='textarea'
-							label='Title Text'
-						/>
-
-					</form>
-
-				</field>
 
 			</fieldset>
 

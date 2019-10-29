@@ -58,7 +58,6 @@ $menutype = $list[0]->menutype;
 // if ($menutype=='mainmenu') {
 // 	print_r($navStructure);exit;
 // }
-
 ?>
 <?php if ($menutype=='mainmenu'): ?>
 	<div class="header__navigation hidden-tablet hidden-phone">
@@ -98,10 +97,10 @@ $menutype = $list[0]->menutype;
 	                              <ul class="dropdown-list">
 	                                <?php foreach ($grandChildren as $grandKey => $grandLink): ?>
 	                                   <li class="dropdown-item">
-	                            <a class="dropdown-link" href="<?php echo $grandLink ?>">
-	                              <?php echo $grandKey ?>
-	                            </a>
-	                          </li>
+				                            <a class="dropdown-link" href="<?php echo $grandLink ?>">
+				                              <?php echo $grandKey ?>
+				                            </a>
+			                          </li>
 	                                  
 	                                <?php endforeach ?>
 	                              </ul>

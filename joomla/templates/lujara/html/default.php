@@ -9,14 +9,11 @@
 
 defined('_JEXEC') or die;
 
-// $num = count($list);
+$num = count($list);
 // echo "now things are working from the default fi";
 // print_r($otherParam['type']);exit;
 $app = JFactory::getApplication();
 $menu = $app->getMenu();
-$active = $menu->getActive();
-$default = $menu->getDefault();
-$parentMenu = $menu->getItem($active->parent_id);
 ?>
 
 <!-- the main code for the view will start here -->
@@ -28,16 +25,18 @@ $parentMenu = $menu->getItem($active->parent_id);
           <div class="mx-auto" style="max-width: 450px">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="<?=$default->link?>">Home</a></li>
-                <li class="breadcrumb-item"><a href="<?php echo $parentMenu->link ?>"><?php echo $parentMenu->title ?></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><?php echo $active->title?></li>
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <?php if (@$pageContent['parent']['title']): ?>
+                  <li class="breadcrumb-item"><a href="<?php echo $pageContent['parent']['link'] ?>"><?php echo $pageContent['parent']['title'] ?></a></li>
+                <?php endif ?>
+                <li class="breadcrumb-item active" aria-current="page"><?php echo $pageContent['top_page']['title'] ?></li>
               </ol>
             </nav>
-            <h3 class="page-title1 pl-1"> <?php echo $settings['page_title'] ?></h3>
+            <h3 class="page-title1 pl-1"> <?php echo $pageContent['top_page']['title'] ?></h3>
           </div>
         </div>
         <div class="col-md-6 text-left text-md-right service-image">
-          <img src="<?php echo $settings['caption_image'] ?>" width="95%" alt="" />
+          <img src="<?php echo $pageContent['top_page']['image'] ?>" width="95%" alt="" />
         </div>
       </div>
     </div>
@@ -55,17 +54,13 @@ $parentMenu = $menu->getItem($active->parent_id);
               The Benefit
             </a>
           </li>
-          <?php if ($settings['premium_section']): ?>
-             <li class="nav-item">
-            <a class="nav-link premium" id="premium-tab" data-toggle="tab" href="#premium" role="tab" aria-controls="premium" aria-selected="false">
-              Premium
-            </a>
-          </li>
-          <?php endif ?>
+          <?php
+          echo $text
+          ?>
 
           <li class="nav-item">
-            <a class="nav-link quote" href="<?=$menu->getItem($settings['action_link'])->link?>">
-              <?=$settings['action_text']?>
+            <a class="nav-link quote" href="#">
+              Get Quote
             </a>
           </li>
         </ul>
@@ -73,22 +68,33 @@ $parentMenu = $menu->getItem($active->parent_id);
         <div class="container">
           <div class="tab-content tabs__inner" id="myTabContent">
             <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
-              <?php echo $settings['product_section'] ?>
+              <?php echo $pageContent['product'] ?>
             </div>
 
             <div class="tab-pane fade" id="benefit" role="tabpanel" aria-labelledby="benefit-tab">
-              <?php echo $settings['benefit_section'] ?>
+              <?php echo $pageContent['benefit'] ?>
             </div>
-            <?php if ($settings['premium']): ?>
-              <div class="tab-pane fade" id="premium" role="tabpanel" aria-labelledby="premium-tab">
-                <?php echo $settings['premium_section'] ?>
-              </div>
-            <?php endif ?>
 
+            <div class="tab-pane fade" id="premium" role="tabpanel" aria-labelledby="premium-tab">
+              <?php echo $pageContent['premium'] ?>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <?php echo $settings['extra'] ?>
+
+  <section class="section section__services-cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <h3 class="heading heading--services">Would you like to purchase this plan?</h3>
+          <p class="paragraph">
+            Speak to an AIICO Staff or Agent today. You may also reach us via email on aiicontact@aiicoplc.com.
+          </p>
+          <button class="btn btn--primary ">BUY PLAN NOW</button>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>

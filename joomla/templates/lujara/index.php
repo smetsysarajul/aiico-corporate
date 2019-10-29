@@ -103,11 +103,14 @@ else
 			<jdoc:include type="modules" name="banner" style="xhtml" />
 				<main>
 					<!-- Begin Content -->
+					<jdoc:include type="modules" name="position-1" style="xhtml" />
+					<jdoc:include type="modules" name="position-2" style="none" />
 					<jdoc:include type="modules" name="position-3" style="xhtml" />
 					<jdoc:include type="message" />
 					<jdoc:include type="component" />
 					<div class="clearfix"></div>
-					<jdoc:include type="modules" name="position-2" style="none" />
+					<jdoc:include type="modules" name="position-4" style="xhtml" />
+					<jdoc:include type="modules" name="position-5" style="xhtml" />
 					<!-- End Content -->
 				</main>
 

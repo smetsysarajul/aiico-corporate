@@ -31,7 +31,7 @@
 					type='editor'
 					label='Ad Container Caption'
 					required='1'
-					filter='safe html'
+					filter='safehtml'
 				/>
 				<field 
 					name='subtitle'

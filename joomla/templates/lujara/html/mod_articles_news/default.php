@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 
 function formatDate($date)
 {
-	$dateObject = date_create_from_format("Y-m-d h:i:s",$date);
+	$dateObject = date_create_from_format("Y-m-d H:i:s",$date);
 	$result =$dateObject->format("F d, Y");
 	return $result;
 }

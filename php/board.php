@@ -5,7 +5,7 @@
 <?php include 'php-component/header.php' ?>
 
 <main>
-    <section class="page-intro page-intro--alt" style="background-image: url(./images/group-picture-header.png)">
+    <section class="page-intro page-intro--alt" style="background-image: url(../images/group-picture-header.png)">
     <div class="container">
       <div class="row">
         <div class="col">

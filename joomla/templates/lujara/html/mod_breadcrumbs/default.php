@@ -8,15 +8,26 @@
  */
 
 defined('_JEXEC') or die;
+$app = JFactory::getApplication();
+$activeMenu = $app->getMenu()->getActive();
+$article         = & JTable::getInstance('Content', 'JTable');
+$table_plan_return  = $article->load(array('id'=>$activeMenu->query['id']));
+$imageParam = json_decode($article->images);
+$imagePath = $imageParam->image_intro?$imageParam->image_intro:"images/about/about.png";
+$separator='';
 ?>
-<div aria-label="<?php echo $module->name; ?>" role="navigation">
-	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb<?php echo $moduleclass_sfx; ?>">
+<section aria-label="<?php echo $module->name; ?>" role="navigation" class="page-intro page-intro--alt" style="background-image: url(<?=$imagePath?>)">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<nav aria-label="breadcrumb">
+	<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb<?php echo $moduleclass_sfx; ?>">
 		<?php if ($params->get('showHere', 1)) : ?>
-			<li>
+			<li class="breadcrumb-item">
 				<?php echo JText::_('MOD_BREADCRUMBS_HERE'); ?>&#160;
 			</li>
 		<?php else : ?>
-			<li class="active">
+			<li class="breadcrumb-item active">
 				<span class="divider icon-location"></span>
 			</li>
 		<?php endif; ?>
@@ -44,7 +55,7 @@ defined('_JEXEC') or die;
 		foreach ($list as $key => $item) :
 			if ($key !== $last_item_key) :
 				// Render all but last item - along with separator ?>
-				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 					<?php if (!empty($item->link)) : ?>
 						<a itemprop="item" href="<?php echo $item->link; ?>" class="pathway"><span itemprop="name"><?php echo $item->name; ?></span></a>
 					<?php else : ?>
@@ -62,7 +73,7 @@ defined('_JEXEC') or die;
 				</li>
 			<?php elseif ($show_last) :
 				// Render last item if reqd. ?>
-				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item active">
 					<span itemprop="name">
 						<?php echo $item->name; ?>
 					</span>
@@ -70,5 +81,12 @@ defined('_JEXEC') or die;
 				</li>
 			<?php endif;
 		endforeach; ?>
-	</ul>
-</div>
+	</ol>
+				</nav>
+				<h3 class="page-title"><?=$activeMenu->title?></h3>
+				<p class="page-desc"><?=$article->title?> </p>
+			</div>
+		</div>
+	</div>
+	
+</section>

@@ -6,7 +6,7 @@ $pageTitle = "About Us | AIICO Insurance Plc.";
 
 <main>
   <section class="page-intro page-intro--alt"
-  style="background-image: url(./images/about/about.png)">
+  style="background-image: url(../images/about/about.png)">
     <div class="container">
       <div class="row">
         <div class="col">

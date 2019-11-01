@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  processFormDisplay();
   window.scrollTo(0, 0);
 
   function resetView() {
@@ -149,3 +150,32 @@ $(document).ready(function() {
     $("#shareholders-view").show();
   });
 });
+
+function processFormDisplay() {
+  $('.bfPageIntro').addClass(' col-12 w-100 ');
+  $('.bfPageIntro>p').addClass('h4 form-section__name ');
+  $('section.bfElemWrap').addClass('form-group');
+  $('.bfPage-m').addClass('form-section');
+  $('section.bfElemWrap>label').addClass('form-label');
+  $('button.button').addClass('btn btn-primary submit-btn text-center');
+  $('section.bfElemWrap>label').css('float','none');
+  $('section.bfElemWrap input,section.bfElemWrap textarea').addClass('form-control');
+  $('section.bfElemWrap input').addClass('text-area');
+  $('section.bfElemWrap input,section.bfElemWrap textarea').css({
+    display: 'block',
+    width: '100%'
+  });
+  $('.contact-page form').addClass('general-form');
+  $('.contact-page .bfPage').addClass('row');
+  $('.contact-page section.bfElemWrap').addClass('col-6');
+  $('.contact-page section.bfElemWrap').each(function(index, el) {
+          if (index==2) {
+            $(this).removeClass('col-6');
+            $(this).addClass('col-12');
+          }
+  });
+  $('.contact-page button.button').css({
+    'margin-left': '35%'
+  });
+  $('section.bfElemWrap textarea').addClass('text-area');
+}

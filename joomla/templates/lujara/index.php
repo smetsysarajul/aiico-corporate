@@ -14,6 +14,8 @@ defined('_JEXEC') or die;
 $app  = JFactory::getApplication();
 $user = JFactory::getUser();
 $document  = JFactory::getDocument();
+$activeMenu = $app->getMenu()->getActive();
+$pageClass = $activeMenu->params->get('pageclass_sfx');
 //clear any previously added automatic scripts
 $document->_scripts=array();
 $this->_scripts = array();
@@ -42,6 +44,7 @@ $document->addScript("https://code.jquery.com/jquery-3.3.1.min.js")
 ->addScript("templates/lujara/js/main.js")
 ->addScript("templates/lujara/js/file-browser.js")
 ->addScript("templates/lujara/js/modal.js")
+->addScript("templates/lujara/js/forms.js")
 ->addScript("templates/lujara/js/slider.js");
 // Add Stylesheets
 $position7ModuleCount = $this->countModules('position-7');
@@ -101,13 +104,15 @@ else
 			</header>
 
 			<jdoc:include type="modules" name="banner" style="xhtml" />
-				<main>
+				<main class="<?=$pageClass?$pageClass:''?>">
 					<!-- Begin Content -->
 					<jdoc:include type="modules" name="position-1" style="xhtml" />
 					<jdoc:include type="modules" name="position-2" style="none" />
 					<jdoc:include type="modules" name="position-3" style="xhtml" />
 					<jdoc:include type="message" />
-					<jdoc:include type="component" />
+					<section class="section">
+						<jdoc:include type="component" />
+					</section>
 					<div class="clearfix"></div>
 					<jdoc:include type="modules" name="position-4" style="xhtml" />
 					<jdoc:include type="modules" name="position-5" style="xhtml" />

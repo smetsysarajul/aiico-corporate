@@ -84,7 +84,10 @@ $separator='';
 	</ol>
 				</nav>
 				<h3 class="page-title"><?=$activeMenu->title?></h3>
-				<p class="page-desc"><?=$article->title?> </p>
+				<?php 
+				$pageTitle =$activeMenu->params->get('page_heading');
+				 ?>
+				<p class="page-desc"><?=$pageTitle?$pageTitle:$article->title?> </p>
 			</div>
 		</div>
 	</div>

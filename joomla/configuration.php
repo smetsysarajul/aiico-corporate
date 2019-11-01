@@ -13,7 +13,7 @@ class JConfig {
 	public $debug_lang = '0';
 	public $debug_lang_const = '1';
 	public $dbtype = 'mysqli';
-	public $host = 'ui0tj7jn8pyv9lp6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	';//'localhost';
+	public $host = 'ui0tj7jn8pyv9lp6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';//'localhost';
 	public $user = 'xrljv227ofml330n';//'root';
 	public $password = 'ujj3hldeumvkkme0';//'change';
 	public $db = 'ecocou5836584stc';//'aiico_joomla';

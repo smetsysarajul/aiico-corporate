@@ -148,7 +148,7 @@ foreach ($list as $key => $listItem) {
 			          		      <a class="card__title" href="<?=$article->link?>"
 			          		        ><?=$article->title?> </a
 			          		      >
-			          		      <p class="card__text"><?php echo $article->introtext ?></p>
+			          		      <p class="card__text"><?php echo substr( strip_tags($article->introtext), 0,150) ?></p>
 			          		    </div>
 			          		  </div>
 			          		</div>

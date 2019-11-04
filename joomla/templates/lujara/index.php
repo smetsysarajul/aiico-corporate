@@ -47,22 +47,22 @@ $document->addScript("https://code.jquery.com/jquery-3.3.1.min.js")
 ->addScript("templates/lujara/js/forms.js")
 ->addScript("templates/lujara/js/slider.js");
 // Add Stylesheets
-$position7ModuleCount = $this->countModules('position-7');
-$position8ModuleCount = $this->countModules('position-8');
+// $position7ModuleCount = $this->countModules('position-7');
+// $position8ModuleCount = $this->countModules('position-8');
 
 // Logo file or site title param
-if ($this->params->get('logoFile'))
-{
-	$logo = '<img src="' . JUri::root() . $this->params->get('logoFile') . '" alt="' . $sitename . '" />';
-}
-elseif ($this->params->get('sitetitle'))
-{
-	$logo = '<span class="site-title" title="' . $sitename . '">' . htmlspecialchars($this->params->get('sitetitle'), ENT_COMPAT, 'UTF-8') . '</span>';
-}
-else
-{
-	$logo = '<span class="site-title" title="' . $sitename . '">' . $sitename . '</span>';
-}
+// if ($this->params->get('logoFile'))
+// {
+// 	$logo = '<img src="' . JUri::root() . $this->params->get('logoFile') . '" alt="' . $sitename . '" />';
+// }
+// elseif ($this->params->get('sitetitle'))
+// {
+// 	$logo = '<span class="site-title" title="' . $sitename . '">' . htmlspecialchars($this->params->get('sitetitle'), ENT_COMPAT, 'UTF-8') . '</span>';
+// }
+// else
+// {
+// 	$logo = '<span class="site-title" title="' . $sitename . '">' . $sitename . '</span>';
+// }
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">

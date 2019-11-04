@@ -1,23 +1,25 @@
 $( document ).ready( function () {
-    // Define buttons
-    const uploadButton = $('.file-browser-btn');
-    const fileInfo = $('.file-info');
-    const realInput = $('.file-input');
-
-    // Add click event to custom button
-    uploadButton.click( function (e) {
+     // Watch for file changes and display file name
+    $('input[type=file]').change( function (e) {
+        
+        alert('thei silf content is changing');
         e.preventDefault();
-        realInput.click();
-    });
-
-    // Watch for file changes and display file name
-    realInput.change( function (e) {
-        e.preventDefault();
-        const name = realInput.val().split(/\\|\//).pop();
+        const name = $(this).val().split(/\\|\//).pop();
         const truncated = name.length > 20 
           ? name.substr(name.length - 20) 
           : name;
         
-        fileInfo.html(truncated);
+        $(this).parent().find('.file-info').html(truncated);
     });
+    // Define buttons
+    //const uploadButton = $('.file-browser-btn');
+    const fileInfo = $('.bfElemWrap .file-info');
+    const realInput = $('.bfElemWrap .file-input');
+    // Add click event to custom button
+    $('.bfElemWrap').on('click', '.file-browser-btn', function(e) {
+        e.preventDefault();
+        var inputBtn =  $(this).parents('.bfElemWrap');
+       inputBtn.find('input[type=file]').click();
+    });
+
 } );

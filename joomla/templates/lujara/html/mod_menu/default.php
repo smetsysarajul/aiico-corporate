@@ -175,7 +175,7 @@ $menutype = $list[0]->menutype;
 
 	      <div class="navbar-mobile__header">
 	        <a class="navbar-brand" href="/">
-	          <img src="../images/logo.svg" class="logo" />
+	          <img src="<?=$templateParams['logoFile']?>" class="logo" />
 	        </a>
 	        <a class="btn btn--primary ml-auto" href="#"> E-Business</a>
 	      </div>
@@ -185,7 +185,7 @@ $menutype = $list[0]->menutype;
 	      <div class="container">
 	        <div class="navbar-mobile__header">
 	          <a class="navbar-brand" href="/">
-	            <img src="../images/logo.svg" class="logo" />
+	            <img src="<?=$templateParams['logoFile']?>" class="logo" />
 	          </a>
 	          <button class="navbar-toggler" type="button">
 	            <span class="navbar-icon active" id="closeNavBarIcon">

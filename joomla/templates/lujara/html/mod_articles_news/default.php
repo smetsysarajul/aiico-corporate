@@ -11,13 +11,18 @@ defined('_JEXEC') or die;
 
 function formatDate($date)
 {
-	$dateObject = date_create_from_format("Y-m-d H:i:s",$date);
-	$result =$dateObject->format("F d, Y");
-	return $result;
+    $dateObject = date_create_from_format("Y-m-d H:i:s",$date);
+    $result =$dateObject->format("F d, Y");
+    return $result;
 }
+//make sure the list is not more than 3
+$newslen = 3;
+$list = array_slice($list, 0,$newslen);
 $app = JFactory::getApplication();
 $templateParams = $app->getTemplate('true')->params;
 $menu = $app->getMenu();
+$introLen=150;
+
 ?>
 
 <!-- this is what ei need displayed -->
@@ -31,29 +36,29 @@ $menu = $app->getMenu();
       </p>
     </div>
     <div class="row">
-    	<?php foreach ($list as $key => $news): ?>
+        <?php foreach ($list as $key => $news): ?>
 
-    		<div class="col-md-6 col-lg-4 mb-5">
-    		  <div class="news">
-    		    <figure class="news__cover-wrapper ">
-    		    	<?php 
-    		    		$images = json_decode($news->images);
-    		    	 ?>
-    		      <img class="news__cover" src="<?=$images->image_intro?$images->image_intro:'../images/press/aiico-student.jpg'?>" />
-    		    </figure>
-    		    <div class="news__body">
-    		      <span class="news__date"> <?php echo formatDate($news->publish_up) ?></span>
-    		      <a href="<?=$news->link?>" class="news__headline"><?=$news->title?></a>
-    		      <p class="paragraph news__excerpt">
-    		        <?=$news->introtext?>
-    		      </p>
-    		      <a href="<?=$news->link?>" class="news__cta">
-    		        <?php echo $news->linkText ?>
-    		      </a>
-    		    </div>
-    		  </div>
-    		</div>
-    	<?php endforeach ?>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="news">
+                <figure class="news__cover-wrapper ">
+                    <?php 
+                        $images = json_decode($news->images);
+                     ?>
+                  <img class="news__cover" src="<?=$images->image_intro?$images->image_intro:'../images/press/aiico-student.jpg'?>" />
+                </figure>
+                <div class="news__body">
+                  <span class="news__date"> <?php echo formatDate($news->publish_up) ?></span>
+                  <a href="<?=$news->link?>" class="news__headline"><?=$news->title?></a>
+                  <p class="paragraph news__excerpt">
+                    <?=substr(strip_tags($news->introtext), 0,$introLen)?>
+                  </p>
+                  <a href="<?=$news->link?>" class="news__cta">
+                    <?php echo $news->linkText ?>
+                  </a>
+                </div>
+              </div>
+            </div>
+        <?php endforeach ?>
     </div>
 
     <div class="text-center">
@@ -62,8 +67,8 @@ $menu = $app->getMenu();
   </div>
 </section>
 <style>
-	article{
-		display: none;
-	}
+    article{
+        display: none;
+    }
 </style>
 

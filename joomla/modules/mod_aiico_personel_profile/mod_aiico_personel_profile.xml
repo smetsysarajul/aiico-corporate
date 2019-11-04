@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_aiico_personel_profile</name>
+	<author>Lujara Systems</author>
+	<creationDate>August 2019</creationDate>
+	<copyright>Copyright (C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@lujarasystems.com</authorEmail>
+	<authorUrl>http://lujarasystems.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Aiico leaders profile</description>
+	<files>
+		<filename module="mod_aiico_personel_profile">mod_aiico_personel_profile.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+	</files>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_MENU" />
+	<config>
+
+		<fields name='params'> 
+			<fieldset name='basic'>
+				<field
+					name="profiles"
+					type="subform"
+					label="Slide Settings"
+					description="Leader's profile"
+					multiple="true"
+					min="1"
+				>
+						<form>
+							<field 
+								name='fullname'
+								type='text'
+								label='Fullname'
+								required='1'
+							/>
+							<field 
+								name='profile_image'
+								type='media'
+								label='Profile Image'
+								required='1'
+							/>
+							
+							<field 
+								name='position'
+								type='text'
+								label='position'
+								required='1'
+							/>
+
+							<field 
+								name='profile_bio'
+								type='editor'
+								label='Biography'
+								required='1'
+							/>		
+							<field 
+								name='profile_education'
+								type='editor'
+								label='Educational background'
+								required='1'
+							/>
+						</form>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

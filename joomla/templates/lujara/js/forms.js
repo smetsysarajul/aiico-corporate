@@ -39,8 +39,10 @@ $(document).ready(function() {
   hideOtherTravelSteps()
   hideOtherLifeSteps();
 
-  var claimsPosition = $(".claims-tab").offset().top;
-
+  var claimsPosition = $(".claims-tab");
+ if(claimsPosition.length){
+  claimsPosition.offset().top;
+}
   // Handle claims tab click
   $(".claims-tab").click(function() {
     $(this).addClass("active");
@@ -152,21 +154,39 @@ $(document).ready(function() {
 });
 
 function processFormDisplay() {
+  $('form').addClass('general-form');
+  $('.horizontal-forms form').addClass('claims-form');
+  $('.horizontal-forms form').show();
   $('.bfPageIntro').addClass(' col-12 w-100 ');
   $('.bfPageIntro>p').addClass('h4 form-section__name ');
   $('section.bfElemWrap').addClass('form-group');
   $('.bfPage-m').addClass('form-section');
-  $('section.bfElemWrap>label').addClass('form-label');
+   $('span.bfElemWrap').addClass('col-6 m-0');
+   $('.horizontal-forms span.bfElemWrap').removeClass('col-6');
+   $('.horizontal-forms span.bfElemWrap').css('float','none');
+  $('.bfElemWrap>label').addClass('form-label');
+  $('.horizontal-forms .bfElemWrap').addClass('row align-items-center');
+  $('.horizontal-forms .bfElemWrap >label').addClass('col-md-5');
+   $('.horizontal-forms .bfElemWrap >input').addClass('col-md-4');
+   $('.horizontal-forms .bfElemWrap >select').addClass('col-md-4');
   $('button.button').addClass('btn btn-primary submit-btn text-center');
-  $('section.bfElemWrap>label').css('float','none');
-  $('section.bfElemWrap input,section.bfElemWrap textarea').addClass('form-control');
-  $('section.bfElemWrap input').addClass('text-area');
-  $('section.bfElemWrap input,section.bfElemWrap textarea').css({
-    display: 'block',
-    width: '100%'
+  $('.horizontal-forms #bfSubmitButton').removeClass('btn-default');
+   $('.horizontal-forms #bfSubmitButton').addClass('btn-success ');
+$('.bfElemWrap>label').css('float','none');
+  $('.bfElemWrap input,.bfElemWrap textarea,.bfElemWrap select').addClass('form-control');
+  $('.bfElemWrap input[type=text]').addClass('text-box');
+  $('.bfElemWrap input[type=checkbox]').addClass('check-box');
+  $('.bfElemWrap select').addClass('select-box');
+  $('.bfElemWrap input,section.bfElemWrap textarea').css({
+display: 'block',
+width: '100%'
   });
-  $('.contact-page form').addClass('general-form');
+  $('.whistle-blower .bfNoSection>.bfClearfix').addClass('row');
+  $('.bfNoSection').addClass('row');
+   $('.horizontal-forms .bfNoSection').removeClass('row');
+  $('.bfNoSection>.bfClearfix').css('margin','0px');
   $('.contact-page .bfPage').addClass('row');
+  $('.bfNoSection section.bfElemWrap').addClass('col-6');
   $('.contact-page section.bfElemWrap').addClass('col-6');
   $('.contact-page section.bfElemWrap').each(function(index, el) {
           if (index==2) {
@@ -174,8 +194,29 @@ function processFormDisplay() {
             $(this).addClass('col-12');
           }
   });
-  $('.contact-page button.button').css({
-    'margin-left': '35%'
+
+  $('.bfPage').each(function(index, el) {
+      $(this).find('button').each(function(i, elem) {
+        if (i==0) {
+          $(this).css({
+              'margin-left': '35%',
+              'float':'none'
+            });
+        }else{
+          $(this).css({
+              'margin-left': '0',
+              'float':'none'
+            });
+        }
+      });
+
   });
+
   $('section.bfElemWrap textarea').addClass('text-area');
+ var fileField = $('input[type=file]');
+ fileField.addClass('form-control-file file-input');
+ fileField.removeClass('form-control');
+ fileField.hide();
+ var fileContainer =fileField.parents('.form-group');
+ fileContainer.append("<div class='custom-file-browser'><button class='file-browser-btn'><i class='fas fa-cloud-upload-alt file-browser-btn__icon' aria-hidden='true'></i>Choose file</button><span class='file-info'>No file chosen</span></div");
 }

@@ -13,7 +13,7 @@ class JConfig {
 	public $debug_lang = '0';
 	public $debug_lang_const = '1';
 	public $dbtype = 'mysqli';
-	public $host = "34.66.209.183";//'ui0tj7jn8pyv9lp6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';//'localhost';
+	public $host = "localhost";//"34.66.209.183";//'ui0tj7jn8pyv9lp6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';//'localhost';
 	public $user = 'root';
 	public $password = 'change';
 	public $db = 'aiico_joomla';
@@ -21,7 +21,7 @@ class JConfig {
 	public $live_site = '';
 	public $secret = 'hj9rHOuiBRkHNFfP';
 	public $gzip = '0';
-	public $error_reporting = 'development';
+	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
 	public $ftp_host = '127.0.0.1';
 	public $ftp_port = '21';

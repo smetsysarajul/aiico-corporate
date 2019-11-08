@@ -33,7 +33,7 @@ $parentMenu = $menu->getItem($active->parent_id);
                 <li class="breadcrumb-item active" aria-current="page"><?php echo $active->title?></li>
               </ol>
             </nav>
-            <h3 class="page-title1 pl-1"> <?php echo $settings['page_title'] ?></h3>
+            <h3 class="page-title1 pl-1"> <?php echo $settings['plan_title'] ?></h3>
           </div>
         </div>
         <div class="col-md-6 text-left text-md-right service-image">

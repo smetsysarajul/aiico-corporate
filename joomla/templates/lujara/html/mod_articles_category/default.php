@@ -19,10 +19,10 @@ foreach ($list as $key => $listItem) {
 	}
 	
 }
-
 ?>
-<ul class="category-module<?php echo $moduleclass_sfx; ?> mod-list">
+
 	<?php if ($grouped) : ?>
+	<ul class="category-module<?php echo $moduleclass_sfx; ?> mod-list">
 		<?php foreach ($list as $group_name => $group) : ?>
 		<li>
 			<div class="mod-articles-category-group"><?php echo JText::_($group_name); ?></div>
@@ -96,6 +96,7 @@ foreach ($list as $key => $listItem) {
 			</ul>
 		</li>
 		<?php endforeach; ?>
+		</ul>
 	<?php else : ?>
 		<!-- put the custom code here -->
 			<section class="section section__products">
@@ -111,20 +112,20 @@ foreach ($list as $key => $listItem) {
 			
 			    <div class="tabs product-tabs">
 			      <ul class="nav justify-content-center mb-5" id="myTab" role="tablist">
-
+<?php $ct=0?>
 			      	<?php foreach (array_keys($categoryList) as $key): ?>
 			      		<?php $keyTag = str_replace(' ', '_', $key); ?>
 
 			        <li class="nav-item">
 			          <a
-			            class="nav-link nav-link-home active d-flex align-items-center justify-content-center"
+			            class="nav-link nav-link-home <?= $ct++<=0?'active':''?> d-flex align-items-center justify-content-center"
 			            id="<?=$key?>-tab"
 			            data-toggle="tab"
 			            href="#<?=$keyTag?>"
 			            role="tab"
 			            aria-controls="<?=$keyTag?>"
 			            aria-selected="true"
-			            ><i class="fas fa-male pr-3"></i><?=$key?></a
+			            ><i class=" pr-3"></i><?=$key?></a
 			          >
 			        </li>
 			        
@@ -132,9 +133,11 @@ foreach ($list as $key => $listItem) {
 			      </ul>
 
 			      <div class="tab-content tabs__inner" id="myTabContent">
+			          <?php $counter=0;?>
 			      	<?php foreach ($categoryList as $key => $categories): ?>
+			      	
 			      		<?php $keyTag = str_replace(' ', '_', $key); ?>
-			        <div class="tab-pane fade show active" id="<?=$keyTag?>" role="tabpanel" aria-labelledby="<?=$keyTag?>">
+			        <div class="tab-pane fade show <?= $counter++<=0?'active':''?>" id="<?=$keyTag?>" role="tabpanel" aria-labelledby="<?=$keyTag?>">
 			          <div class="row">
 			          	<?php foreach ($categories as $article): ?>
 			          		<?php 
@@ -152,15 +155,14 @@ foreach ($list as $key => $listItem) {
 			          		    </div>
 			          		  </div>
 			          		</div>
-
+                           
 			          	<?php endforeach ?>
+			          	 </div>
 			          </div>
+			          	<?php endforeach ?>
 			        </div>
 
 			      </div>
 			    </div>
-			  </div>
 			</section>
-		<?php endforeach ?>
 	<?php endif; ?>
-</ul>

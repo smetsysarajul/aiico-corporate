@@ -28,13 +28,16 @@ $introLen=150;
 <!-- this is what ei need displayed -->
 <section class="section section__news">
   <div class="container">
-    <div class="section__intro">
-      <h3 class="section__heading">From Our News Desk</h3>
-      <p class="section__sub-heading">
-        Read through our latest stories and company statements, watch videos and explore news coverage about us
-        and our subsidiaries and stay up to date by signing up to receive email alerts.
-      </p>
-    </div>
+    <?php if ($params->get('count')<=3): ?>
+      <div class="section__intro">
+        <h3 class="section__heading">From Our News Desk</h3>
+        <p class="section__sub-heading">
+          Read through our latest stories and company statements, watch videos and explore news coverage about us
+          and our subsidiaries and stay up to date by signing up to receive email alerts.
+        </p>
+      </div>
+    <?php endif ?>
+
     <div class="row">
         <?php foreach ($list as $key => $news): ?>
 
@@ -60,10 +63,12 @@ $introLen=150;
             </div>
         <?php endforeach ?>
     </div>
+<?php if ($params->get('count') <=3): ?>
+  <div class="text-center">
+    <a href="<?=$menu->getItem($templateParams['news_page'])->link?>" class="btn btn--link mt-4">GO TO NEWS SECTION &raquo;</a>
+  </div>
+<?php endif ?>
 
-    <div class="text-center">
-      <a href="<?=$menu->getItem($templateParams['news_page'])->link?>" class="btn btn--link mt-4">GO TO NEWS SECTION &raquo;</a>
-    </div>
   </div>
 </section>
 <style>

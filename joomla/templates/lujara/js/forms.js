@@ -40,9 +40,9 @@ $(document).ready(function() {
   hideOtherLifeSteps();
 
   var claimsPosition = $(".claims-tab");
- if(claimsPosition.length){
+  if(claimsPosition.length){
   claimsPosition.offset().top;
-}
+  }
   // Handle claims tab click
   $(".claims-tab").click(function() {
     $(this).addClass("active");
@@ -50,13 +50,22 @@ $(document).ready(function() {
       .not(this)
       .removeClass("active");
 
-    window.scrollTo(0, claimsPosition - 200);
+    if ($(this).hasClass('pill-tabs')) {
+       //try to get the tab to show
+       $('.pill-content').addClass('d-none');
+        var target = $(this).attr('data-target');
+        console.log(target);
+        $(target).removeClass('d-none');
+      }
+      else{
+        window.scrollTo(0, claimsPosition - 200);
+      }
   });
 
   // Handle Auto Insurance
   $("#auto-insurance-tab").click(function() {
     // reset form view
-    resetView();
+    resetView(); 
     // show auto insurance form
     $("#auto-insurance-form").show();
   });

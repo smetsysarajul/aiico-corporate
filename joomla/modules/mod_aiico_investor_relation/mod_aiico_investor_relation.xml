@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_aiico_investor_relation</name>
+	<author>Lujara Systems</author>
+	<creationDate>August 2019</creationDate>
+	<copyright>Copyright (C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@lujarasystems.com</authorEmail>
+	<authorUrl>http://lujarasystems.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Aiico leaders profile</description>
+	<files>
+		<filename module="mod_aiico_personel_profile">mod_aiico_investor_relation.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+	</files>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_MENU" />
+	<config>
+
+		<fields name='params'> 
+			<fieldset name='basic'>
+					<field 
+						name='upper_page_content'
+						type='editor'
+						label='Upper Page Content'
+						filter='safehtml'
+					/>
+					<field 
+						name='tab_1'
+						type='text'
+						label='Enter the label for first tab'
+					/>
+
+					<field 
+					name='icon_1'
+					label="Enter the icon for tab 1"
+					type='text' 
+					/>
+					
+					<field 
+						name='content_1'
+						type='editor'
+						label='Enter Content for tab 1'
+						filter='safehtml'
+					/>
+
+					<field 
+						name='tab_2'
+						type='text'
+						label='Enter label for the second tab'
+						required='1'
+					/>	
+					<field 
+					name='icon_2'
+					label="Enter the icon for tab 2"
+					type='text' 
+					/>	
+					<field 
+						name='content_2'
+						type='editor'
+						label='Enter content for the second tab'
+						filter='safehtml'
+					/>
+					<field 
+						name='tab_3'
+						type='text'
+						label='Enter label for the third tab'
+					/>	
+					<field 
+					name='icon_3'
+					label="Enter the icon for tab 3"
+					type='text' 
+					/>	
+					<field
+						name='content_3'
+						type='editor'
+						label='Enter Content for the third tab'
+						filter='safehtml'
+					/>
+					<field
+						name='article_position'
+						type='combo'
+						label='Select tab number to include article'
+					>
+
+						<option value="1">0</option>
+						<option value="2">1</option>
+						<option value="3">2</option>
+					</field>
+					
+					<field 
+						name="tab_articles" 
+						type="subform"
+					    multiple="true"
+					    label="Specify Tab Articles" 
+					    description="Subform Field Description" 
+						min='3'
+					   >
+					   <form>
+					   	   	<field 
+					   		name='article_category'
+					   		label="Select Page to include"
+					   		type='menuitem' 
+					   		required='1'
+					   		/>
+						</form>
+					  </field>
+					
+
+
+
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

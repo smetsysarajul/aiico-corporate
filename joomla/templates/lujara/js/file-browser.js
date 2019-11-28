@@ -2,7 +2,6 @@ $( document ).ready( function () {
      // Watch for file changes and display file name
     $('input[type=file]').change( function (e) {
         
-        alert('thei silf content is changing');
         e.preventDefault();
         const name = $(this).val().split(/\\|\//).pop();
         const truncated = name.length > 20 

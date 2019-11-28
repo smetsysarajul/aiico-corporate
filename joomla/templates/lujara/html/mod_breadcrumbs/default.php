@@ -26,10 +26,6 @@ $separator='';
 			<li class="breadcrumb-item">
 				<?php echo JText::_('MOD_BREADCRUMBS_HERE'); ?>&#160;
 			</li>
-		<?php else : ?>
-			<li class="breadcrumb-item active">
-				<span class="divider icon-location"></span>
-			</li>
 		<?php endif; ?>
 
 		<?php
@@ -50,11 +46,16 @@ $separator='';
 
 		// Make a link if not the last item in the breadcrumbs
 		$show_last = $params->get('showLast', 1);
-
+		$shown=false;
 		// Generate the trail
 		foreach ($list as $key => $item) :
 			if ($key !== $last_item_key) :
 				// Render all but last item - along with separator ?>
+				<?php if ($shown): ?>
+					<?php continue; ?>
+				<?php else: ?>
+					
+				
 				<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 					<?php if (!empty($item->link)) : ?>
 						<a itemprop="item" href="<?php echo $item->link; ?>" class="pathway"><span itemprop="name"><?php echo $item->name; ?></span></a>
@@ -71,6 +72,8 @@ $separator='';
 					<?php endif; ?>
 					<meta itemprop="position" content="<?php echo $key + 1; ?>">
 				</li>
+				<?php $shown=true; ?>
+				<?php endif ?>
 			<?php elseif ($show_last) :
 				// Render last item if reqd. ?>
 				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item active">

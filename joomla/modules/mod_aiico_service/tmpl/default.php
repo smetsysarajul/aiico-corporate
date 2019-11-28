@@ -29,7 +29,6 @@ $parentMenu = $menu->getItem($active->parent_id);
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="<?=$default->link?>">Home</a></li>
-                <li class="breadcrumb-item"><a href="<?php echo $parentMenu->link ?>"><?php echo $parentMenu->title ?></a></li>
                 <li class="breadcrumb-item active" aria-current="page"><?php echo $active->title?></li>
               </ol>
             </nav>
@@ -79,7 +78,7 @@ $parentMenu = $menu->getItem($active->parent_id);
             <div class="tab-pane fade" id="benefit" role="tabpanel" aria-labelledby="benefit-tab">
               <?php echo $settings['benefit_section'] ?>
             </div>
-            <?php if ($settings['premium']): ?>
+            <?php if ($settings['premium_section']): ?>
               <div class="tab-pane fade" id="premium" role="tabpanel" aria-labelledby="premium-tab">
                 <?php echo $settings['premium_section'] ?>
               </div>

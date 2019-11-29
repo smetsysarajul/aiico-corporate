@@ -55,7 +55,7 @@ class ModAiicoInvestorRelationHelper
 		foreach ($menus as $item) {
 			$temp= array();
 			$menu_item=$menu->getItem($item->article_category);
-			$article = JControllerLegacy::getInstance('Content')->getModel('Article')->getItem($menu_item->query['article']);
+			$article = JControllerLegacy::getInstance('Content')->getModel('Article')->getItem($menu_item->query['id']);
 			$images = json_decode($article->images);
 			$temp['title']=$article->title;
 			$temp['introtext']=substr(strip_tags($article->introtext),0, $len);

@@ -1171,6 +1171,7 @@ Support
     .header__top .link:not(:last-of-type) {
       margin-right: 1.2rem; }
 
+
 .header__navigation {
   background: #ffffff;
   padding: 2rem 0; }
@@ -1179,7 +1180,7 @@ Support
     padding: 0; }
     .header__navigation .navbar-brand {
       padding: 0; }
-      .header__navigation .navbar-brand .logo {
+       .navbar-brand .logo {
         width: 15rem; }
     .header__navigation .navbar-collapse {
       flex-grow: 0; }
@@ -1979,3 +1980,6 @@ Support
 
 .services .why__content {
   position: relative; }
+ .paragraph{
+    text-align:justify;
+}
